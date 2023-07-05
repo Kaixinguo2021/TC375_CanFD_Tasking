@@ -1,0 +1,1325 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 09003382"
+	.compiler_invocation	"ctc --dep-file=0_Src\\4_McHal\\Tricore\\_Impl\\.IfxFlash_cfg.o.d --fp-model=c,l,f,z,n,r,S,T -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --iso=99 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Config\\Common -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Scu\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Build -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Impl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Lib -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_PinMap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Reg -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Asclin -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Config -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Config\\Common -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\Main -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\_Utilities -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\If -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\If\\Ccu6If -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\StdIf -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe\\Bsp -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe\\Comm -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe\\General -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe\\Math -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe\\Time -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\Tricore\\Compilers -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\2_CDrv -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Build -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Impl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Lib -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Lib\\DataHandling -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Lib\\InternalMux -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_PinMap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Reg -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Asclin -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Ccu6 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Convctrl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu\\CStart -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu\\Irq -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu\\Trap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Dma -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Dts -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Edsadc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Eray -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Evadc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Fce -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Flash -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Geth -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Gpt12 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Gtm -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Hssl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\I2c -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Iom -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Msc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Mtu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Pms -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Port -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Port\\Io -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Port\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Psi5 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Psi5s -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Qspi -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Scu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Sent -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Smu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Src\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Stm -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Stm\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Stm\\Timer -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\Main -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\If -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\StdIf -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\Tricore\\Compilers -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Impl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Lib -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_PinMap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Reg -g2 --make-target=0_Src\\4_McHal\\Tricore\\_Impl\\IfxFlash_cfg.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o 0_Src\\4_McHal\\Tricore\\_Impl\\IfxFlash_cfg.src ..\\0_Src\\4_McHal\\Tricore\\_Impl\\IfxFlash_cfg.c"
+	.compiler_name		"ctc"
+	;source	'..\\0_Src\\4_McHal\\Tricore\\_Impl\\IfxFlash_cfg.c'
+
+	
+$TC162
+	
+	.sdecl	'.rodata.IfxFlash_cfg.IfxFlash_dFlashTableCfsLog',data,rom,cluster('IfxFlash_dFlashTableCfsLog')
+	.sect	'.rodata.IfxFlash_cfg.IfxFlash_dFlashTableCfsLog'
+	.global	IfxFlash_dFlashTableCfsLog
+	.align	4
+IfxFlash_dFlashTableCfsLog:	.type	object
+	.size	IfxFlash_dFlashTableCfsLog,128
+	.word	-1350565888,-1350561793,-1350561792,-1350557697
+	.word	-1350557696,-1350553601,-1350553600,-1350549505
+	.word	-1350549504,-1350545409,-1350545408,-1350541313
+	.word	-1350541312,-1350537217,-1350537216,-1350533121
+	.word	-1350533120,-1350529025,-1350529024,-1350524929
+	.word	-1350524928,-1350520833,-1350520832,-1350516737
+	.word	-1350516736,-1350512641,-1350512640,-1350508545
+	.word	-1350508544,-1350504449,-1350504448,-1350500353
+	.sdecl	'.rodata.IfxFlash_cfg.IfxFlash_dFlashTableEepLog',data,rom,cluster('IfxFlash_dFlashTableEepLog')
+	.sect	'.rodata.IfxFlash_cfg.IfxFlash_dFlashTableEepLog'
+	.global	IfxFlash_dFlashTableEepLog
+	.align	4
+IfxFlash_dFlashTableEepLog:	.type	object
+	.size	IfxFlash_dFlashTableEepLog,768
+	.word	-1358954496,-1358950401,-1358950400,-1358946305
+	.word	-1358946304,-1358942209,-1358942208,-1358938113
+	.word	-1358938112,-1358934017,-1358934016,-1358929921
+	.word	-1358929920,-1358925825,-1358925824,-1358921729
+	.word	-1358921728,-1358917633,-1358917632,-1358913537
+	.word	-1358913536,-1358909441,-1358909440,-1358905345
+	.word	-1358905344,-1358901249,-1358901248,-1358897153
+	.word	-1358897152,-1358893057,-1358893056,-1358888961
+	.word	-1358888960,-1358884865,-1358884864,-1358880769
+	.word	-1358880768,-1358876673,-1358876672,-1358872577
+	.word	-1358872576,-1358868481,-1358868480,-1358864385
+	.word	-1358864384,-1358860289,-1358860288,-1358856193
+	.word	-1358856192,-1358852097,-1358852096,-1358848001
+	.word	-1358848000,-1358843905,-1358843904,-1358839809
+	.word	-1358839808,-1358835713,-1358835712,-1358831617
+	.word	-1358831616,-1358827521,-1358827520,-1358823425
+	.word	-1358823424,-1358819329,-1358819328,-1358815233
+	.word	-1358815232,-1358811137,-1358811136,-1358807041
+	.word	-1358807040,-1358802945,-1358802944,-1358798849
+	.word	-1358798848,-1358794753,-1358794752,-1358790657
+	.word	-1358790656,-1358786561,-1358786560,-1358782465
+	.word	-1358782464,-1358778369,-1358778368,-1358774273
+	.word	-1358774272,-1358770177,-1358770176,-1358766081
+	.word	-1358766080,-1358761985,-1358761984,-1358757889
+	.word	-1358757888,-1358753793,-1358753792,-1358749697
+	.word	-1358749696,-1358745601,-1358745600,-1358741505
+	.word	-1358741504,-1358737409,-1358737408,-1358733313
+	.word	-1358733312,-1358729217,-1358729216,-1358725121
+	.word	-1358725120,-1358721025,-1358721024,-1358716929
+	.word	-1358716928,-1358712833,-1358712832,-1358708737
+	.word	-1358708736,-1358704641,-1358704640,-1358700545
+	.word	-1358700544,-1358696449,-1358696448,-1358692353
+	.space	256
+	.sdecl	'.rodata.IfxFlash_cfg.IfxFlash_dFlashTableHsmLog',data,rom,cluster('IfxFlash_dFlashTableHsmLog')
+	.sect	'.rodata.IfxFlash_cfg.IfxFlash_dFlashTableHsmLog'
+	.global	IfxFlash_dFlashTableHsmLog
+	.align	4
+IfxFlash_dFlashTableHsmLog:	.type	object
+	.size	IfxFlash_dFlashTableHsmLog,256
+	.word	-1346371584,-1346367489,-1346367488,-1346363393
+	.word	-1346363392,-1346359297,-1346359296,-1346355201
+	.word	-1346355200,-1346351105,-1346351104,-1346347009
+	.word	-1346347008,-1346342913,-1346342912,-1346338817
+	.word	-1346338816,-1346334721,-1346334720,-1346330625
+	.word	-1346330624,-1346326529,-1346326528,-1346322433
+	.word	-1346322432,-1346318337,-1346318336,-1346314241
+	.word	-1346314240,-1346310145,-1346310144,-1346306049
+	.word	-1346306048,-1346301953,-1346301952,-1346297857
+	.word	-1346297856,-1346293761,-1346293760,-1346289665
+	.word	-1346289664,-1346285569,-1346285568,-1346281473
+	.word	-1346281472,-1346277377,-1346277376,-1346273281
+	.word	-1346273280,-1346269185,-1346269184,-1346265089
+	.word	-1346265088,-1346260993,-1346260992,-1346256897
+	.word	-1346256896,-1346252801,-1346252800,-1346248705
+	.word	-1346248704,-1346244609,-1346244608,-1346240513
+	.sdecl	'.zrodata.IfxFlash_cfg.IfxFlash_dFlashTablePhys',data,rom,cluster('IfxFlash_dFlashTablePhys')
+	.sect	'.zrodata.IfxFlash_cfg.IfxFlash_dFlashTablePhys'
+	.global	IfxFlash_dFlashTablePhys
+	.align	4
+IfxFlash_dFlashTablePhys:	.type	object
+	.size	IfxFlash_dFlashTablePhys,8
+	.word	-1358954496,-1358561281
+	.sdecl	'.rodata.IfxFlash_cfg.IfxFlash_dFlashTableUcbLog',data,rom,cluster('IfxFlash_dFlashTableUcbLog')
+	.sect	'.rodata.IfxFlash_cfg.IfxFlash_dFlashTableUcbLog'
+	.global	IfxFlash_dFlashTableUcbLog
+	.align	4
+IfxFlash_dFlashTableUcbLog:	.type	object
+	.size	IfxFlash_dFlashTableUcbLog,384
+	.word	-1354760192,-1354759681,-1354759680,-1354759169
+	.word	-1354759168,-1354758657,-1354758656,-1354758145
+	.word	-1354758144,-1354757633,-1354757632,-1354757121
+	.word	-1354757120,-1354756609,-1354756608,-1354756097
+	.word	-1354756096,-1354755585,-1354755584,-1354755073
+	.word	-1354755072,-1354754561,-1354754560,-1354754049
+	.word	-1354754048,-1354753537,-1354753536,-1354753025
+	.word	-1354753024,-1354752513,-1354752512,-1354752001
+	.word	-1354752000,-1354751489,-1354751488,-1354750977
+	.word	-1354750976,-1354750465,-1354750464,-1354749953
+	.word	-1354749952,-1354749441,-1354749440,-1354748929
+	.word	-1354748928,-1354748417,-1354748416,-1354747905
+	.word	-1354747904,-1354747393,-1354747392,-1354746881
+	.word	-1354746880,-1354746369,-1354746368,-1354745857
+	.word	-1354745856,-1354745345,-1354745344,-1354744833
+	.word	-1354744832,-1354744321,-1354744320,-1354743809
+	.word	-1354743808,-1354743297,-1354743296,-1354742785
+	.word	-1354742784,-1354742273,-1354742272,-1354741761
+	.word	-1354741760,-1354741249,-1354741248,-1354740737
+	.word	-1354740736,-1354740225,-1354740224,-1354739713
+	.word	-1354739712,-1354739201,-1354739200,-1354738689
+	.word	-1354738688,-1354738177,-1354738176,-1354737665
+	.word	-1354737664,-1354737153,-1354737152,-1354736641
+	.word	-1354736640,-1354736129,-1354736128,-1354735617
+	.sdecl	'.rodata.IfxFlash_cfg.IfxFlash_pFlashTableLog',data,rom,cluster('IfxFlash_pFlashTableLog')
+	.sect	'.rodata.IfxFlash_cfg.IfxFlash_pFlashTableLog'
+	.global	IfxFlash_pFlashTableLog
+	.align	4
+IfxFlash_pFlashTableLog:	.type	object
+	.size	IfxFlash_pFlashTableLog,3072
+	.word	-1610612736,-1610596353,-1610596352,-1610579969
+	.word	-1610579968,-1610563585,-1610563584,-1610547201
+	.word	-1610547200,-1610530817,-1610530816,-1610514433
+	.word	-1610514432,-1610498049,-1610498048,-1610481665
+	.word	-1610481664,-1610465281,-1610465280,-1610448897
+	.word	-1610448896,-1610432513,-1610432512,-1610416129
+	.word	-1610416128,-1610399745,-1610399744,-1610383361
+	.word	-1610383360,-1610366977,-1610366976,-1610350593
+	.word	-1610350592,-1610334209,-1610334208,-1610317825
+	.word	-1610317824,-1610301441,-1610301440,-1610285057
+	.word	-1610285056,-1610268673,-1610268672,-1610252289
+	.word	-1610252288,-1610235905,-1610235904,-1610219521
+	.word	-1610219520,-1610203137,-1610203136,-1610186753
+	.word	-1610186752,-1610170369,-1610170368,-1610153985
+	.word	-1610153984,-1610137601,-1610137600,-1610121217
+	.word	-1610121216,-1610104833,-1610104832,-1610088449
+	.word	-1610088448,-1610072065,-1610072064,-1610055681
+	.word	-1610055680,-1610039297,-1610039296,-1610022913
+	.word	-1610022912,-1610006529,-1610006528,-1609990145
+	.word	-1609990144,-1609973761,-1609973760,-1609957377
+	.word	-1609957376,-1609940993,-1609940992,-1609924609
+	.word	-1609924608,-1609908225,-1609908224,-1609891841
+	.word	-1609891840,-1609875457,-1609875456,-1609859073
+	.word	-1609859072,-1609842689,-1609842688,-1609826305
+	.word	-1609826304,-1609809921,-1609809920,-1609793537
+	.word	-1609793536,-1609777153,-1609777152,-1609760769
+	.word	-1609760768,-1609744385,-1609744384,-1609728001
+	.word	-1609728000,-1609711617,-1609711616,-1609695233
+	.word	-1609695232,-1609678849,-1609678848,-1609662465
+	.word	-1609662464,-1609646081,-1609646080,-1609629697
+	.word	-1609629696,-1609613313,-1609613312,-1609596929
+	.word	-1609596928,-1609580545,-1609580544,-1609564161
+	.word	-1609564160,-1609547777,-1609547776,-1609531393
+	.word	-1609531392,-1609515009,-1609515008,-1609498625
+	.word	-1609498624,-1609482241,-1609482240,-1609465857
+	.word	-1609465856,-1609449473,-1609449472,-1609433089
+	.word	-1609433088,-1609416705,-1609416704,-1609400321
+	.word	-1609400320,-1609383937,-1609383936,-1609367553
+	.word	-1609367552,-1609351169,-1609351168,-1609334785
+	.word	-1609334784,-1609318401,-1609318400,-1609302017
+	.word	-1609302016,-1609285633,-1609285632,-1609269249
+	.word	-1609269248,-1609252865,-1609252864,-1609236481
+	.word	-1609236480,-1609220097,-1609220096,-1609203713
+	.word	-1609203712,-1609187329,-1609187328,-1609170945
+	.word	-1609170944,-1609154561,-1609154560,-1609138177
+	.word	-1609138176,-1609121793,-1609121792,-1609105409
+	.word	-1609105408,-1609089025,-1609089024,-1609072641
+	.word	-1609072640,-1609056257,-1609056256,-1609039873
+	.word	-1609039872,-1609023489,-1609023488,-1609007105
+	.word	-1609007104,-1608990721,-1608990720,-1608974337
+	.word	-1608974336,-1608957953,-1608957952,-1608941569
+	.word	-1608941568,-1608925185,-1608925184,-1608908801
+	.word	-1608908800,-1608892417,-1608892416,-1608876033
+	.word	-1608876032,-1608859649,-1608859648,-1608843265
+	.word	-1608843264,-1608826881,-1608826880,-1608810497
+	.word	-1608810496,-1608794113,-1608794112,-1608777729
+	.word	-1608777728,-1608761345,-1608761344,-1608744961
+	.word	-1608744960,-1608728577,-1608728576,-1608712193
+	.word	-1608712192,-1608695809,-1608695808,-1608679425
+	.word	-1608679424,-1608663041,-1608663040,-1608646657
+	.word	-1608646656,-1608630273,-1608630272,-1608613889
+	.word	-1608613888,-1608597505,-1608597504,-1608581121
+	.word	-1608581120,-1608564737,-1608564736,-1608548353
+	.word	-1608548352,-1608531969,-1608531968,-1608515585
+	.word	-1608515584,-1608499201,-1608499200,-1608482817
+	.word	-1608482816,-1608466433,-1608466432,-1608450049
+	.word	-1608450048,-1608433665,-1608433664,-1608417281
+	.word	-1608417280,-1608400897,-1608400896,-1608384513
+	.word	-1608384512,-1608368129,-1608368128,-1608351745
+	.word	-1608351744,-1608335361,-1608335360,-1608318977
+	.word	-1608318976,-1608302593,-1608302592,-1608286209
+	.word	-1608286208,-1608269825,-1608269824,-1608253441
+	.word	-1608253440,-1608237057,-1608237056,-1608220673
+	.word	-1608220672,-1608204289,-1608204288,-1608187905
+	.word	-1608187904,-1608171521,-1608171520,-1608155137
+	.word	-1608155136,-1608138753,-1608138752,-1608122369
+	.word	-1608122368,-1608105985,-1608105984,-1608089601
+	.word	-1608089600,-1608073217,-1608073216,-1608056833
+	.word	-1608056832,-1608040449,-1608040448,-1608024065
+	.word	-1608024064,-1608007681,-1608007680,-1607991297
+	.word	-1607991296,-1607974913,-1607974912,-1607958529
+	.word	-1607958528,-1607942145,-1607942144,-1607925761
+	.word	-1607925760,-1607909377,-1607909376,-1607892993
+	.word	-1607892992,-1607876609,-1607876608,-1607860225
+	.word	-1607860224,-1607843841,-1607843840,-1607827457
+	.word	-1607827456,-1607811073,-1607811072,-1607794689
+	.word	-1607794688,-1607778305,-1607778304,-1607761921
+	.word	-1607761920,-1607745537,-1607745536,-1607729153
+	.word	-1607729152,-1607712769,-1607712768,-1607696385
+	.word	-1607696384,-1607680001,-1607680000,-1607663617
+	.word	-1607663616,-1607647233,-1607647232,-1607630849
+	.word	-1607630848,-1607614465,-1607614464,-1607598081
+	.word	-1607598080,-1607581697,-1607581696,-1607565313
+	.word	-1607565312,-1607548929,-1607548928,-1607532545
+	.word	-1607532544,-1607516161,-1607516160,-1607499777
+	.word	-1607499776,-1607483393,-1607483392,-1607467009
+	.word	-1607467008,-1607450625,-1607450624,-1607434241
+	.word	-1607434240,-1607417857,-1607417856,-1607401473
+	.word	-1607401472,-1607385089,-1607385088,-1607368705
+	.word	-1607368704,-1607352321,-1607352320,-1607335937
+	.word	-1607335936,-1607319553,-1607319552,-1607303169
+	.word	-1607303168,-1607286785,-1607286784,-1607270401
+	.word	-1607270400,-1607254017,-1607254016,-1607237633
+	.word	-1607237632,-1607221249,-1607221248,-1607204865
+	.word	-1607204864,-1607188481,-1607188480,-1607172097
+	.word	-1607172096,-1607155713,-1607155712,-1607139329
+	.word	-1607139328,-1607122945,-1607122944,-1607106561
+	.word	-1607106560,-1607090177,-1607090176,-1607073793
+	.word	-1607073792,-1607057409,-1607057408,-1607041025
+	.word	-1607041024,-1607024641,-1607024640,-1607008257
+	.word	-1607008256,-1606991873,-1606991872,-1606975489
+	.word	-1606975488,-1606959105,-1606959104,-1606942721
+	.word	-1606942720,-1606926337,-1606926336,-1606909953
+	.word	-1606909952,-1606893569,-1606893568,-1606877185
+	.word	-1606877184,-1606860801,-1606860800,-1606844417
+	.word	-1606844416,-1606828033,-1606828032,-1606811649
+	.word	-1606811648,-1606795265,-1606795264,-1606778881
+	.word	-1606778880,-1606762497,-1606762496,-1606746113
+	.word	-1606746112,-1606729729,-1606729728,-1606713345
+	.word	-1606713344,-1606696961,-1606696960,-1606680577
+	.word	-1606680576,-1606664193,-1606664192,-1606647809
+	.word	-1606647808,-1606631425,-1606631424,-1606615041
+	.word	-1606615040,-1606598657,-1606598656,-1606582273
+	.word	-1606582272,-1606565889,-1606565888,-1606549505
+	.word	-1606549504,-1606533121,-1606533120,-1606516737
+	.word	-1606516736,-1606500353,-1606500352,-1606483969
+	.word	-1606483968,-1606467585,-1606467584,-1606451201
+	.word	-1606451200,-1606434817,-1606434816,-1606418433
+	.word	-1606418432,-1606402049,-1606402048,-1606385665
+	.word	-1606385664,-1606369281,-1606369280,-1606352897
+	.word	-1606352896,-1606336513,-1606336512,-1606320129
+	.word	-1606320128,-1606303745,-1606303744,-1606287361
+	.word	-1606287360,-1606270977,-1606270976,-1606254593
+	.word	-1606254592,-1606238209,-1606238208,-1606221825
+	.word	-1606221824,-1606205441,-1606205440,-1606189057
+	.word	-1606189056,-1606172673,-1606172672,-1606156289
+	.word	-1606156288,-1606139905,-1606139904,-1606123521
+	.word	-1606123520,-1606107137,-1606107136,-1606090753
+	.word	-1606090752,-1606074369,-1606074368,-1606057985
+	.word	-1606057984,-1606041601,-1606041600,-1606025217
+	.word	-1606025216,-1606008833,-1606008832,-1605992449
+	.word	-1605992448,-1605976065,-1605976064,-1605959681
+	.word	-1605959680,-1605943297,-1605943296,-1605926913
+	.word	-1605926912,-1605910529,-1605910528,-1605894145
+	.word	-1605894144,-1605877761,-1605877760,-1605861377
+	.word	-1605861376,-1605844993,-1605844992,-1605828609
+	.word	-1605828608,-1605812225,-1605812224,-1605795841
+	.word	-1605795840,-1605779457,-1605779456,-1605763073
+	.word	-1605763072,-1605746689,-1605746688,-1605730305
+	.word	-1605730304,-1605713921,-1605713920,-1605697537
+	.word	-1605697536,-1605681153,-1605681152,-1605664769
+	.word	-1605664768,-1605648385,-1605648384,-1605632001
+	.word	-1605632000,-1605615617,-1605615616,-1605599233
+	.word	-1605599232,-1605582849,-1605582848,-1605566465
+	.word	-1605566464,-1605550081,-1605550080,-1605533697
+	.word	-1605533696,-1605517313,-1605517312,-1605500929
+	.word	-1605500928,-1605484545,-1605484544,-1605468161
+	.word	-1605468160,-1605451777,-1605451776,-1605435393
+	.word	-1605435392,-1605419009,-1605419008,-1605402625
+	.word	-1605402624,-1605386241,-1605386240,-1605369857
+	.word	-1605369856,-1605353473,-1605353472,-1605337089
+	.word	-1605337088,-1605320705,-1605320704,-1605304321
+	.word	-1605304320,-1605287937,-1605287936,-1605271553
+	.word	-1605271552,-1605255169,-1605255168,-1605238785
+	.word	-1605238784,-1605222401,-1605222400,-1605206017
+	.word	-1605206016,-1605189633,-1605189632,-1605173249
+	.word	-1605173248,-1605156865,-1605156864,-1605140481
+	.word	-1605140480,-1605124097,-1605124096,-1605107713
+	.word	-1605107712,-1605091329,-1605091328,-1605074945
+	.word	-1605074944,-1605058561,-1605058560,-1605042177
+	.word	-1605042176,-1605025793,-1605025792,-1605009409
+	.word	-1605009408,-1604993025,-1604993024,-1604976641
+	.word	-1604976640,-1604960257,-1604960256,-1604943873
+	.word	-1604943872,-1604927489,-1604927488,-1604911105
+	.word	-1604911104,-1604894721,-1604894720,-1604878337
+	.word	-1604878336,-1604861953,-1604861952,-1604845569
+	.word	-1604845568,-1604829185,-1604829184,-1604812801
+	.word	-1604812800,-1604796417,-1604796416,-1604780033
+	.word	-1604780032,-1604763649,-1604763648,-1604747265
+	.word	-1604747264,-1604730881,-1604730880,-1604714497
+	.word	-1604714496,-1604698113,-1604698112,-1604681729
+	.word	-1604681728,-1604665345,-1604665344,-1604648961
+	.word	-1604648960,-1604632577,-1604632576,-1604616193
+	.word	-1604616192,-1604599809,-1604599808,-1604583425
+	.word	-1604583424,-1604567041,-1604567040,-1604550657
+	.word	-1604550656,-1604534273,-1604534272,-1604517889
+	.word	-1604517888,-1604501505,-1604501504,-1604485121
+	.word	-1604485120,-1604468737,-1604468736,-1604452353
+	.word	-1604452352,-1604435969,-1604435968,-1604419585
+	.word	-1604419584,-1604403201,-1604403200,-1604386817
+	.word	-1604386816,-1604370433,-1604370432,-1604354049
+	.word	-1604354048,-1604337665,-1604337664,-1604321281
+	.sdecl	'.rodata.IfxFlash_cfg.IfxFlash_pFlashTablePhys',data,rom,cluster('IfxFlash_pFlashTablePhys')
+	.sect	'.rodata.IfxFlash_cfg.IfxFlash_pFlashTablePhys'
+	.global	IfxFlash_pFlashTablePhys
+	.align	4
+IfxFlash_pFlashTablePhys:	.type	object
+	.size	IfxFlash_pFlashTablePhys,48
+	.word	-1610612736,-1609564161,-1609564160,-1608515585
+	.word	-1608515584,-1607467009,-1607467008,-1606418433
+	.word	-1606418432,-1605369857,-1605369856,-1604321281
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	1080
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'..\\0_Src\\4_McHal\\Tricore\\_Impl\\IfxFlash_cfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\Debug\\',0,12,1
+	.word	.L5
+	.byte	2,1,1,3
+	.word	161
+	.byte	4
+	.byte	'Ifx__jump_and_link',0,3,1,58,17,1,1,5
+	.byte	'fun',0,1,58,43
+	.word	164
+	.byte	6,0,7
+	.byte	'__fract',0,4,128,1,7
+	.byte	'float',0,4,4,8
+	.byte	'Ifx__float_to_fract',0,3,1,149,2,18
+	.word	209
+	.byte	1,1,5
+	.byte	'a',0,1,149,2,44
+	.word	221
+	.byte	6,0,7
+	.byte	'unsigned long long int',0,8,7,9
+	.byte	'void',0,3
+	.word	301
+	.byte	8
+	.byte	'__ld64',0,3,2,132,1,19
+	.word	275
+	.byte	1,1,5
+	.byte	'addr',0,2,132,1,32
+	.word	307
+	.byte	6,0,4
+	.byte	'__st64',0,3,2,140,1,17,1,1,5
+	.byte	'addr',0,2,140,1,30
+	.word	307
+	.byte	5
+	.byte	'value',0,2,140,1,43
+	.word	275
+	.byte	6,0,7
+	.byte	'int',0,4,5,10
+	.word	393
+	.byte	11
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,12
+	.word	400
+	.byte	0,7
+	.byte	'unsigned int',0,4,7,13
+	.word	442
+	.byte	3
+	.word	442
+	.byte	14
+	.byte	'__cmpswapw',0
+	.word	458
+	.byte	1,1,1,1,15
+	.byte	'p',0
+	.word	463
+	.byte	15
+	.byte	'value',0
+	.word	442
+	.byte	15
+	.byte	'compare',0
+	.word	442
+	.byte	0,16
+	.word	169
+	.byte	17
+	.word	195
+	.byte	6,0,16
+	.word	230
+	.byte	17
+	.word	262
+	.byte	6,0,16
+	.word	312
+	.byte	17
+	.word	331
+	.byte	6,0,16
+	.word	347
+	.byte	17
+	.word	362
+	.byte	17
+	.word	376
+	.byte	6,0,7
+	.byte	'short int',0,2,5,18
+	.byte	'__wchar_t',0,3,1,1
+	.word	573
+	.byte	18
+	.byte	'__size_t',0,3,1,1
+	.word	442
+	.byte	18
+	.byte	'__ptrdiff_t',0,3,1,1
+	.word	393
+	.byte	19,1,3
+	.word	641
+	.byte	18
+	.byte	'__codeptr',0,3,1,1
+	.word	643
+	.byte	7
+	.byte	'unsigned char',0,1,8,18
+	.byte	'uint8',0,4,108,29
+	.word	666
+	.byte	7
+	.byte	'unsigned short int',0,2,7,18
+	.byte	'uint16',0,4,112,29
+	.word	697
+	.byte	7
+	.byte	'unsigned long int',0,4,7,18
+	.byte	'uint32',0,4,116,29
+	.word	734
+	.byte	18
+	.byte	'uint64',0,4,121,29
+	.word	275
+	.byte	18
+	.byte	'sint16',0,4,129,1,29
+	.word	573
+	.byte	7
+	.byte	'long int',0,4,5,18
+	.byte	'sint32',0,4,134,1,29
+	.word	801
+	.byte	7
+	.byte	'long long int',0,8,5,18
+	.byte	'sint64',0,4,141,1,29
+	.word	829
+	.byte	18
+	.byte	'float32',0,4,170,1,29
+	.word	221
+	.byte	18
+	.byte	'pvoid',0,5,54,28
+	.word	307
+	.byte	18
+	.byte	'Ifx_TickTime',0,5,76,28
+	.word	829
+	.byte	20,6,213,1,9,8,21
+	.byte	'start',0
+	.word	734
+	.byte	4,2,35,0,21
+	.byte	'end',0
+	.word	734
+	.byte	4,2,35,4,0,18
+	.byte	'IfxFlash_flashSector',0,6,217,1,3
+	.word	914
+	.byte	22,128,1
+	.word	914
+	.byte	23,15,0
+.L20:
+	.byte	10
+	.word	979
+	.byte	22,128,6
+	.word	914
+	.byte	23,95,0
+.L21:
+	.byte	10
+	.word	994
+	.byte	22,128,2
+	.word	914
+	.byte	23,31,0
+.L22:
+	.byte	10
+	.word	1009
+	.byte	22,8
+	.word	914
+	.byte	23,0,0
+.L23:
+	.byte	10
+	.word	1024
+	.byte	22,128,3
+	.word	914
+	.byte	23,47,0
+.L24:
+	.byte	10
+	.word	1038
+	.byte	22,128,24
+	.word	914
+	.byte	23,255,2,0
+.L25:
+	.byte	10
+	.word	1053
+	.byte	22,48
+	.word	914
+	.byte	23,5,0
+.L26:
+	.byte	10
+	.word	1069
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
+	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
+	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,38,0,73,19,0,0,11,46
+	.byte	1,3,8,54,15,39,12,63,12,60,12,0,0,12,5,0,73,19,0,0,13,53,0,73,19,0,0,14,46,1,3,8,73,19,54,15,39,12,63
+	.byte	12,60,12,0,0,15,5,0,3,8,73,19,0,0,16,46,1,49,19,0,0,17,5,0,49,19,0,0,18,22,0,3,8,58,15,59,15,57,15,73
+	.byte	19,0,0,19,21,0,54,15,0,0,20,19,1,58,15,59,15,57,15,11,15,0,0,21,13,0,3,8,73,19,11,15,56,9,0,0,22,1,1,11
+	.byte	15,73,19,0,0,23,33,0,47,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L28-.L27
+.L27:
+	.half	3
+	.word	.L30-.L29
+.L29:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu\\Std',0,0
+	.byte	'IfxCpu_IntrinsicsTasking.h',0,1,0,0
+	.byte	'IfxCpu_Intrinsics.h',0,1,0,0
+	.byte	'..\\0_Src\\4_McHal\\Tricore\\_Impl\\IfxFlash_cfg.c',0,0,0,0
+	.byte	'Platform_Types.h',0,1,0,0
+	.byte	'Ifx_Types.h',0,1,0,0
+	.byte	'..\\0_Src\\4_McHal\\Tricore\\_Impl\\IfxFlash_cfg.h',0,0,0,0,0
+.L30:
+.L28:
+	.sdecl	'.debug_info',debug,cluster('IfxFlash_dFlashTableCfsLog')
+	.sect	'.debug_info'
+.L6:
+	.word	201
+	.half	3
+	.word	.L7
+	.byte	4,1
+	.byte	'..\\0_Src\\4_McHal\\Tricore\\_Impl\\IfxFlash_cfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'IfxFlash_dFlashTableCfsLog',0,3,52,32
+	.word	.L20
+	.byte	1,5,3
+	.word	IfxFlash_dFlashTableCfsLog
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('IfxFlash_dFlashTableCfsLog')
+	.sect	'.debug_abbrev'
+.L7:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('IfxFlash_dFlashTableEepLog')
+	.sect	'.debug_info'
+.L8:
+	.word	201
+	.half	3
+	.word	.L9
+	.byte	4,1
+	.byte	'..\\0_Src\\4_McHal\\Tricore\\_Impl\\IfxFlash_cfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'IfxFlash_dFlashTableEepLog',0,3,74,32
+	.word	.L21
+	.byte	1,5,3
+	.word	IfxFlash_dFlashTableEepLog
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('IfxFlash_dFlashTableEepLog')
+	.sect	'.debug_abbrev'
+.L9:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('IfxFlash_dFlashTableHsmLog')
+	.sect	'.debug_info'
+.L10:
+	.word	202
+	.half	3
+	.word	.L11
+	.byte	4,1
+	.byte	'..\\0_Src\\4_McHal\\Tricore\\_Impl\\IfxFlash_cfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'IfxFlash_dFlashTableHsmLog',0,3,141,1,32
+	.word	.L22
+	.byte	1,5,3
+	.word	IfxFlash_dFlashTableHsmLog
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('IfxFlash_dFlashTableHsmLog')
+	.sect	'.debug_abbrev'
+.L11:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('IfxFlash_dFlashTablePhys')
+	.sect	'.debug_info'
+.L12:
+	.word	200
+	.half	3
+	.word	.L13
+	.byte	4,1
+	.byte	'..\\0_Src\\4_McHal\\Tricore\\_Impl\\IfxFlash_cfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'IfxFlash_dFlashTablePhys',0,3,176,1,32
+	.word	.L23
+	.byte	1,5,3
+	.word	IfxFlash_dFlashTablePhys
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('IfxFlash_dFlashTablePhys')
+	.sect	'.debug_abbrev'
+.L13:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('IfxFlash_dFlashTableUcbLog')
+	.sect	'.debug_info'
+.L14:
+	.word	202
+	.half	3
+	.word	.L15
+	.byte	4,1
+	.byte	'..\\0_Src\\4_McHal\\Tricore\\_Impl\\IfxFlash_cfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'IfxFlash_dFlashTableUcbLog',0,3,180,1,32
+	.word	.L24
+	.byte	1,5,3
+	.word	IfxFlash_dFlashTableUcbLog
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('IfxFlash_dFlashTableUcbLog')
+	.sect	'.debug_abbrev'
+.L15:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('IfxFlash_pFlashTableLog')
+	.sect	'.debug_info'
+.L16:
+	.word	199
+	.half	3
+	.word	.L17
+	.byte	4,1
+	.byte	'..\\0_Src\\4_McHal\\Tricore\\_Impl\\IfxFlash_cfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'IfxFlash_pFlashTableLog',0,3,231,1,32
+	.word	.L25
+	.byte	1,5,3
+	.word	IfxFlash_pFlashTableLog
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('IfxFlash_pFlashTableLog')
+	.sect	'.debug_abbrev'
+.L17:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('IfxFlash_pFlashTablePhys')
+	.sect	'.debug_info'
+.L18:
+	.word	200
+	.half	3
+	.word	.L19
+	.byte	4,1
+	.byte	'..\\0_Src\\4_McHal\\Tricore\\_Impl\\IfxFlash_cfg.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\Debug\\',0,12,1,2
+	.word	.L2
+	.byte	3
+	.byte	'IfxFlash_pFlashTablePhys',0,3,234,4,32
+	.word	.L26
+	.byte	1,5,3
+	.word	IfxFlash_pFlashTablePhys
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('IfxFlash_pFlashTablePhys')
+	.sect	'.debug_abbrev'
+.L19:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	     1  /**
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	     2   * \file IfxFlash_cfg.c
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	     3   * \brief FLASH on-chip implementation data
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	     4   *
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	     5   * \version iLLD_1_0_1_12_0
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	     6   * \copyright Copyright (c) 2018 Infineon Technologies AG. All rights reserved.
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	     7   *
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	     8   *
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	     9   *                                 IMPORTANT NOTICE
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    10   *
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    11   * Use of this file is subject to the terms of use agreed between (i) you or
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    12   * the company in which ordinary course of business you are acting and (ii)
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    13   * Infineon Technologies AG or its licensees. If and as long as no such terms
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    14   * of use are agreed, use of this file is subject to following:
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    15   *
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    16   * Boost Software License - Version 1.0 - August 17th, 2003
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    17   *
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    18   * Permission is hereby granted, free of charge, to any person or organization
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    19   * obtaining a copy of the software and accompanying documentation covered by
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    20   * this license (the "Software") to use, reproduce, display, distribute,
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    21   * execute, and transmit the Software, and to prepare derivative works of the
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    22   * Software, and to permit third-parties to whom the Software is furnished to
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    23   * do so, all subject to the following:
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    24   *
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    25   * The copyright notices in the Software and this entire statement, including
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    26   * the above license grant, this restriction and the following disclaimer, must
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    27   * be included in all copies of the Software, in whole or in part, and all
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    28   * derivative works of the Software, unless such copies or derivative works are
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    29   * solely in the form of machine-executable object code generated by a source
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    30   * language processor.
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    31   *
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    32   * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    33   * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    34   * FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    35   * SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    36   * FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    37   * ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    38   * DEALINGS IN THE SOFTWARE.
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    39   *
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    40   */
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    41  
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    42  /******************************************************************************/
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    43  /*----------------------------------Includes----------------------------------*/
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    44  /******************************************************************************/
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    45  
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    46  #include "IfxFlash_cfg.h"
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    47  
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    48  /******************************************************************************/
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    49  /*-----------------------Exported Variables/Constants-------------------------*/
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    50  /******************************************************************************/
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    51  
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    52  IFX_CONST IfxFlash_flashSector IfxFlash_dFlashTableCfsLog[IFXFLASH_DFLASH_NUM_CFS_LOG_SECTORS] = {
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    53      {0xaf800000, 0xaf800fff}, //CFS0
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    54      {0xaf801000, 0xaf801fff}, //CFS1
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    55      {0xaf802000, 0xaf802fff}, //CFS2
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    56      {0xaf803000, 0xaf803fff}, //CFS3
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    57      {0xaf804000, 0xaf804fff}, //CFS4
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    58      {0xaf805000, 0xaf805fff}, //CFS5
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    59      {0xaf806000, 0xaf806fff}, //CFS6
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    60      {0xaf807000, 0xaf807fff}, //CFS7
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    61      {0xaf808000, 0xaf808fff}, //CFS8
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    62      {0xaf809000, 0xaf809fff}, //CFS9
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    63      {0xaf80a000, 0xaf80afff}, //CFS10
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    64      {0xaf80b000, 0xaf80bfff}, //CFS11
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    65      {0xaf80c000, 0xaf80cfff}, //CFS12
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    66      {0xaf80d000, 0xaf80dfff}, //CFS13
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    67      {0xaf80e000, 0xaf80efff}, //CFS14
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    68      {0xaf80f000, 0xaf80ffff}, //CFS15
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    69  }
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    70  
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    71  
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    72  ;
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    73  
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    74  IFX_CONST IfxFlash_flashSector IfxFlash_dFlashTableEepLog[IFXFLASH_DFLASH_NUM_LOG_SECTORS] = {
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    75      {0xAF000000, 0xAF000FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    76      {0xAF001000, 0xAF001FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    77      {0xAF002000, 0xAF002FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    78      {0xAF003000, 0xAF003FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    79      {0xAF004000, 0xAF004FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    80      {0xAF005000, 0xAF005FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    81      {0xAF006000, 0xAF006FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    82      {0xAF007000, 0xAF007FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    83      {0xAF008000, 0xAF008FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    84      {0xAF009000, 0xAF009FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    85      {0xAF00A000, 0xAF00AFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    86      {0xAF00B000, 0xAF00BFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    87      {0xAF00C000, 0xAF00CFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    88      {0xAF00D000, 0xAF00DFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    89      {0xAF00E000, 0xAF00EFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    90      {0xAF00F000, 0xAF00FFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    91      {0xAF010000, 0xAF010FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    92      {0xAF011000, 0xAF011FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    93      {0xAF012000, 0xAF012FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    94      {0xAF013000, 0xAF013FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    95      {0xAF014000, 0xAF014FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    96      {0xAF015000, 0xAF015FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    97      {0xAF016000, 0xAF016FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    98      {0xAF017000, 0xAF017FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	    99      {0xAF018000, 0xAF018FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   100      {0xAF019000, 0xAF019FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   101      {0xAF01A000, 0xAF01AFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   102      {0xAF01B000, 0xAF01BFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   103      {0xAF01C000, 0xAF01CFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   104      {0xAF01D000, 0xAF01DFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   105      {0xAF01E000, 0xAF01EFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   106      {0xAF01F000, 0xAF01FFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   107      {0xAF020000, 0xAF020FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   108      {0xAF021000, 0xAF021FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   109      {0xAF022000, 0xAF022FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   110      {0xAF023000, 0xAF023FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   111      {0xAF024000, 0xAF024FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   112      {0xAF025000, 0xAF025FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   113      {0xAF026000, 0xAF026FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   114      {0xAF027000, 0xAF027FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   115      {0xAF028000, 0xAF028FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   116      {0xAF029000, 0xAF029FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   117      {0xAF02A000, 0xAF02AFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   118      {0xAF02B000, 0xAF02BFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   119      {0xAF02C000, 0xAF02CFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   120      {0xAF02D000, 0xAF02DFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   121      {0xAF02E000, 0xAF02EFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   122      {0xAF02F000, 0xAF02FFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   123      {0xAF030000, 0xAF030FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   124      {0xAF031000, 0xAF031FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   125      {0xAF032000, 0xAF032FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   126      {0xAF033000, 0xAF033FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   127      {0xAF034000, 0xAF034FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   128      {0xAF035000, 0xAF035FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   129      {0xAF036000, 0xAF036FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   130      {0xAF037000, 0xAF037FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   131      {0xAF038000, 0xAF038FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   132      {0xAF039000, 0xAF039FFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   133      {0xAF03A000, 0xAF03AFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   134      {0xAF03B000, 0xAF03BFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   135      {0xAF03C000, 0xAF03CFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   136      {0xAF03D000, 0xAF03DFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   137      {0xAF03E000, 0xAF03EFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   138      {0xAF03F000, 0xAF03FFFF},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   139  };
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   140  
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   141  IFX_CONST IfxFlash_flashSector IfxFlash_dFlashTableHsmLog[IFXFLASH_DFLASH_NUM_HSM_LOG_SECTORS] = {
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   142      {0xAFC00000, 0xAFC00FFF},   //HSM0
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   143      {0xAFC01000, 0xAFC01FFF},   //HSM1
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   144      {0xAFC02000, 0xAFC02FFF},   //HSM2
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   145      {0xAFC03000, 0xAFC03FFF},   //HSM3
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   146      {0xAFC04000, 0xAFC04FFF},   //HSM4
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   147      {0xAFC05000, 0xAFC05FFF},   //HSM5
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   148      {0xAFC06000, 0xAFC06FFF},   //HSM6
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   149      {0xAFC07000, 0xAFC07FFF},   //HSM7
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   150      {0xAFC08000, 0xAFC08FFF},   //HSM8
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   151      {0xAFC09000, 0xAFC09FFF},   //HSM9
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   152      {0xAFC0A000, 0xAFC0AFFF},   //HSM10
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   153      {0xAFC0B000, 0xAFC0BFFF},   //HSM11
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   154      {0xAFC0C000, 0xAFC0CFFF},   //HSM12
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   155      {0xAFC0D000, 0xAFC0DFFF},   //HSM13
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   156      {0xAFC0E000, 0xAFC0EFFF},   //HSM14
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   157      {0xAFC0F000, 0xAFC0FFFF},   //HSM15
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   158      {0xAFC10000, 0xAFC10FFF},   //HSM16
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   159      {0xAFC11000, 0xAFC11FFF},   //HSM17
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   160      {0xAFC12000, 0xAFC12FFF},   //HSM18
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   161      {0xAFC13000, 0xAFC13FFF},   //HSM19
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   162      {0xAFC14000, 0xAFC14FFF},   //HSM20
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   163      {0xAFC15000, 0xAFC15FFF},   //HSM21
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   164      {0xAFC16000, 0xAFC16FFF},   //HSM22
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   165      {0xAFC17000, 0xAFC17FFF},   //HSM23
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   166      {0xAFC18000, 0xAFC18FFF},   //HSM24
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   167      {0xAFC19000, 0xAFC19FFF},   //HSM25
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   168      {0xAFC1A000, 0xAFC1AFFF},   //HSM26
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   169      {0xAFC1B000, 0xAFC1BFFF},   //HSM27
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   170      {0xAFC1C000, 0xAFC1CFFF},   //HSM28
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   171      {0xAFC1D000, 0xAFC1DFFF},   //HSM29
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   172      {0xAFC1E000, 0xAFC1EFFF},   //HSM30
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   173      {0xAFC1F000, 0xAFC1FFFF},   //HSM31
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   174  };
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   175  
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   176  IFX_CONST IfxFlash_flashSector IfxFlash_dFlashTablePhys[IFXFLASH_DFLASH_NUM_PHYSICAL_SECTORS] = {
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   177      {IFXFLASH_DFLASH_START, IFXFLASH_DFLASH_END},
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   178  };
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   179  
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   180  IFX_CONST IfxFlash_flashSector IfxFlash_dFlashTableUcbLog[IFXFLASH_DFLASH_NUM_UCB_LOG_SECTORS] = {
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   181      {0xAF400000, 0xAF4001FF},   //UCB0
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   182      {0xAF400200, 0xAF4003FF},   //UCB1
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   183      {0xAF400400, 0xAF4005FF},   //UCB2
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   184      {0xAF400600, 0xAF4007FF},   //UCB3
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   185      {0xAF400800, 0xAF4009FF},   //UCB4
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   186      {0xAF400A00, 0xAF400BFF},   //UCB5
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   187      {0xAF400C00, 0xAF400DFF},   //UCB6
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   188      {0xAF400E00, 0xAF400FFF},   //UCB7
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   189      {0xAF401000, 0xAF4011FF},   //UCB8
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   190      {0xAF401200, 0xAF4013FF},   //UCB9
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   191      {0xAF401400, 0xAF4015FF},   //UCB10
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   192      {0xAF401600, 0xAF4017FF},   //UCB11
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   193      {0xAF401800, 0xAF4019FF},   //UCB12
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   194      {0xAF401A00, 0xAF401BFF},   //UCB13
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   195      {0xAF401C00, 0xAF401DFF},   //UCB14
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   196      {0xAF401E00, 0xAF401FFF},   //UCB15
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   197      {0xAF402000, 0xAF4021FF},   //UCB16
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   198      {0xAF402200, 0xAF4023FF},   //UCB17
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   199      {0xAF402400, 0xAF4025FF},   //UCB18
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   200      {0xAF402600, 0xAF4027FF},   //UCB19
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   201      {0xAF402800, 0xAF4029FF},   //UCB20
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   202      {0xAF402A00, 0xAF402BFF},   //UCB21
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   203      {0xAF402C00, 0xAF402DFF},   //UCB22
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   204      {0xAF402E00, 0xAF402FFF},   //UCB23
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   205      {0xAF403000, 0xAF4031FF},   //UCB24
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   206      {0xAF403200, 0xAF4033FF},   //UCB25
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   207      {0xAF403400, 0xAF4035FF},   //UCB26
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   208      {0xAF403600, 0xAF4037FF},   //UCB27
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   209      {0xAF403800, 0xAF4039FF},   //UCB28
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   210      {0xAF403A00, 0xAF403BFF},   //UCB29
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   211      {0xAF403C00, 0xAF403DFF},   //UCB30
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   212      {0xAF403E00, 0xAF403FFF},   //UCB31
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   213      {0xAF404000, 0xAF4041FF},   //UCB32
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   214      {0xAF404200, 0xAF4043FF},   //UCB33
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   215      {0xAF404400, 0xAF4045FF},   //UCB34
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   216      {0xAF404600, 0xAF4047FF},   //UCB35
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   217      {0xAF404800, 0xAF4049FF},   //UCB36
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   218      {0xAF404A00, 0xAF404BFF},   //UCB37
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   219      {0xAF404C00, 0xAF404DFF},   //UCB38
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   220      {0xAF404E00, 0xAF404FFF},   //UCB39
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   221      {0xAF405000, 0xAF4051FF},   //UCB40
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   222      {0xAF405200, 0xAF4053FF},   //UCB41
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   223      {0xAF405400, 0xAF4055FF},   //UCB42
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   224      {0xAF405600, 0xAF4057FF},   //UCB43
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   225      {0xAF405800, 0xAF4059FF},   //UCB44
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   226      {0xAF405A00, 0xAF405BFF},   //UCB45
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   227      {0xAF405C00, 0xAF405DFF},   //UCB46
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   228      {0xAF405E00, 0xAF405FFF},   //UCB47
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   229  };
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   230  
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   231  IFX_CONST IfxFlash_flashSector IfxFlash_pFlashTableLog[IFXFLASH_PFLASH_NUM_LOG_SECTORS] = {
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   232      {0xA0000000, 0xA0003FFF},      //   PF0 S0
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   233      {0xA0004000, 0xA0007FFF},      //	PF0 S1
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   234      {0xA0008000, 0xA000BFFF},      //	PF0 S2
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   235      {0xA000C000, 0xA000FFFF},      //	PF0 S3
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   236      {0xA0010000, 0xA0013FFF},      //	PF0 S4
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   237      {0xA0014000, 0xA0017FFF},      //	PF0 S5
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   238      {0xA0018000, 0xA001BFFF},      //	PF0 S6
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   239      {0xA001C000, 0xA001FFFF},      //	PF0 S7
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   240      {0xA0020000, 0xA0023FFF},      //	PF0 S8
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   241      {0xA0024000, 0xA0027FFF},      //	PF0 S9
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   242      {0xA0028000, 0xA002BFFF},      //	PF0 S10
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   243      {0xA002C000, 0xA002FFFF},      //	PF0 S11
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   244      {0xA0030000, 0xA0033FFF},      //	PF0 S12
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   245      {0xA0034000, 0xA0037FFF},      //	PF0 S13
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   246      {0xA0038000, 0xA003BFFF},      //	PF0 S14
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   247      {0xA003C000, 0xA003FFFF},      //	PF0 S15
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   248      {0xA0040000, 0xA0043FFF},      //	PF0 S16
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   249      {0xA0044000, 0xA0047FFF},      //	PF0 S17
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   250      {0xA0048000, 0xA004BFFF},      //	PF0 S18
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   251      {0xA004C000, 0xA004FFFF},      //	PF0 S19
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   252      {0xA0050000, 0xA0053FFF},      //	PF0 S20
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   253      {0xA0054000, 0xA0057FFF},      //	PF0 S21
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   254      {0xA0058000, 0xA005BFFF},      //	PF0 S22
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   255      {0xA005C000, 0xA005FFFF},      //	PF0 S23
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   256      {0xA0060000, 0xA0063FFF},      //	PF0 S24
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   257      {0xA0064000, 0xA0067FFF},      //	PF0 S25
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   258      {0xA0068000, 0xA006BFFF},      //	PF0 S26
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   259      {0xA006C000, 0xA006FFFF},      //	PF0 S27
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   260      {0xA0070000, 0xA0073FFF},      //	PF0 S28
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   261      {0xA0074000, 0xA0077FFF},      //	PF0 S29
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   262      {0xA0078000, 0xA007BFFF},      //	PF0 S30
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   263      {0xA007C000, 0xA007FFFF},      //	PF0 S31
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   264      {0xA0080000, 0xA0083FFF},      //	PF0 S32
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   265      {0xA0084000, 0xA0087FFF},      //	PF0 S33
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   266      {0xA0088000, 0xA008BFFF},      //	PF0 S34
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   267      {0xA008C000, 0xA008FFFF},      //	PF0 S35
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   268      {0xA0090000, 0xA0093FFF},      //	PF0 S36
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   269      {0xA0094000, 0xA0097FFF},      //	PF0 S37
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   270      {0xA0098000, 0xA009BFFF},      //	PF0 S38
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   271      {0xA009C000, 0xA009FFFF},      //	PF0 S39
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   272      {0xA00A0000, 0xA00A3FFF},      //	PF0 S40
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   273      {0xA00A4000, 0xA00A7FFF},      //	PF0 S41
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   274      {0xA00A8000, 0xA00ABFFF},      //	PF0 S42
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   275      {0xA00AC000, 0xA00AFFFF},      //	PF0 S43
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   276      {0xA00B0000, 0xA00B3FFF},      //	PF0 S44
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   277      {0xA00B4000, 0xA00B7FFF},      //	PF0 S45
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   278      {0xA00B8000, 0xA00BBFFF},      //	PF0 S46
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   279      {0xA00BC000, 0xA00BFFFF},      //	PF0 S47
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   280      {0xA00C0000, 0xA00C3FFF},      //	PF0 S48
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   281      {0xA00C4000, 0xA00C7FFF},      //	PF0 S49
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   282      {0xA00C8000, 0xA00CBFFF},      //	PF0 S50
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   283      {0xA00CC000, 0xA00CFFFF},      //	PF0 S51
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   284      {0xA00D0000, 0xA00D3FFF},      //	PF0 S52
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   285      {0xA00D4000, 0xA00D7FFF},      //	PF0 S53
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   286      {0xA00D8000, 0xA00DBFFF},      //	PF0 S54
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   287      {0xA00DC000, 0xA00DFFFF},      //	PF0 S55
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   288      {0xA00E0000, 0xA00E3FFF},      //	PF0 S56
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   289      {0xA00E4000, 0xA00E7FFF},      //	PF0 S57
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   290      {0xA00E8000, 0xA00EBFFF},      //	PF0 S58
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   291      {0xA00EC000, 0xA00EFFFF},      //	PF0 S59
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   292      {0xA00F0000, 0xA00F3FFF},      //	PF0 S60
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   293      {0xA00F4000, 0xA00F7FFF},      //	PF0 S61
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   294      {0xA00F8000, 0xA00FBFFF},      //	PF0 S62
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   295      {0xA00FC000, 0xA00FFFFF},      //	PF0 S63
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   296      {0xA0100000, 0xA0103FFF},      //	PF0 S64
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   297      {0xA0104000, 0xA0107FFF},      //	PF0 S65
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   298      {0xA0108000, 0xA010BFFF},      //	PF0 S66
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   299      {0xA010C000, 0xA010FFFF},      //	PF0 S67
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   300      {0xA0110000, 0xA0113FFF},      //	PF0 S68
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   301      {0xA0114000, 0xA0117FFF},      //	PF0 S69
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   302      {0xA0118000, 0xA011BFFF},      //	PF0 S70
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   303      {0xA011C000, 0xA011FFFF},      //	PF0 S71
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   304      {0xA0120000, 0xA0123FFF},      //	PF0 S72
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   305      {0xA0124000, 0xA0127FFF},      //	PF0 S73
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   306      {0xA0128000, 0xA012BFFF},      //	PF0 S74
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   307      {0xA012C000, 0xA012FFFF},      //	PF0 S75
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   308      {0xA0130000, 0xA0133FFF},      //	PF0 S76
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   309      {0xA0134000, 0xA0137FFF},      //	PF0 S77
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   310      {0xA0138000, 0xA013BFFF},      //	PF0 S78
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   311      {0xA013C000, 0xA013FFFF},      //	PF0 S79
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   312      {0xA0140000, 0xA0143FFF},      //	PF0 S80
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   313      {0xA0144000, 0xA0147FFF},      //	PF0 S81
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   314      {0xA0148000, 0xA014BFFF},      //	PF0 S82
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   315      {0xA014C000, 0xA014FFFF},      //	PF0 S83
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   316      {0xA0150000, 0xA0153FFF},      //	PF0 S84
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   317      {0xA0154000, 0xA0157FFF},      //	PF0 S85
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   318      {0xA0158000, 0xA015BFFF},      //	PF0 S86
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   319      {0xA015C000, 0xA015FFFF},      //	PF0 S87
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   320      {0xA0160000, 0xA0163FFF},      //	PF0 S88
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   321      {0xA0164000, 0xA0167FFF},      //	PF0 S89
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   322      {0xA0168000, 0xA016BFFF},      //	PF0 S90
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   323      {0xA016C000, 0xA016FFFF},      //	PF0 S91
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   324      {0xA0170000, 0xA0173FFF},      //	PF0 S92
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   325      {0xA0174000, 0xA0177FFF},      //	PF0 S93
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   326      {0xA0178000, 0xA017BFFF},      //	PF0 S94
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   327      {0xA017C000, 0xA017FFFF},      //	PF0 S95
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   328      {0xA0180000, 0xA0183FFF},      //	PF0 S96
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   329      {0xA0184000, 0xA0187FFF},      //	PF0 S97
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   330      {0xA0188000, 0xA018BFFF},      //	PF0 S98
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   331      {0xA018C000, 0xA018FFFF},      //	PF0 S99
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   332      {0xA0190000, 0xA0193FFF},      //	PF0 S100
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   333      {0xA0194000, 0xA0197FFF},      //	PF0 S101
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   334      {0xA0198000, 0xA019BFFF},      //	PF0 S102
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   335      {0xA019C000, 0xA019FFFF},      //	PF0 S103
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   336      {0xA01A0000, 0xA01A3FFF},      //	PF0 S104
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   337      {0xA01A4000, 0xA01A7FFF},      //	PF0 S105
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   338      {0xA01A8000, 0xA01ABFFF},      //	PF0 S106
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   339      {0xA01AC000, 0xA01AFFFF},      //	PF0 S107
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   340      {0xA01B0000, 0xA01B3FFF},      //	PF0 S108
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   341      {0xA01B4000, 0xA01B7FFF},      //	PF0 S109
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   342      {0xA01B8000, 0xA01BBFFF},      //	PF0 S110
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   343      {0xA01BC000, 0xA01BFFFF},      //	PF0 S111
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   344      {0xA01C0000, 0xA01C3FFF},      //	PF0 S112
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   345      {0xA01C4000, 0xA01C7FFF},      //	PF0 S113
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   346      {0xA01C8000, 0xA01CBFFF},      //	PF0 S114
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   347      {0xA01CC000, 0xA01CFFFF},      //	PF0 S115
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   348      {0xA01D0000, 0xA01D3FFF},      //	PF0 S116
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   349      {0xA01D4000, 0xA01D7FFF},      //	PF0 S117
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   350      {0xA01D8000, 0xA01DBFFF},      //	PF0 S118
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   351      {0xA01DC000, 0xA01DFFFF},      //	PF0 S119
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   352      {0xA01E0000, 0xA01E3FFF},      //	PF0 S120
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   353      {0xA01E4000, 0xA01E7FFF},      //	PF0 S121
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   354      {0xA01E8000, 0xA01EBFFF},      //	PF0 S122
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   355      {0xA01EC000, 0xA01EFFFF},      //	PF0 S123
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   356      {0xA01F0000, 0xA01F3FFF},      //	PF0 S124
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   357      {0xA01F4000, 0xA01F7FFF},      //	PF0 S125
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   358      {0xA01F8000, 0xA01FBFFF},      //	PF0 S126
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   359      {0xA01FC000, 0xA01FFFFF},      //	PF0 S127
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   360      {0xA0200000, 0xA0203FFF},      //	PF0 S128
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   361      {0xA0204000, 0xA0207FFF},      //	PF0 S129
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   362      {0xA0208000, 0xA020BFFF},      //	PF0 S130
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   363      {0xA020C000, 0xA020FFFF},      //	PF0 S131
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   364      {0xA0210000, 0xA0213FFF},      //	PF0 S132
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   365      {0xA0214000, 0xA0217FFF},      //	PF0 S133
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   366      {0xA0218000, 0xA021BFFF},      //	PF0 S134
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   367      {0xA021C000, 0xA021FFFF},      //	PF0 S135
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   368      {0xA0220000, 0xA0223FFF},      //	PF0 S136
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   369      {0xA0224000, 0xA0227FFF},      //	PF0 S137
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   370      {0xA0228000, 0xA022BFFF},      //	PF0 S138
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   371      {0xA022C000, 0xA022FFFF},      //	PF0 S139
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   372      {0xA0230000, 0xA0233FFF},      //	PF0 S140
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   373      {0xA0234000, 0xA0237FFF},      //	PF0 S141
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   374      {0xA0238000, 0xA023BFFF},      //	PF0 S142
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   375      {0xA023C000, 0xA023FFFF},      //	PF0 S143
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   376      {0xA0240000, 0xA0243FFF},      //	PF0 S144
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   377      {0xA0244000, 0xA0247FFF},      //	PF0 S145
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   378      {0xA0248000, 0xA024BFFF},      //	PF0 S146
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   379      {0xA024C000, 0xA024FFFF},      //	PF0 S147
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   380      {0xA0250000, 0xA0253FFF},      //	PF0 S148
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   381      {0xA0254000, 0xA0257FFF},      //	PF0 S149
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   382      {0xA0258000, 0xA025BFFF},      //	PF0 S150
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   383      {0xA025C000, 0xA025FFFF},      //	PF0 S151
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   384      {0xA0260000, 0xA0263FFF},      //	PF0 S152
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   385      {0xA0264000, 0xA0267FFF},      //	PF0 S153
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   386      {0xA0268000, 0xA026BFFF},      //	PF0 S154
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   387      {0xA026C000, 0xA026FFFF},      //	PF0 S155
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   388      {0xA0270000, 0xA0273FFF},      //	PF0 S156
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   389      {0xA0274000, 0xA0277FFF},      //	PF0 S157
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   390      {0xA0278000, 0xA027BFFF},      //	PF0 S158
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   391      {0xA027C000, 0xA027FFFF},      //	PF0 S159
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   392      {0xA0280000, 0xA0283FFF},      //	PF0 S160
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   393      {0xA0284000, 0xA0287FFF},      //	PF0 S161
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   394      {0xA0288000, 0xA028BFFF},      //	PF0 S162
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   395      {0xA028C000, 0xA028FFFF},      //	PF0 S163
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   396      {0xA0290000, 0xA0293FFF},      //	PF0 S164
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   397      {0xA0294000, 0xA0297FFF},      //	PF0 S165
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   398      {0xA0298000, 0xA029BFFF},      //	PF0 S166
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   399      {0xA029C000, 0xA029FFFF},      //	PF0 S167
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   400      {0xA02A0000, 0xA02A3FFF},      //	PF0 S168
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   401      {0xA02A4000, 0xA02A7FFF},      //	PF0 S169
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   402      {0xA02A8000, 0xA02ABFFF},      //	PF0 S170
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   403      {0xA02AC000, 0xA02AFFFF},      //	PF0 S171
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   404      {0xA02B0000, 0xA02B3FFF},      //	PF0 S172
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   405      {0xA02B4000, 0xA02B7FFF},      //	PF0 S173
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   406      {0xA02B8000, 0xA02BBFFF},      //	PF0 S174
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   407      {0xA02BC000, 0xA02BFFFF},      //	PF0 S175
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   408      {0xA02C0000, 0xA02C3FFF},      //	PF0 S176
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   409      {0xA02C4000, 0xA02C7FFF},      //	PF0 S177
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   410      {0xA02C8000, 0xA02CBFFF},      //	PF0 S178
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   411      {0xA02CC000, 0xA02CFFFF},      //	PF0 S179
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   412      {0xA02D0000, 0xA02D3FFF},      //	PF0 S180
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   413      {0xA02D4000, 0xA02D7FFF},      //	PF0 S181
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   414      {0xA02D8000, 0xA02DBFFF},      //	PF0 S182
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   415      {0xA02DC000, 0xA02DFFFF},      //	PF0 S183
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   416      {0xA02E0000, 0xA02E3FFF},      //	PF0 S184
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   417      {0xA02E4000, 0xA02E7FFF},      //	PF0 S185
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   418      {0xA02E8000, 0xA02EBFFF},      //	PF0 S186
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   419      {0xA02EC000, 0xA02EFFFF},      //	PF0 S187
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   420      {0xA02F0000, 0xA02F3FFF},      //	PF0 S188
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   421      {0xA02F4000, 0xA02F7FFF},      //	PF0 S189
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   422      {0xA02F8000, 0xA02FBFFF},      //	PF0 S190
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   423      {0xA02FC000, 0xA02FFFFF},      //	PF0 S191
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   424      {0xA0300000, 0xA0303FFF},      //	PF1 S0
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   425      {0xA0304000, 0xA0307FFF},      //	PF1 S1
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   426      {0xA0308000, 0xA030BFFF},      //	PF1 S2
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   427      {0xA030C000, 0xA030FFFF},      //	PF1 S3
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   428      {0xA0310000, 0xA0313FFF},      //	PF1 S4
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   429      {0xA0314000, 0xA0317FFF},      //	PF1 S5
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   430      {0xA0318000, 0xA031BFFF},      //	PF1 S6
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   431      {0xA031C000, 0xA031FFFF},      //	PF1 S7
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   432      {0xA0320000, 0xA0323FFF},      //	PF1 S8
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   433      {0xA0324000, 0xA0327FFF},      //	PF1 S9
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   434      {0xA0328000, 0xA032BFFF},      //	PF1 S10
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   435      {0xA032C000, 0xA032FFFF},      //	PF1 S11
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   436      {0xA0330000, 0xA0333FFF},      //	PF1 S12
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   437      {0xA0334000, 0xA0337FFF},      //	PF1 S13
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   438      {0xA0338000, 0xA033BFFF},      //	PF1 S14
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   439      {0xA033C000, 0xA033FFFF},      //	PF1 S15
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   440      {0xA0340000, 0xA0343FFF},      //	PF1 S16
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   441      {0xA0344000, 0xA0347FFF},      //	PF1 S17
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   442      {0xA0348000, 0xA034BFFF},      //	PF1 S18
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   443      {0xA034C000, 0xA034FFFF},      //	PF1 S19
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   444      {0xA0350000, 0xA0353FFF},      //	PF1 S20
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   445      {0xA0354000, 0xA0357FFF},      //	PF1 S21
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   446      {0xA0358000, 0xA035BFFF},      //	PF1 S22
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   447      {0xA035C000, 0xA035FFFF},      //	PF1 S23
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   448      {0xA0360000, 0xA0363FFF},      //	PF1 S24
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   449      {0xA0364000, 0xA0367FFF},      //	PF1 S25
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   450      {0xA0368000, 0xA036BFFF},      //	PF1 S26
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   451      {0xA036C000, 0xA036FFFF},      //	PF1 S27
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   452      {0xA0370000, 0xA0373FFF},      //	PF1 S28
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   453      {0xA0374000, 0xA0377FFF},      //	PF1 S29
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   454      {0xA0378000, 0xA037BFFF},      //	PF1 S30
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   455      {0xA037C000, 0xA037FFFF},      //	PF1 S31
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   456      {0xA0380000, 0xA0383FFF},      //	PF1 S32
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   457      {0xA0384000, 0xA0387FFF},      //	PF1 S33
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   458      {0xA0388000, 0xA038BFFF},      //	PF1 S34
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   459      {0xA038C000, 0xA038FFFF},      //	PF1 S35
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   460      {0xA0390000, 0xA0393FFF},      //	PF1 S36
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   461      {0xA0394000, 0xA0397FFF},      //	PF1 S37
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   462      {0xA0398000, 0xA039BFFF},      //	PF1 S38
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   463      {0xA039C000, 0xA039FFFF},      //	PF1 S39
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   464      {0xA03A0000, 0xA03A3FFF},      //	PF1 S40
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   465      {0xA03A4000, 0xA03A7FFF},      //	PF1 S41
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   466      {0xA03A8000, 0xA03ABFFF},      //	PF1 S42
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   467      {0xA03AC000, 0xA03AFFFF},      //	PF1 S43
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   468      {0xA03B0000, 0xA03B3FFF},      //	PF1 S44
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   469      {0xA03B4000, 0xA03B7FFF},      //	PF1 S45
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   470      {0xA03B8000, 0xA03BBFFF},      //	PF1 S46
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   471      {0xA03BC000, 0xA03BFFFF},      //	PF1 S47
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   472      {0xA03C0000, 0xA03C3FFF},      //	PF1 S48
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   473      {0xA03C4000, 0xA03C7FFF},      //	PF1 S49
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   474      {0xA03C8000, 0xA03CBFFF},      //	PF1 S50
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   475      {0xA03CC000, 0xA03CFFFF},      //	PF1 S51
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   476      {0xA03D0000, 0xA03D3FFF},      //	PF1 S52
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   477      {0xA03D4000, 0xA03D7FFF},      //	PF1 S53
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   478      {0xA03D8000, 0xA03DBFFF},      //	PF1 S54
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   479      {0xA03DC000, 0xA03DFFFF},      //	PF1 S55
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   480      {0xA03E0000, 0xA03E3FFF},      //	PF1 S56
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   481      {0xA03E4000, 0xA03E7FFF},      //	PF1 S57
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   482      {0xA03E8000, 0xA03EBFFF},      //	PF1 S58
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   483      {0xA03EC000, 0xA03EFFFF},      //	PF1 S59
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   484      {0xA03F0000, 0xA03F3FFF},      //	PF1 S60
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   485      {0xA03F4000, 0xA03F7FFF},      //	PF1 S61
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   486      {0xA03F8000, 0xA03FBFFF},      //	PF1 S62
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   487      {0xA03FC000, 0xA03FFFFF},      //	PF1 S63
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   488      {0xA0400000, 0xA0403FFF},      //	PF1 S64
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   489      {0xA0404000, 0xA0407FFF},      //	PF1 S65
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   490      {0xA0408000, 0xA040BFFF},      //	PF1 S66
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   491      {0xA040C000, 0xA040FFFF},      //	PF1 S67
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   492      {0xA0410000, 0xA0413FFF},      //	PF1 S68
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   493      {0xA0414000, 0xA0417FFF},      //	PF1 S69
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   494      {0xA0418000, 0xA041BFFF},      //	PF1 S70
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   495      {0xA041C000, 0xA041FFFF},      //	PF1 S71
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   496      {0xA0420000, 0xA0423FFF},      //	PF1 S72
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   497      {0xA0424000, 0xA0427FFF},      //	PF1 S73
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   498      {0xA0428000, 0xA042BFFF},      //	PF1 S74
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   499      {0xA042C000, 0xA042FFFF},      //	PF1 S75
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   500      {0xA0430000, 0xA0433FFF},      //	PF1 S76
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   501      {0xA0434000, 0xA0437FFF},      //	PF1 S77
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   502      {0xA0438000, 0xA043BFFF},      //	PF1 S78
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   503      {0xA043C000, 0xA043FFFF},      //	PF1 S79
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   504      {0xA0440000, 0xA0443FFF},      //	PF1 S80
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   505      {0xA0444000, 0xA0447FFF},      //	PF1 S81
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   506      {0xA0448000, 0xA044BFFF},      //	PF1 S82
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   507      {0xA044C000, 0xA044FFFF},      //	PF1 S83
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   508      {0xA0450000, 0xA0453FFF},      //	PF1 S84
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   509      {0xA0454000, 0xA0457FFF},      //	PF1 S85
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   510      {0xA0458000, 0xA045BFFF},      //	PF1 S86
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   511      {0xA045C000, 0xA045FFFF},      //	PF1 S87
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   512      {0xA0460000, 0xA0463FFF},      //	PF1 S88
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   513      {0xA0464000, 0xA0467FFF},      //	PF1 S89
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   514      {0xA0468000, 0xA046BFFF},      //	PF1 S90
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   515      {0xA046C000, 0xA046FFFF},      //	PF1 S91
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   516      {0xA0470000, 0xA0473FFF},      //	PF1 S92
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   517      {0xA0474000, 0xA0477FFF},      //	PF1 S93
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   518      {0xA0478000, 0xA047BFFF},      //	PF1 S94
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   519      {0xA047C000, 0xA047FFFF},      //	PF1 S95
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   520      {0xA0480000, 0xA0483FFF},      //	PF1 S96
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   521      {0xA0484000, 0xA0487FFF},      //	PF1 S97
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   522      {0xA0488000, 0xA048BFFF},      //	PF1 S98
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   523      {0xA048C000, 0xA048FFFF},      //	PF1 S99
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   524      {0xA0490000, 0xA0493FFF},      //	PF1 S100
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   525      {0xA0494000, 0xA0497FFF},      //	PF1 S101
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   526      {0xA0498000, 0xA049BFFF},      //	PF1 S102
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   527      {0xA049C000, 0xA049FFFF},      //	PF1 S103
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   528      {0xA04A0000, 0xA04A3FFF},      //	PF1 S104
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   529      {0xA04A4000, 0xA04A7FFF},      //	PF1 S105
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   530      {0xA04A8000, 0xA04ABFFF},      //	PF1 S106
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   531      {0xA04AC000, 0xA04AFFFF},      //	PF1 S107
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   532      {0xA04B0000, 0xA04B3FFF},      //	PF1 S108
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   533      {0xA04B4000, 0xA04B7FFF},      //	PF1 S109
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   534      {0xA04B8000, 0xA04BBFFF},      //	PF1 S110
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   535      {0xA04BC000, 0xA04BFFFF},      //	PF1 S111
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   536      {0xA04C0000, 0xA04C3FFF},      //	PF1 S112
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   537      {0xA04C4000, 0xA04C7FFF},      //	PF1 S113
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   538      {0xA04C8000, 0xA04CBFFF},      //	PF1 S114
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   539      {0xA04CC000, 0xA04CFFFF},      //	PF1 S115
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   540      {0xA04D0000, 0xA04D3FFF},      //	PF1 S116
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   541      {0xA04D4000, 0xA04D7FFF},      //	PF1 S117
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   542      {0xA04D8000, 0xA04DBFFF},      //	PF1 S118
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   543      {0xA04DC000, 0xA04DFFFF},      //	PF1 S119
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   544      {0xA04E0000, 0xA04E3FFF},      //	PF1 S120
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   545      {0xA04E4000, 0xA04E7FFF},      //	PF1 S121
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   546      {0xA04E8000, 0xA04EBFFF},      //	PF1 S122
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   547      {0xA04EC000, 0xA04EFFFF},      //	PF1 S123
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   548      {0xA04F0000, 0xA04F3FFF},      //	PF1 S124
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   549      {0xA04F4000, 0xA04F7FFF},      //	PF1 S125
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   550      {0xA04F8000, 0xA04FBFFF},      //	PF1 S126
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   551      {0xA04FC000, 0xA04FFFFF},      //	PF1 S127
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   552      {0xA0500000, 0xA0503FFF},      //	PF1 S128
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   553      {0xA0504000, 0xA0507FFF},      //	PF1 S129
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   554      {0xA0508000, 0xA050BFFF},      //	PF1 S130
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   555      {0xA050C000, 0xA050FFFF},      //	PF1 S131
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   556      {0xA0510000, 0xA0513FFF},      //	PF1 S132
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   557      {0xA0514000, 0xA0517FFF},      //	PF1 S133
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   558      {0xA0518000, 0xA051BFFF},      //	PF1 S134
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   559      {0xA051C000, 0xA051FFFF},      //	PF1 S135
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   560      {0xA0520000, 0xA0523FFF},      //	PF1 S136
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   561      {0xA0524000, 0xA0527FFF},      //	PF1 S137
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   562      {0xA0528000, 0xA052BFFF},      //	PF1 S138
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   563      {0xA052C000, 0xA052FFFF},      //	PF1 S139
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   564      {0xA0530000, 0xA0533FFF},      //	PF1 S140
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   565      {0xA0534000, 0xA0537FFF},      //	PF1 S141
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   566      {0xA0538000, 0xA053BFFF},      //	PF1 S142
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   567      {0xA053C000, 0xA053FFFF},      //	PF1 S143
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   568      {0xA0540000, 0xA0543FFF},      //	PF1 S144
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   569      {0xA0544000, 0xA0547FFF},      //	PF1 S145
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   570      {0xA0548000, 0xA054BFFF},      //	PF1 S146
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   571      {0xA054C000, 0xA054FFFF},      //	PF1 S147
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   572      {0xA0550000, 0xA0553FFF},      //	PF1 S148
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   573      {0xA0554000, 0xA0557FFF},      //	PF1 S149
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   574      {0xA0558000, 0xA055BFFF},      //	PF1 S150
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   575      {0xA055C000, 0xA055FFFF},      //	PF1 S151
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   576      {0xA0560000, 0xA0563FFF},      //	PF1 S152
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   577      {0xA0564000, 0xA0567FFF},      //	PF1 S153
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   578      {0xA0568000, 0xA056BFFF},      //	PF1 S154
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   579      {0xA056C000, 0xA056FFFF},      //	PF1 S155
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   580      {0xA0570000, 0xA0573FFF},      //	PF1 S156
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   581      {0xA0574000, 0xA0577FFF},      //	PF1 S157
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   582      {0xA0578000, 0xA057BFFF},      //	PF1 S158
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   583      {0xA057C000, 0xA057FFFF},      //	PF1 S159
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   584      {0xA0580000, 0xA0583FFF},      //	PF1 S160
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   585      {0xA0584000, 0xA0587FFF},      //	PF1 S161
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   586      {0xA0588000, 0xA058BFFF},      //	PF1 S162
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   587      {0xA058C000, 0xA058FFFF},      //	PF1 S163
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   588      {0xA0590000, 0xA0593FFF},      //	PF1 S164
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   589      {0xA0594000, 0xA0597FFF},      //	PF1 S165
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   590      {0xA0598000, 0xA059BFFF},      //	PF1 S166
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   591      {0xA059C000, 0xA059FFFF},      //	PF1 S167
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   592      {0xA05A0000, 0xA05A3FFF},      //	PF1 S168
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   593      {0xA05A4000, 0xA05A7FFF},      //	PF1 S169
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   594      {0xA05A8000, 0xA05ABFFF},      //	PF1 S170
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   595      {0xA05AC000, 0xA05AFFFF},      //	PF1 S171
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   596      {0xA05B0000, 0xA05B3FFF},      //	PF1 S172
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   597      {0xA05B4000, 0xA05B7FFF},      //	PF1 S173
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   598      {0xA05B8000, 0xA05BBFFF},      //	PF1 S174
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   599      {0xA05BC000, 0xA05BFFFF},      //	PF1 S175
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   600      {0xA05C0000, 0xA05C3FFF},      //	PF1 S176
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   601      {0xA05C4000, 0xA05C7FFF},      //	PF1 S177
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   602      {0xA05C8000, 0xA05CBFFF},      //	PF1 S178
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   603      {0xA05CC000, 0xA05CFFFF},      //	PF1 S179
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   604      {0xA05D0000, 0xA05D3FFF},      //	PF1 S180
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   605      {0xA05D4000, 0xA05D7FFF},      //	PF1 S181
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   606      {0xA05D8000, 0xA05DBFFF},      //	PF1 S182
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   607      {0xA05DC000, 0xA05DFFFF},      //	PF1 S183
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   608      {0xA05E0000, 0xA05E3FFF},      //	PF1 S184
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   609      {0xA05E4000, 0xA05E7FFF},      //	PF1 S185
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   610      {0xA05E8000, 0xA05EBFFF},      //	PF1 S186
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   611      {0xA05EC000, 0xA05EFFFF},      //	PF1 S187
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   612      {0xA05F0000, 0xA05F3FFF},      //	PF1 S188
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   613      {0xA05F4000, 0xA05F7FFF},      //	PF1 S189
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   614      {0xA05F8000, 0xA05FBFFF},      //	PF1 S190
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   615      {0xA05FC000, 0xA05FFFFF},      //	PF1 S191
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   616  };
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   617  
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   618  IFX_CONST IfxFlash_flashSector IfxFlash_pFlashTablePhys[IFXFLASH_PFLASH_NUM_PHYSICAL_SECTORS] = {
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   619      {0xA0000000, 0xA00FFFFF},     /* PF0 PS0*/
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   620      {0xA0100000, 0xA01FFFFF},     /* PF0 PS1*/
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   621      {0xA0200000, 0xA02FFFFF},     /* PF0 PS2*/
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   622      {0xA0300000, 0xA03FFFFF},     /* PF1 PS0*/
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   623      {0xA0400000, 0xA04FFFFF},     /* PF1 PS1*/
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   624      {0xA0500000, 0xA05FFFFF},     /* PF1 PS2*/
+; ..\0_Src\4_McHal\Tricore\_Impl\IfxFlash_cfg.c	   625  };
+
+	; Module end
