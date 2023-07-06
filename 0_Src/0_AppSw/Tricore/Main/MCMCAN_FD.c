@@ -128,9 +128,19 @@ void initMcmcan(void)
     g_mcmcan.canNodeConfig.interruptConfig.rxf0n.priority = ISR_PRIORITY_CAN_RX;
     g_mcmcan.canNodeConfig.interruptConfig.rxf0n.interruptLine = IfxCan_InterruptLine_0;
     g_mcmcan.canNodeConfig.interruptConfig.rxf0n.typeOfService = IfxSrc_Tos_cpu0;
+
+    g_mcmcan.canFilter.number = 2;
+    g_mcmcan.canFilter.elementConfiguration = IfxCan_FilterElementConfiguration_storeInRxFifo0;
+    g_mcmcan.canFilter.type = IfxCan_FilterType_range;
+    g_mcmcan.canFilter.id1 = 0x166;
+    g_mcmcan.canFilter.id2 = 0x168;
+    g_mcmcan.canFilter.rxBufferOffset = IfxCan_RxBufferId_0;
     /* Initialization of the RX message with the default configuration */
     IfxCan_Can_initRxMessage(&g_mcmcan.rxMsg);
+    // IfxCan_Can_setStandardFilter(&g_mcmcan.canDstNode, &g_mcmcan.canFilter);
     IfxCan_Can_initNode(&g_mcmcan.canDstNode, &g_mcmcan.canNodeConfig);
+
+    IfxCan_Can_setStandardFilter(&g_mcmcan.canDstNode, &g_mcmcan.canFilter);
 }
 
 /* Function to initialize both TX and RX messages with the default data values.

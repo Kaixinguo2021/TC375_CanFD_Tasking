@@ -2,11 +2,12 @@
 **** Build of configuration Debug for project Tasking_TC375_MulitiCANFD ****
 
 "D:\\App\\Tasking6_3_Install\\ctc\\bin\\amk" -j8 all 
-Compiling MCMCAN_FD.c
 Compiling IfxCan_Can.c
+ctc W523: ["..\0_Src\4_McHal\Tricore\Can\Can\IfxCan_Can.c" 981/43] pointers to different types at assignment
+0 errors, 1 warnings
 Linking to Tasking_TC375_MulitiCANFD.elf
 
-Time consumed: 8680 ms
+Time consumed: 15286 ms
 **** End of build ****
 
 Tool info: 

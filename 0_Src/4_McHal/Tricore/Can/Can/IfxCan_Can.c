@@ -681,7 +681,7 @@ void IfxCan_Can_initNodeConfig(IfxCan_Can_NodeConfig *config, IfxCan_Can *can)
         },
         .filterConfig                                = {
             .messageIdLength                    = IfxCan_MessageIdLength_standard,
-            .standardListSize                   = 0,
+            .standardListSize                   = 2,
             .extendedListSize                   = 0,
             .rejectRemoteFramesWithStandardId   = 0,
             .rejectRemoteFramesWithExtendedId   = 0,
@@ -974,24 +974,23 @@ void IfxCan_Can_setExtendedFilter(IfxCan_Can_Node *node, IfxCan_Filter *filter)
 
 void IfxCan_Can_setStandardFilter(IfxCan_Can_Node *node, IfxCan_Filter *filter)
 {
-    /* get the standard filter element address */
-    Ifx_CAN_STDMSG *standardFilterElement = IfxCan_Node_getStandardFilterElementAddress(node->messageRAM.baseAddress, node->messageRAM.standardFilterListStartAddress, filter->number);
-
+    
     /* enable configuration change CCCR.CCE = 1, CCCR.INIT = 1 */
     IfxCan_Node_enableConfigurationChange(node->node);
 
-    if (filter->elementConfiguration != IfxCan_FilterElementConfiguration_storeInRxBuffer)
-    {
-        IfxCan_Node_setStandardFilterId2(standardFilterElement, filter->id2);
-    }
-    else
-    {
-        IfxCan_Node_setStandardFilterRxBufferOffset(standardFilterElement, filter->rxBufferOffset);
-    }
+    Ifx_CAN_STDMSG *standardFilterElement = ((uint32*)(node->messageRAM.baseAddress + node->messageRAM.standardFilterListStartAddress));
 
-    IfxCan_Node_setStandardFilterId1(standardFilterElement, filter->id1);
-    IfxCan_Node_setStandardFilterConfiguration(standardFilterElement, filter->elementConfiguration);
-    IfxCan_Node_setStandardFilterType(standardFilterElement, filter->type);
+    standardFilterElement->S0.B.SFID2 = filter->id2;
+    /* First ID of standard ID filter element. */
+    standardFilterElement->S0.B.SFID1 = filter->id1;
+    /* 001B Store in Rx FIFO 0 if filter matches */
+    standardFilterElement->S0.B.SFEC = 0x01;
+    /* 00B Range filter from SF1ID to SF2ID (SF2ID ≥ SF1ID) */
+    standardFilterElement->S0.B.SFT = 0x00;
+
+    /* Defines how received messages with 11-bit IDs that do not match any 
+     * element of the filter list are treated. (0x03)11B Reject */
+    node->node->GFC.B.ANFS = 0x03;
 
     /* disable configuration change CCCR.CCE = 0, CCCR.INIT = 0 */
     IfxCan_Node_disableConfigurationChange(node->node);
