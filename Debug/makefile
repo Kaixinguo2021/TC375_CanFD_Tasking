@@ -2,7 +2,7 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-PROJ 	= Tasking_TC375_MulitiCANFD
+PROJ 	= Tasking_TC375_Ethernet
 PRODDIR = D:\App\Tasking6_3_Install\ctc
 
 -include "..\makefile.init"
@@ -11,7 +11,17 @@ all :
 
 -include "subdir.mk"
 -include "0_Src\0_AppSw\Config\Common\subdir.mk"
+-include "0_Src\0_AppSw\Ethernet\lwip\port\src\subdir.mk"
+-include "0_Src\0_AppSw\Ethernet\lwip\src\api\subdir.mk"
+-include "0_Src\0_AppSw\Ethernet\lwip\src\core\subdir.mk"
+-include "0_Src\0_AppSw\Ethernet\lwip\src\core\ipv4\subdir.mk"
+-include "0_Src\0_AppSw\Ethernet\lwip\src\core\ipv6\subdir.mk"
+-include "0_Src\0_AppSw\Ethernet\lwip\src\netif\subdir.mk"
+-include "0_Src\0_AppSw\Ethernet\lwip\src\netif\ppp\subdir.mk"
+-include "0_Src\0_AppSw\Ethernet\lwip\src\netif\ppp\polarssl\subdir.mk"
+-include "0_Src\0_AppSw\Ethernet\Phy_Dp83825i\subdir.mk"
 -include "0_Src\0_AppSw\Tricore\Main\subdir.mk"
+-include "0_Src\0_AppSw\UART\subdir.mk"
 -include "0_Src\1_SrvSw\If\subdir.mk"
 -include "0_Src\1_SrvSw\StdIf\subdir.mk"
 -include "0_Src\1_SrvSw\SysSe\Bsp\subdir.mk"
@@ -104,20 +114,20 @@ all :
 PCP_FILES :=
 EXT_LIBRARIES =
 
-all : "Tasking_TC375_MulitiCANFD.elf"
+all : "Tasking_TC375_Ethernet.elf"
 
-"Tasking_TC375_MulitiCANFD.elf" : $(OBJ_FILES) $(EXT_LIBRARIES) ".Tasking_TC375_MulitiCANFD.elf.opt"
+"Tasking_TC375_Ethernet.elf" : $(OBJ_FILES) $(EXT_LIBRARIES) ".Tasking_TC375_Ethernet.elf.opt"
 	@echo Linking to ${@F}
-	@"${PRODDIR}\bin\cctc" -f ".Tasking_TC375_MulitiCANFD.elf.opt"
+	@"${PRODDIR}\bin\cctc" -f ".Tasking_TC375_Ethernet.elf.opt"
 
-".Tasking_TC375_MulitiCANFD.elf.opt" : .refresh
-	@argfile ".Tasking_TC375_MulitiCANFD.elf.opt" -o "Tasking_TC375_MulitiCANFD.elf" $(OBJ_FILES) $(EXT_LIBRARIES) $(PCP_FILES)  -Ctc37x --lsl-core=vtc -t -I"D:\WorkSpace\Tasking\Tasking_TC375_MulitiCANFD" -Wl-o"${PROJ}.hex":IHEX:4 --hex-format=s "D:\WorkSpace\Tasking\Tasking_TC375_MulitiCANFD\Tasking_TC375_MulitiCANFD.lsl" -Wl-OtxycL -Wl--map-file="${PROJ}.mapxml":XML -Wl-mcrfiklSmNOduQ -Wl--error-limit=42 -g --fp-model=clfznrST --c++=03 -Wl--dep-file=".Tasking_TC375_MulitiCANFD.elf.d" -Wl--make-target="Tasking_TC375_MulitiCANFD.elf"
-DEPENDENCY_FILES += ".Tasking_TC375_MulitiCANFD.elf.d"
+".Tasking_TC375_Ethernet.elf.opt" : .refresh
+	@argfile ".Tasking_TC375_Ethernet.elf.opt" -o "Tasking_TC375_Ethernet.elf" $(OBJ_FILES) $(EXT_LIBRARIES) $(PCP_FILES)  -Ctc37x --lsl-core=vtc -t -I"D:\WorkSpace\Tasking\Tasking_TC375_Ethernet" -Wl-o"${PROJ}.hex":IHEX:4 --hex-format=s "D:\WorkSpace\Tasking\Tasking_TC375_Ethernet\Tasking_TC375_Ethernet.lsl" -Wl-OtxycL -Wl--map-file="${PROJ}.mapxml":XML -Wl-mcrfiklSmNOduQ -Wl--error-limit=42 -g --fp-model=clfznrST --c++=03 -Wl--dep-file=".Tasking_TC375_Ethernet.elf.d" -Wl--make-target="Tasking_TC375_Ethernet.elf"
+DEPENDENCY_FILES += ".Tasking_TC375_Ethernet.elf.d"
 -include $(DEPENDENCY_FILES)
 
 $(EXT_LIBRARIES) : .dummy
 
-GENERATED_FILES += "Tasking_TC375_MulitiCANFD.elf" "Tasking_TC375_MulitiCANFD*.sre" "Tasking_TC375_MulitiCANFD*.hex" "Tasking_TC375_MulitiCANFD.map*" "Tasking_TC375_MulitiCANFD.mdf" ".Tasking_TC375_MulitiCANFD.elf.opt" ".Tasking_TC375_MulitiCANFD.elf.d"
+GENERATED_FILES += "Tasking_TC375_Ethernet.elf" "Tasking_TC375_Ethernet*.sre" "Tasking_TC375_Ethernet*.hex" "Tasking_TC375_Ethernet.map*" "Tasking_TC375_Ethernet.mdf" ".Tasking_TC375_Ethernet.elf.opt" ".Tasking_TC375_Ethernet.elf.d"
 -include "..\makefile.targets"
 
 

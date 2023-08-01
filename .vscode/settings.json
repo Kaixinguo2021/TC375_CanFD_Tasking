@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "lwipopts.h": "c",
+        "memp_std.h": "c",
+        "opt.h": "c"
+    }
+}

@@ -1,13 +1,179 @@
 
-**** Build of configuration Debug for project Tasking_TC375_MulitiCANFD ****
+**** Build of configuration Debug for project Tasking_TC375_Ethernet ****
 
 "D:\\App\\Tasking6_3_Install\\ctc\\bin\\amk" -j8 all 
-Compiling IfxCan_Can.c
-ctc W523: ["..\0_Src\4_McHal\Tricore\Can\Can\IfxCan_Can.c" 981/43] pointers to different types at assignment
+Compiling Ifx_Lwip.c
+Compiling netif.c
+Compiling api_lib.c
+Compiling api_msg.c
+Compiling err.c
+Compiling if_api.c
+Compiling netbuf.c
+Compiling netdb.c
+Compiling netifapi.c
+Compiling sockets.c
+Compiling tcpip.c
+Compiling altcp.c
+Compiling altcp_alloc.c
+Compiling altcp_tcp.c
+Compiling def.c
+Compiling dns.c
+ctc W504: ["D:\WorkSpace\Tasking\Tasking_TC375_Ethernet\0_Src\0_AppSw\Config\Common\ConfigurationIsr.h" 143/9] macro "ISR_PRIORITY_OS_TICK" redefined
+ctc I801: ["D:\WorkSpace\Tasking\Tasking_TC375_Ethernet\0_Src\0_AppSw\Config\Common\ConfigurationIsr.h" 89/9] previous definition of macro "ISR_PRIORITY_OS_TICK"
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\port\src\netif.c" 506/20] condition is always false
+0 errors, 2 warnings
+Compiling inet_chksum.c
+ctc W504: ["D:\WorkSpace\Tasking\Tasking_TC375_Ethernet\0_Src\0_AppSw\Config\Common\ConfigurationIsr.h" 143/9] macro "ISR_PRIORITY_OS_TICK" redefined
+ctc I801: ["D:\WorkSpace\Tasking\Tasking_TC375_Ethernet\0_Src\0_AppSw\Config\Common\ConfigurationIsr.h" 89/9] previous definition of macro "ISR_PRIORITY_OS_TICK"
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\port\src\Ifx_Lwip.c" 362/5] condition is always true
+0 errors, 2 warnings
+Compiling init.c
+Compiling ip.c
+Compiling mem.c
+Compiling memp.c
+Compiling netif.c
+ctc W588: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\def.c" 234/9] dead assignment to "res" eliminated
 0 errors, 1 warnings
-Linking to Tasking_TC375_MulitiCANFD.elf
+Compiling pbuf.c
+Compiling raw.c
+Compiling stats.c
+Compiling sys.c
+Compiling tcp.c
+Compiling tcp_in.c
+Compiling tcp_out.c
+Compiling timeouts.c
+Compiling udp.c
+Compiling autoip.c
+ctc W514: ["D:\App\Tasking6_3_Install\ctc\include\stdlib.h" 101/1] empty declaration
+ctc W589: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\netif.c" 877/3] pointer assumed to be nonzero - test removed
+0 errors, 2 warnings
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\pbuf.c" 258/9] condition is always true
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\pbuf.c" 732/5] condition is always false
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\pbuf.c" 1224/3] condition is always true
+0 errors, 3 warnings
+Compiling dhcp.c
+Compiling etharp.c
+Compiling icmp.c
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\timeouts.c" 190/5] condition is always false
+ctc W589: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\timeouts.c" 213/28] pointer assumed to be nonzero - test removed
+0 errors, 2 warnings
+Compiling igmp.c
+ctc W588: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp.c" 620/16] dead assignment to "last_state" eliminated
+ctc W588: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp.c" 1403/18] dead assignment to "last_state" eliminated
+ctc W588: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp.c" 1200/7] dead assignment to "err" eliminated
+ctc W589: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp.c" 412/3] pointer assumed to be nonzero - test removed
+ctc W589: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp.c" 728/18] pointer assumed to be nonzero - test removed
+ctc W589: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp.c" 729/18] pointer assumed to be nonzero - test removed
+ctc W589: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp.c" 739/8] pointer assumed to be nonzero - test removed
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp.c" 744/5] condition is always false
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp.c" 861/18] condition is always false
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp.c" 1083/3] condition is always false
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp.c" 1098/7] condition is always false
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp.c" 1099/33] condition is always true
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp.c" 1100/18] condition is always false
+0 errors, 13 warnings
+Compiling ip4.c
+ctc W588: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\udp.c" 246/7] dead assignment to "pcb" eliminated
+ctc W588: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\udp.c" 903/7] dead assignment to "q" eliminated
+ctc W589: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\udp.c" 135/3] pointer assumed to be nonzero - test removed
+ctc W589: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\udp.c" 164/13] pointer assumed to be nonzero - test removed
+ctc W589: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\udp.c" 173/11] pointer assumed to be nonzero - test removed
+ctc W589: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\udp.c" 1001/56] pointer assumed to be nonzero - test removed
+ctc W589: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\udp.c" 1002/15] pointer assumed to be nonzero - test removed
+ctc W589: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\udp.c" 1013/3] pointer assumed to be nonzero - test removed
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\udp.c" 1087/3] condition is always false
+0 errors, 9 warnings
+Compiling ip4_addr.c
+Compiling ip4_frag.c
+ctc W589: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp_out.c" 163/3] pointer assumed to be nonzero - test removed
+ctc W589: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp_out.c" 1296/7] pointer assumed to be nonzero - test removed
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp_out.c" 1297/33] condition is always true
+ctc W589: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp_out.c" 1434/3] pointer assumed to be nonzero - test removed
+ctc W589: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp_out.c" 1465/3] pointer assumed to be nonzero - test removed
+ctc W589: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp_out.c" 1858/3] pointer assumed to be nonzero - test removed
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp_out.c" 1298/18] condition is always false
+0 errors, 7 warnings
+Compiling dhcp6.c
+ctc W588: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp_in.c" 451/13] dead assignment to "err" eliminated
+ctc W588: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp_in.c" 667/7] dead assignment to "err" eliminated
+ctc W588: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp_in.c" 667/7] dead assignment to "err" eliminated
+ctc W588: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp_in.c" 794/7] dead assignment to "err" eliminated
+ctc W589: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp_in.c" 339/22] pointer assumed to be nonzero - test removed
+ctc W589: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\tcp_in.c" 750/3] pointer assumed to be nonzero - test removed
+0 errors, 6 warnings
+Compiling ethip6.c
+ctc W588: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\ipv4\etharp.c" 1162/5] dead assignment to "p" eliminated
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\ipv4\etharp.c" 291/7] condition is always true
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\ipv4\etharp.c" 320/24] condition is always true
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\ipv4\etharp.c" 383/5] condition is always true
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\ipv4\etharp.c" 387/3] condition is always true
+ctc W589: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\ipv4\etharp.c" 944/7] pointer assumed to be nonzero - test removed
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\ipv4\etharp.c" 961/3] condition is always true
+0 errors, 7 warnings
+Compiling icmp6.c
+Compiling inet6.c
+Compiling ip6.c
+Compiling ip6_addr.c
+Compiling ip6_frag.c
+Compiling mld6.c
+Compiling nd6.c
+Compiling bridgeif.c
+Compiling bridgeif_fdb.c
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\ipv4\ip4_frag.c" 188/5] condition is always true
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\ipv4\ip4_frag.c" 479/11] condition is always true
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\ipv4\ip4_frag.c" 680/3] condition is always true
+ctc W589: ["..\0_Src\0_AppSw\Ethernet\lwip\src\core\ipv4\ip4_frag.c" 708/3] pointer assumed to be nonzero - test removed
+0 errors, 4 warnings
+Compiling ethernet.c
+Compiling lowpan6.c
+Compiling lowpan6_ble.c
+Compiling lowpan6_common.c
+Compiling zepif.c
+Compiling auth.c
+Compiling ccp.c
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\netif\bridgeif_fdb.c" 167/11] condition is always true
+ctc W549: ["..\0_Src\0_AppSw\Ethernet\lwip\src\netif\bridgeif_fdb.c" 167/23] condition is always true
+0 errors, 2 warnings
+Compiling chap-md5.c
+Compiling chap-new.c
+Compiling chap_ms.c
+Compiling demand.c
+Compiling eap.c
+Compiling ecp.c
+Compiling eui64.c
+Compiling fsm.c
+Compiling ipcp.c
+Compiling ipv6cp.c
+Compiling lcp.c
+Compiling magic.c
+Compiling mppe.c
+Compiling multilink.c
+Compiling ppp.c
+Compiling pppapi.c
+Compiling pppcrypt.c
+Compiling pppoe.c
+Compiling pppol2tp.c
+Compiling pppos.c
+Compiling upap.c
+Compiling utils.c
+Compiling vj.c
+Compiling arc4.c
+Compiling des.c
+Compiling md4.c
+Compiling md5.c
+Compiling sha1.c
+Compiling Cpu0_Main.c
+Compiling Echo.c
+ctc W549: ["..\0_Src\0_AppSw\Tricore\Main\Echo.c" 213/15] condition is always true
+ctc W589: ["..\0_Src\0_AppSw\Tricore\Main\Echo.c" 420/9] pointer assumed to be nonzero - test removed
+ctc W557: ["..\0_Src\0_AppSw\Tricore\Main\Echo.c" 425/27] possible infinite loop
+0 errors, 3 warnings
+ctc W504: ["D:\WorkSpace\Tasking\Tasking_TC375_Ethernet\0_Src\0_AppSw\Config\Common\ConfigurationIsr.h" 143/9] macro "ISR_PRIORITY_OS_TICK" redefined
+ctc I801: ["D:\WorkSpace\Tasking\Tasking_TC375_Ethernet\0_Src\0_AppSw\Config\Common\ConfigurationIsr.h" 89/9] previous definition of macro "ISR_PRIORITY_OS_TICK"
+0 errors, 1 warnings
+Linking to Tasking_TC375_Ethernet.elf
 
-Time consumed: 15286 ms
+Time consumed: 96513 ms
 **** End of build ****
 
 Tool info: 

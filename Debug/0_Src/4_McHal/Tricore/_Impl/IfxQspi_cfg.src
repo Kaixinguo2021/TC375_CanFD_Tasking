@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 09003382"
-	.compiler_invocation	"ctc --dep-file=0_Src\\4_McHal\\Tricore\\_Impl\\.IfxQspi_cfg.o.d --fp-model=c,l,f,z,n,r,S,T -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --iso=99 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Config\\Common -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Scu\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Build -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Impl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Lib -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_PinMap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Reg -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Asclin -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Config -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Config\\Common -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\Main -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\_Utilities -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\If -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\If\\Ccu6If -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\StdIf -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe\\Bsp -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe\\Comm -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe\\General -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe\\Math -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe\\Time -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\Tricore\\Compilers -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\2_CDrv -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Build -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Impl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Lib -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Lib\\DataHandling -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Lib\\InternalMux -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_PinMap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Reg -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Asclin -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Can\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Ccu6 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Convctrl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu\\CStart -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu\\Irq -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu\\Trap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Dma -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Dts -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Edsadc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Eray -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Evadc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Fce -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Flash -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Geth -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Gpt12 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Gtm -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Hssl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\I2c -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Iom -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Msc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Mtu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Pms -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Port -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Port\\Io -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Port\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Psi5 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Psi5s -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Qspi -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Scu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Sent -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Smu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Src\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Stm -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Stm\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Stm\\Timer -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\0_AppSw\\Tricore\\Main -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\If -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\StdIf -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\SysSe -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\1_SrvSw\\Tricore\\Compilers -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Impl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Lib -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_PinMap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Reg -g2 --make-target=0_Src\\4_McHal\\Tricore\\_Impl\\IfxQspi_cfg.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o 0_Src\\4_McHal\\Tricore\\_Impl\\IfxQspi_cfg.src ..\\0_Src\\4_McHal\\Tricore\\_Impl\\IfxQspi_cfg.c"
+	.compiler_invocation	"ctc --dep-file=0_Src\\4_McHal\\Tricore\\_Impl\\.IfxQspi_cfg.o.d --fp-model=c,l,f,z,n,r,S,T -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --iso=99 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Config\\Common -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\lwip\\prot -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Asclin -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Asclin\\Asc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Asclin\\Lin -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Asclin\\Spi -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Asclin\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\UART -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Geth -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Geth\\Eth -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Geth\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\port -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\port\\include -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\port\\include\\arch -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\port\\src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\api -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\ipv4 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\ipv6 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\compat -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\compat\\posix -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\compat\\posix\\arpa -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\compat\\posix\\net -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\compat\\posix\\sys -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\compat\\stdc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\lwip -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\lwip\\apps -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\lwip\\priv -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\lwip\\prot -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\netif -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\netif\\ppp -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\netif\\ppp\\polarssl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\netif -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\netif\\ppp -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\netif\\ppp\\polarssl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\Phy_Dp83825i -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Scu\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Build -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Impl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Lib -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_PinMap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Reg -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Asclin -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Can\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Can\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Config -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Config\\Common -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Tricore\\Main -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\_Utilities -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\If -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\If\\Ccu6If -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\StdIf -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\SysSe -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\SysSe\\Bsp -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\SysSe\\Comm -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\SysSe\\General -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\SysSe\\Math -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\SysSe\\Time -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\Tricore\\Compilers -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\2_CDrv -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Build -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Impl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Lib -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Lib\\DataHandling -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Lib\\InternalMux -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_PinMap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Reg -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Asclin -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Can\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Can\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Ccu6 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Convctrl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Cpu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Cpu\\CStart -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Cpu\\Irq -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Cpu\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Cpu\\Trap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Dma -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Dts -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Edsadc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Eray -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Evadc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Fce -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Flash -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Geth -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Gpt12 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Gtm -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Hssl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\I2c -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Iom -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Msc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Mtu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Pms -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Port -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Port\\Io -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Port\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Psi5 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Psi5s -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Qspi -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Scu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Sent -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Smu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Src\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Stm -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Stm\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Stm\\Timer -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Tricore\\Main -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\If -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\StdIf -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\SysSe -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\Tricore\\Compilers -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Impl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Lib -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_PinMap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Reg -g2 --make-target=0_Src\\4_McHal\\Tricore\\_Impl\\IfxQspi_cfg.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o 0_Src\\4_McHal\\Tricore\\_Impl\\IfxQspi_cfg.src ..\\0_Src\\4_McHal\\Tricore\\_Impl\\IfxQspi_cfg.c"
 	.compiler_name		"ctc"
 	;source	'..\\0_Src\\4_McHal\\Tricore\\_Impl\\IfxQspi_cfg.c'
 
@@ -20,7 +20,7 @@ IfxQspi_cfg_indexMap:	.type	object
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
 .L3:
-	.word	7155
+	.word	7152
 	.half	3
 	.word	.L4
 	.byte	4
@@ -28,1072 +28,1072 @@ IfxQspi_cfg_indexMap:	.type	object
 	.byte	1
 	.byte	'..\\0_Src\\4_McHal\\Tricore\\_Impl\\IfxQspi_cfg.c',0
 	.byte	'TASKING VX-toolset for TriCore: C compiler',0
-	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\Debug\\',0,12,1
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\Debug\\',0,12,1
 	.word	.L5
 	.byte	2
 	.byte	'int',0,4,5,3
-	.word	160
+	.word	157
 	.byte	4
 	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
-	.word	167
+	.word	164
 	.byte	0,2
 	.byte	'unsigned int',0,4,7,6
-	.word	209
+	.word	206
 	.byte	7
-	.word	209
+	.word	206
 	.byte	8
 	.byte	'__cmpswapw',0
-	.word	225
+	.word	222
 	.byte	1,1,1,1,9
 	.byte	'p',0
-	.word	230
+	.word	227
 	.byte	9
 	.byte	'value',0
-	.word	209
+	.word	206
 	.byte	9
 	.byte	'compare',0
-	.word	209
+	.word	206
 	.byte	0,2
 	.byte	'short int',0,2,5,10
 	.byte	'__wchar_t',0,1,1,1
-	.word	287
+	.word	284
 	.byte	10
 	.byte	'__size_t',0,1,1,1
-	.word	209
+	.word	206
 	.byte	10
 	.byte	'__ptrdiff_t',0,1,1,1
-	.word	160
+	.word	157
 	.byte	11,1,7
-	.word	355
+	.word	352
 	.byte	10
 	.byte	'__codeptr',0,1,1,1
-	.word	357
+	.word	354
 	.byte	2
 	.byte	'unsigned char',0,1,8,10
 	.byte	'uint8',0,2,108,29
-	.word	380
+	.word	377
 	.byte	2
 	.byte	'unsigned short int',0,2,7,10
 	.byte	'uint16',0,2,112,29
-	.word	411
+	.word	408
 	.byte	2
 	.byte	'unsigned long int',0,4,7,10
 	.byte	'uint32',0,2,116,29
-	.word	448
+	.word	445
 	.byte	10
 	.byte	'sint16',0,2,129,1,29
-	.word	287
+	.word	284
 	.byte	2
 	.byte	'long int',0,4,5,10
 	.byte	'sint32',0,2,134,1,29
-	.word	500
+	.word	497
 	.byte	2
 	.byte	'long long int',0,8,5,10
 	.byte	'sint64',0,2,141,1,29
-	.word	528
+	.word	525
 	.byte	2
 	.byte	'float',0,4,4,10
 	.byte	'float32',0,2,170,1,29
-	.word	561
+	.word	558
 	.byte	12
 	.byte	'void',0,7
-	.word	587
+	.word	584
 	.byte	10
 	.byte	'pvoid',0,3,54,28
-	.word	593
+	.word	590
 	.byte	10
 	.byte	'Ifx_TickTime',0,3,76,28
-	.word	528
+	.word	525
 	.byte	6
-	.word	587
+	.word	584
 	.byte	7
-	.word	633
+	.word	630
 	.byte	13,3,140,1,9,8,14
 	.byte	'module',0
-	.word	638
+	.word	635
 	.byte	4,2,35,0,14
 	.byte	'index',0
-	.word	500
+	.word	497
 	.byte	4,2,35,4,0,10
 	.byte	'IfxModule_IndexMap',0,3,144,1,3
-	.word	643
+	.word	640
 	.byte	10
 	.byte	'Ifx_UReg_8Bit',0,4,96,24
-	.word	380
+	.word	377
 	.byte	10
 	.byte	'Ifx_UReg_32Bit',0,4,98,24
-	.word	209
+	.word	206
 	.byte	10
 	.byte	'Ifx_SReg_32Bit',0,4,101,24
-	.word	160
+	.word	157
 	.byte	15
 	.byte	'_Ifx_QSPI_ACCEN0_Bits',0,5,68,16,4,16
 	.byte	'EN0',0,1
-	.word	380
+	.word	377
 	.byte	1,7,2,35,0,16
 	.byte	'EN1',0,1
-	.word	380
+	.word	377
 	.byte	1,6,2,35,0,16
 	.byte	'EN2',0,1
-	.word	380
+	.word	377
 	.byte	1,5,2,35,0,16
 	.byte	'EN3',0,1
-	.word	380
+	.word	377
 	.byte	1,4,2,35,0,16
 	.byte	'EN4',0,1
-	.word	380
+	.word	377
 	.byte	1,3,2,35,0,16
 	.byte	'EN5',0,1
-	.word	380
+	.word	377
 	.byte	1,2,2,35,0,16
 	.byte	'EN6',0,1
-	.word	380
+	.word	377
 	.byte	1,1,2,35,0,16
 	.byte	'EN7',0,1
-	.word	380
+	.word	377
 	.byte	1,0,2,35,0,16
 	.byte	'EN8',0,1
-	.word	380
+	.word	377
 	.byte	1,7,2,35,1,16
 	.byte	'EN9',0,1
-	.word	380
+	.word	377
 	.byte	1,6,2,35,1,16
 	.byte	'EN10',0,1
-	.word	380
+	.word	377
 	.byte	1,5,2,35,1,16
 	.byte	'EN11',0,1
-	.word	380
+	.word	377
 	.byte	1,4,2,35,1,16
 	.byte	'EN12',0,1
-	.word	380
+	.word	377
 	.byte	1,3,2,35,1,16
 	.byte	'EN13',0,1
-	.word	380
+	.word	377
 	.byte	1,2,2,35,1,16
 	.byte	'EN14',0,1
-	.word	380
+	.word	377
 	.byte	1,1,2,35,1,16
 	.byte	'EN15',0,1
-	.word	380
+	.word	377
 	.byte	1,0,2,35,1,16
 	.byte	'EN16',0,1
-	.word	380
+	.word	377
 	.byte	1,7,2,35,2,16
 	.byte	'EN17',0,1
-	.word	380
+	.word	377
 	.byte	1,6,2,35,2,16
 	.byte	'EN18',0,1
-	.word	380
+	.word	377
 	.byte	1,5,2,35,2,16
 	.byte	'EN19',0,1
-	.word	380
+	.word	377
 	.byte	1,4,2,35,2,16
 	.byte	'EN20',0,1
-	.word	380
+	.word	377
 	.byte	1,3,2,35,2,16
 	.byte	'EN21',0,1
-	.word	380
+	.word	377
 	.byte	1,2,2,35,2,16
 	.byte	'EN22',0,1
-	.word	380
+	.word	377
 	.byte	1,1,2,35,2,16
 	.byte	'EN23',0,1
-	.word	380
+	.word	377
 	.byte	1,0,2,35,2,16
 	.byte	'EN24',0,1
-	.word	380
+	.word	377
 	.byte	1,7,2,35,3,16
 	.byte	'EN25',0,1
-	.word	380
+	.word	377
 	.byte	1,6,2,35,3,16
 	.byte	'EN26',0,1
-	.word	380
+	.word	377
 	.byte	1,5,2,35,3,16
 	.byte	'EN27',0,1
-	.word	380
+	.word	377
 	.byte	1,4,2,35,3,16
 	.byte	'EN28',0,1
-	.word	380
+	.word	377
 	.byte	1,3,2,35,3,16
 	.byte	'EN29',0,1
-	.word	380
+	.word	377
 	.byte	1,2,2,35,3,16
 	.byte	'EN30',0,1
-	.word	380
+	.word	377
 	.byte	1,1,2,35,3,16
 	.byte	'EN31',0,1
-	.word	380
+	.word	377
 	.byte	1,0,2,35,3,0,10
 	.byte	'Ifx_QSPI_ACCEN0_Bits',0,5,102,3
-	.word	777
+	.word	774
 	.byte	15
 	.byte	'_Ifx_QSPI_ACCEN1_Bits',0,5,105,16,4,16
 	.byte	'reserved_0',0,4
-	.word	209
+	.word	206
 	.byte	32,0,2,35,0,0,10
 	.byte	'Ifx_QSPI_ACCEN1_Bits',0,5,108,3
-	.word	1336
+	.word	1333
 	.byte	15
 	.byte	'_Ifx_QSPI_BACON_Bits',0,5,111,16,4,16
 	.byte	'LAST',0,1
-	.word	380
+	.word	377
 	.byte	1,7,2,35,0,16
 	.byte	'IPRE',0,1
-	.word	380
+	.word	377
 	.byte	3,4,2,35,0,16
 	.byte	'IDLE',0,1
-	.word	380
+	.word	377
 	.byte	3,1,2,35,0,16
 	.byte	'LPRE',0,2
-	.word	411
+	.word	408
 	.byte	3,6,2,35,0,16
 	.byte	'LEAD',0,1
-	.word	380
+	.word	377
 	.byte	3,3,2,35,1,16
 	.byte	'TPRE',0,1
-	.word	380
+	.word	377
 	.byte	3,0,2,35,1,16
 	.byte	'TRAIL',0,1
-	.word	380
+	.word	377
 	.byte	3,5,2,35,2,16
 	.byte	'PARTYP',0,1
-	.word	380
+	.word	377
 	.byte	1,4,2,35,2,16
 	.byte	'UINT',0,1
-	.word	380
+	.word	377
 	.byte	1,3,2,35,2,16
 	.byte	'MSB',0,1
-	.word	380
+	.word	377
 	.byte	1,2,2,35,2,16
 	.byte	'BYTE',0,1
-	.word	380
+	.word	377
 	.byte	1,1,2,35,2,16
 	.byte	'DL',0,2
-	.word	411
+	.word	408
 	.byte	5,4,2,35,2,16
 	.byte	'CS',0,1
-	.word	380
+	.word	377
 	.byte	4,0,2,35,3,0,10
 	.byte	'Ifx_QSPI_BACON_Bits',0,5,126,3
-	.word	1415
+	.word	1412
 	.byte	15
 	.byte	'_Ifx_QSPI_BACONENTRY_Bits',0,5,129,1,16,4,16
 	.byte	'E',0,4
-	.word	209
+	.word	206
 	.byte	32,0,2,35,0,0,10
 	.byte	'Ifx_QSPI_BACONENTRY_Bits',0,5,132,1,3
-	.word	1676
+	.word	1673
 	.byte	15
 	.byte	'_Ifx_QSPI_CAPCON_Bits',0,5,135,1,16,4,16
 	.byte	'CAP',0,2
-	.word	411
+	.word	408
 	.byte	15,1,2,35,0,16
 	.byte	'OVF',0,1
-	.word	380
+	.word	377
 	.byte	1,0,2,35,1,16
 	.byte	'EDGECON',0,1
-	.word	380
+	.word	377
 	.byte	2,6,2,35,2,16
 	.byte	'INS',0,1
-	.word	380
+	.word	377
 	.byte	2,4,2,35,2,16
 	.byte	'EN',0,1
-	.word	380
+	.word	377
 	.byte	1,3,2,35,2,16
 	.byte	'reserved_21',0,2
-	.word	411
+	.word	408
 	.byte	7,4,2,35,2,16
 	.byte	'CAPC',0,1
-	.word	380
+	.word	377
 	.byte	1,3,2,35,3,16
 	.byte	'CAPS',0,1
-	.word	380
+	.word	377
 	.byte	1,2,2,35,3,16
 	.byte	'CAPF',0,1
-	.word	380
+	.word	377
 	.byte	1,1,2,35,3,16
 	.byte	'CAPSEL',0,1
-	.word	380
+	.word	377
 	.byte	1,0,2,35,3,0,10
 	.byte	'Ifx_QSPI_CAPCON_Bits',0,5,147,1,3
-	.word	1756
+	.word	1753
 	.byte	15
 	.byte	'_Ifx_QSPI_CLC_Bits',0,5,150,1,16,4,16
 	.byte	'DISR',0,1
-	.word	380
+	.word	377
 	.byte	1,7,2,35,0,16
 	.byte	'DISS',0,1
-	.word	380
+	.word	377
 	.byte	1,6,2,35,0,16
 	.byte	'reserved_2',0,1
-	.word	380
+	.word	377
 	.byte	1,5,2,35,0,16
 	.byte	'EDIS',0,1
-	.word	380
+	.word	377
 	.byte	1,4,2,35,0,16
 	.byte	'reserved_4',0,4
-	.word	209
+	.word	206
 	.byte	28,0,2,35,0,0,10
 	.byte	'Ifx_QSPI_CLC_Bits',0,5,157,1,3
-	.word	1982
+	.word	1979
 	.byte	15
 	.byte	'_Ifx_QSPI_DATAENTRY_Bits',0,5,160,1,16,4,16
 	.byte	'E',0,4
-	.word	209
+	.word	206
 	.byte	32,0,2,35,0,0,10
 	.byte	'Ifx_QSPI_DATAENTRY_Bits',0,5,163,1,3
-	.word	2127
+	.word	2124
 	.byte	15
 	.byte	'_Ifx_QSPI_ECON_Bits',0,5,166,1,16,4,16
 	.byte	'Q',0,1
-	.word	380
+	.word	377
 	.byte	6,2,2,35,0,16
 	.byte	'A',0,1
-	.word	380
+	.word	377
 	.byte	2,0,2,35,0,16
 	.byte	'B',0,1
-	.word	380
+	.word	377
 	.byte	2,6,2,35,1,16
 	.byte	'C',0,1
-	.word	380
+	.word	377
 	.byte	2,4,2,35,1,16
 	.byte	'CPH',0,1
-	.word	380
+	.word	377
 	.byte	1,3,2,35,1,16
 	.byte	'CPOL',0,1
-	.word	380
+	.word	377
 	.byte	1,2,2,35,1,16
 	.byte	'PAREN',0,1
-	.word	380
+	.word	377
 	.byte	1,1,2,35,1,16
 	.byte	'reserved_15',0,4
-	.word	209
+	.word	206
 	.byte	15,2,2,35,0,16
 	.byte	'BE',0,1
-	.word	380
+	.word	377
 	.byte	2,0,2,35,3,0,10
 	.byte	'Ifx_QSPI_ECON_Bits',0,5,177,1,3
-	.word	2205
+	.word	2202
 	.byte	15
 	.byte	'_Ifx_QSPI_FLAGSCLEAR_Bits',0,5,180,1,16,4,16
 	.byte	'ERRORCLEARS',0,2
-	.word	411
+	.word	408
 	.byte	9,7,2,35,0,16
 	.byte	'TXC',0,1
-	.word	380
+	.word	377
 	.byte	1,6,2,35,1,16
 	.byte	'RXC',0,1
-	.word	380
+	.word	377
 	.byte	1,5,2,35,1,16
 	.byte	'PT1C',0,1
-	.word	380
+	.word	377
 	.byte	1,4,2,35,1,16
 	.byte	'PT2C',0,1
-	.word	380
+	.word	377
 	.byte	1,3,2,35,1,16
 	.byte	'reserved_13',0,1
-	.word	380
+	.word	377
 	.byte	1,2,2,35,1,16
 	.byte	'reserved_14',0,1
-	.word	380
+	.word	377
 	.byte	1,1,2,35,1,16
 	.byte	'USRC',0,1
-	.word	380
+	.word	377
 	.byte	1,0,2,35,1,16
 	.byte	'reserved_16',0,2
-	.word	411
+	.word	408
 	.byte	16,0,2,35,2,0,10
 	.byte	'Ifx_QSPI_FLAGSCLEAR_Bits',0,5,191,1,3
-	.word	2397
+	.word	2394
 	.byte	15
 	.byte	'_Ifx_QSPI_GLOBALCON_Bits',0,5,194,1,16,4,16
 	.byte	'TQ',0,1
-	.word	380
+	.word	377
 	.byte	8,0,2,35,0,16
 	.byte	'reserved_8',0,1
-	.word	380
+	.word	377
 	.byte	1,7,2,35,1,16
 	.byte	'SI',0,1
-	.word	380
+	.word	377
 	.byte	1,6,2,35,1,16
 	.byte	'EXPECT',0,1
-	.word	380
+	.word	377
 	.byte	4,2,2,35,1,16
 	.byte	'LB',0,1
-	.word	380
+	.word	377
 	.byte	1,1,2,35,1,16
 	.byte	'DEL0',0,1
-	.word	380
+	.word	377
 	.byte	1,0,2,35,1,16
 	.byte	'STROBE',0,1
-	.word	380
+	.word	377
 	.byte	5,3,2,35,2,16
 	.byte	'SRF',0,1
-	.word	380
+	.word	377
 	.byte	1,2,2,35,2,16
 	.byte	'STIP',0,1
-	.word	380
+	.word	377
 	.byte	1,1,2,35,2,16
 	.byte	'reserved_23',0,1
-	.word	380
+	.word	377
 	.byte	1,0,2,35,2,16
 	.byte	'EN',0,1
-	.word	380
+	.word	377
 	.byte	1,7,2,35,3,16
 	.byte	'MS',0,1
-	.word	380
+	.word	377
 	.byte	2,5,2,35,3,16
 	.byte	'AREN',0,1
-	.word	380
+	.word	377
 	.byte	1,4,2,35,3,16
 	.byte	'reserved_28',0,1
-	.word	380
+	.word	377
 	.byte	1,3,2,35,3,16
 	.byte	'CLKSEL',0,1
-	.word	380
+	.word	377
 	.byte	1,2,2,35,3,16
 	.byte	'RESETS',0,1
-	.word	380
+	.word	377
 	.byte	2,0,2,35,3,0,10
 	.byte	'Ifx_QSPI_GLOBALCON_Bits',0,5,212,1,3
-	.word	2634
+	.word	2631
 	.byte	15
 	.byte	'_Ifx_QSPI_GLOBALCON1_Bits',0,5,215,1,16,4,16
 	.byte	'ERRORENS',0,2
-	.word	411
+	.word	408
 	.byte	9,7,2,35,0,16
 	.byte	'TXEN',0,1
-	.word	380
+	.word	377
 	.byte	1,6,2,35,1,16
 	.byte	'RXEN',0,1
-	.word	380
+	.word	377
 	.byte	1,5,2,35,1,16
 	.byte	'PT1EN',0,1
-	.word	380
+	.word	377
 	.byte	1,4,2,35,1,16
 	.byte	'PT2EN',0,1
-	.word	380
+	.word	377
 	.byte	1,3,2,35,1,16
 	.byte	'reserved_13',0,1
-	.word	380
+	.word	377
 	.byte	1,2,2,35,1,16
 	.byte	'reserved_14',0,1
-	.word	380
+	.word	377
 	.byte	1,1,2,35,1,16
 	.byte	'USREN',0,1
-	.word	380
+	.word	377
 	.byte	1,0,2,35,1,16
 	.byte	'TXFIFOINT',0,1
-	.word	380
+	.word	377
 	.byte	2,6,2,35,2,16
 	.byte	'RXFIFOINT',0,1
-	.word	380
+	.word	377
 	.byte	2,4,2,35,2,16
 	.byte	'PT1',0,1
-	.word	380
+	.word	377
 	.byte	3,1,2,35,2,16
 	.byte	'PT2',0,2
-	.word	411
+	.word	408
 	.byte	3,6,2,35,2,16
 	.byte	'TXFM',0,1
-	.word	380
+	.word	377
 	.byte	2,4,2,35,3,16
 	.byte	'RXFM',0,1
-	.word	380
+	.word	377
 	.byte	2,2,2,35,3,16
 	.byte	'reserved_30',0,1
-	.word	380
+	.word	377
 	.byte	1,1,2,35,3,16
 	.byte	'reserved_31',0,1
-	.word	380
+	.word	377
 	.byte	1,0,2,35,3,0,10
 	.byte	'Ifx_QSPI_GLOBALCON1_Bits',0,5,233,1,3
-	.word	2972
+	.word	2969
 	.byte	15
 	.byte	'_Ifx_QSPI_ID_Bits',0,5,236,1,16,4,16
 	.byte	'MODREV',0,1
-	.word	380
+	.word	377
 	.byte	8,0,2,35,0,16
 	.byte	'MODTYPE',0,1
-	.word	380
+	.word	377
 	.byte	8,0,2,35,1,16
 	.byte	'MODNUMBER',0,2
-	.word	411
+	.word	408
 	.byte	16,0,2,35,2,0,10
 	.byte	'Ifx_QSPI_ID_Bits',0,5,241,1,3
-	.word	3338
+	.word	3335
 	.byte	15
 	.byte	'_Ifx_QSPI_KRST0_Bits',0,5,244,1,16,4,16
 	.byte	'RST',0,1
-	.word	380
+	.word	377
 	.byte	1,7,2,35,0,16
 	.byte	'RSTSTAT',0,1
-	.word	380
+	.word	377
 	.byte	1,6,2,35,0,16
 	.byte	'reserved_2',0,4
-	.word	209
+	.word	206
 	.byte	30,0,2,35,0,0,10
 	.byte	'Ifx_QSPI_KRST0_Bits',0,5,249,1,3
-	.word	3447
+	.word	3444
 	.byte	15
 	.byte	'_Ifx_QSPI_KRST1_Bits',0,5,252,1,16,4,16
 	.byte	'RST',0,1
-	.word	380
+	.word	377
 	.byte	1,7,2,35,0,16
 	.byte	'reserved_1',0,4
-	.word	209
+	.word	206
 	.byte	31,0,2,35,0,0,10
 	.byte	'Ifx_QSPI_KRST1_Bits',0,5,128,2,3
-	.word	3560
+	.word	3557
 	.byte	15
 	.byte	'_Ifx_QSPI_KRSTCLR_Bits',0,5,131,2,16,4,16
 	.byte	'CLR',0,1
-	.word	380
+	.word	377
 	.byte	1,7,2,35,0,16
 	.byte	'reserved_1',0,4
-	.word	209
+	.word	206
 	.byte	31,0,2,35,0,0,10
 	.byte	'Ifx_QSPI_KRSTCLR_Bits',0,5,135,2,3
-	.word	3654
+	.word	3651
 	.byte	15
 	.byte	'_Ifx_QSPI_MC_Bits',0,5,138,2,16,4,16
 	.byte	'MCOUNT',0,2
-	.word	411
+	.word	408
 	.byte	13,3,2,35,0,16
 	.byte	'reserved_13',0,1
-	.word	380
+	.word	377
 	.byte	3,0,2,35,1,16
 	.byte	'CURRENT',0,2
-	.word	411
+	.word	408
 	.byte	13,3,2,35,2,16
 	.byte	'reserved_29',0,1
-	.word	380
+	.word	377
 	.byte	3,0,2,35,3,0,10
 	.byte	'Ifx_QSPI_MC_Bits',0,5,144,2,3
-	.word	3752
+	.word	3749
 	.byte	15
 	.byte	'_Ifx_QSPI_MCCON_Bits',0,5,147,2,16,4,16
 	.byte	'TPRE2',0,1
-	.word	380
+	.word	377
 	.byte	3,5,2,35,0,16
 	.byte	'TRAIL2',0,1
-	.word	380
+	.word	377
 	.byte	3,2,2,35,0,16
 	.byte	'reserved_6',0,2
-	.word	411
+	.word	408
 	.byte	10,0,2,35,0,16
 	.byte	'IBLEN',0,1
-	.word	380
+	.word	377
 	.byte	1,7,2,35,2,16
 	.byte	'IBLF',0,1
-	.word	380
+	.word	377
 	.byte	1,6,2,35,2,16
 	.byte	'IBLC',0,1
-	.word	380
+	.word	377
 	.byte	1,5,2,35,2,16
 	.byte	'IBLS',0,1
-	.word	380
+	.word	377
 	.byte	1,4,2,35,2,16
 	.byte	'IALEN',0,1
-	.word	380
+	.word	377
 	.byte	1,3,2,35,2,16
 	.byte	'IALF',0,1
-	.word	380
+	.word	377
 	.byte	1,2,2,35,2,16
 	.byte	'IALC',0,1
-	.word	380
+	.word	377
 	.byte	1,1,2,35,2,16
 	.byte	'IALS',0,1
-	.word	380
+	.word	377
 	.byte	1,0,2,35,2,16
 	.byte	'reserved_24',0,1
-	.word	380
+	.word	377
 	.byte	6,2,2,35,3,16
 	.byte	'T2EN',0,1
-	.word	380
+	.word	377
 	.byte	1,1,2,35,3,16
 	.byte	'MCEN',0,1
-	.word	380
+	.word	377
 	.byte	1,0,2,35,3,0,10
 	.byte	'Ifx_QSPI_MCCON_Bits',0,5,163,2,3
-	.word	3886
+	.word	3883
 	.byte	15
 	.byte	'_Ifx_QSPI_MIXENTRY_Bits',0,5,166,2,16,4,16
 	.byte	'E',0,4
-	.word	209
+	.word	206
 	.byte	32,0,2,35,0,0,10
 	.byte	'Ifx_QSPI_MIXENTRY_Bits',0,5,169,2,3
-	.word	4185
+	.word	4182
 	.byte	15
 	.byte	'_Ifx_QSPI_OCS_Bits',0,5,172,2,16,4,16
 	.byte	'reserved_0',0,1
-	.word	380
+	.word	377
 	.byte	4,4,2,35,0,16
 	.byte	'reserved_4',0,4
-	.word	209
+	.word	206
 	.byte	20,8,2,35,0,16
 	.byte	'SUS',0,1
-	.word	380
+	.word	377
 	.byte	4,4,2,35,3,16
 	.byte	'SUS_P',0,1
-	.word	380
+	.word	377
 	.byte	1,3,2,35,3,16
 	.byte	'SUSSTA',0,1
-	.word	380
+	.word	377
 	.byte	1,2,2,35,3,16
 	.byte	'reserved_30',0,1
-	.word	380
+	.word	377
 	.byte	2,0,2,35,3,0,10
 	.byte	'Ifx_QSPI_OCS_Bits',0,5,180,2,3
-	.word	4261
+	.word	4258
 	.byte	15
 	.byte	'_Ifx_QSPI_PISEL_Bits',0,5,183,2,16,4,16
 	.byte	'MRIS',0,1
-	.word	380
+	.word	377
 	.byte	3,5,2,35,0,16
 	.byte	'reserved_3',0,1
-	.word	380
+	.word	377
 	.byte	1,4,2,35,0,16
 	.byte	'SRIS',0,1
-	.word	380
+	.word	377
 	.byte	3,1,2,35,0,16
 	.byte	'reserved_7',0,1
-	.word	380
+	.word	377
 	.byte	1,0,2,35,0,16
 	.byte	'SCIS',0,1
-	.word	380
+	.word	377
 	.byte	3,5,2,35,1,16
 	.byte	'reserved_11',0,1
-	.word	380
+	.word	377
 	.byte	1,4,2,35,1,16
 	.byte	'SLSIS',0,1
-	.word	380
+	.word	377
 	.byte	3,1,2,35,1,16
 	.byte	'reserved_15',0,4
-	.word	209
+	.word	206
 	.byte	17,0,2,35,0,0,10
 	.byte	'Ifx_QSPI_PISEL_Bits',0,5,193,2,3
-	.word	4431
+	.word	4428
 	.byte	15
 	.byte	'_Ifx_QSPI_RXEXIT_Bits',0,5,196,2,16,4,16
 	.byte	'E',0,4
-	.word	209
+	.word	206
 	.byte	32,0,2,35,0,0,10
 	.byte	'Ifx_QSPI_RXEXIT_Bits',0,5,199,2,3
-	.word	4643
+	.word	4640
 	.byte	15
 	.byte	'_Ifx_QSPI_RXEXITD_Bits',0,5,202,2,16,4,16
 	.byte	'E',0,4
-	.word	209
+	.word	206
 	.byte	32,0,2,35,0,0,10
 	.byte	'Ifx_QSPI_RXEXITD_Bits',0,5,205,2,3
-	.word	4715
+	.word	4712
 	.byte	15
 	.byte	'_Ifx_QSPI_SSOC_Bits',0,5,208,2,16,4,16
 	.byte	'AOL',0,2
-	.word	411
+	.word	408
 	.byte	16,0,2,35,0,16
 	.byte	'OEN',0,2
-	.word	411
+	.word	408
 	.byte	16,0,2,35,2,0,10
 	.byte	'Ifx_QSPI_SSOC_Bits',0,5,212,2,3
-	.word	4789
+	.word	4786
 	.byte	15
 	.byte	'_Ifx_QSPI_STATUS_Bits',0,5,215,2,16,4,16
 	.byte	'ERRORFLAGS',0,2
-	.word	411
+	.word	408
 	.byte	9,7,2,35,0,16
 	.byte	'TXF',0,1
-	.word	380
+	.word	377
 	.byte	1,6,2,35,1,16
 	.byte	'RXF',0,1
-	.word	380
+	.word	377
 	.byte	1,5,2,35,1,16
 	.byte	'PT1F',0,1
-	.word	380
+	.word	377
 	.byte	1,4,2,35,1,16
 	.byte	'PT2F',0,1
-	.word	380
+	.word	377
 	.byte	1,3,2,35,1,16
 	.byte	'reserved_13',0,1
-	.word	380
+	.word	377
 	.byte	1,2,2,35,1,16
 	.byte	'reserved_14',0,1
-	.word	380
+	.word	377
 	.byte	1,1,2,35,1,16
 	.byte	'USRF',0,1
-	.word	380
+	.word	377
 	.byte	1,0,2,35,1,16
 	.byte	'TXFIFOLEVEL',0,1
-	.word	380
+	.word	377
 	.byte	3,5,2,35,2,16
 	.byte	'RXFIFOLEVEL',0,1
-	.word	380
+	.word	377
 	.byte	3,2,2,35,2,16
 	.byte	'SLAVESEL',0,2
-	.word	411
+	.word	408
 	.byte	4,6,2,35,2,16
 	.byte	'RPV',0,1
-	.word	380
+	.word	377
 	.byte	1,5,2,35,3,16
 	.byte	'TPV',0,1
-	.word	380
+	.word	377
 	.byte	1,4,2,35,3,16
 	.byte	'PHASE',0,1
-	.word	380
+	.word	377
 	.byte	4,0,2,35,3,0,10
 	.byte	'Ifx_QSPI_STATUS_Bits',0,5,231,2,3
-	.word	4874
+	.word	4871
 	.byte	15
 	.byte	'_Ifx_QSPI_STATUS1_Bits',0,5,234,2,16,4,16
 	.byte	'BITCOUNT',0,1
-	.word	380
+	.word	377
 	.byte	8,0,2,35,0,16
 	.byte	'reserved_8',0,4
-	.word	209
+	.word	206
 	.byte	20,4,2,35,0,16
 	.byte	'BRDEN',0,1
-	.word	380
+	.word	377
 	.byte	1,3,2,35,3,16
 	.byte	'BRD',0,1
-	.word	380
+	.word	377
 	.byte	1,2,2,35,3,16
 	.byte	'SPDEN',0,1
-	.word	380
+	.word	377
 	.byte	1,1,2,35,3,16
 	.byte	'SPD',0,1
-	.word	380
+	.word	377
 	.byte	1,0,2,35,3,0,10
 	.byte	'Ifx_QSPI_STATUS1_Bits',0,5,242,2,3
-	.word	5192
+	.word	5189
 	.byte	15
 	.byte	'_Ifx_QSPI_XXLCON_Bits',0,5,245,2,16,4,16
 	.byte	'XDL',0,2
-	.word	411
+	.word	408
 	.byte	16,0,2,35,0,16
 	.byte	'BYTECOUNT',0,2
-	.word	411
+	.word	408
 	.byte	16,0,2,35,2,0,10
 	.byte	'Ifx_QSPI_XXLCON_Bits',0,5,249,2,3
-	.word	5359
+	.word	5356
 	.byte	17,5,129,3,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	777
+	.word	774
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_ACCEN0',0,5,134,3,3
-	.word	5454
+	.word	5451
 	.byte	17,5,137,3,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	1336
+	.word	1333
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_ACCEN1',0,5,142,3,3
-	.word	5519
+	.word	5516
 	.byte	17,5,145,3,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	1415
+	.word	1412
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_BACON',0,5,150,3,3
-	.word	5584
+	.word	5581
 	.byte	17,5,153,3,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	1676
+	.word	1673
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_BACONENTRY',0,5,158,3,3
-	.word	5648
+	.word	5645
 	.byte	17,5,161,3,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	1756
+	.word	1753
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_CAPCON',0,5,166,3,3
-	.word	5717
+	.word	5714
 	.byte	17,5,169,3,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	1982
+	.word	1979
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_CLC',0,5,174,3,3
-	.word	5782
+	.word	5779
 	.byte	17,5,177,3,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	2127
+	.word	2124
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_DATAENTRY',0,5,182,3,3
-	.word	5844
+	.word	5841
 	.byte	17,5,185,3,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	2205
+	.word	2202
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_ECON',0,5,190,3,3
-	.word	5912
+	.word	5909
 	.byte	17,5,193,3,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	2397
+	.word	2394
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_FLAGSCLEAR',0,5,198,3,3
-	.word	5975
+	.word	5972
 	.byte	17,5,201,3,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	2634
+	.word	2631
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_GLOBALCON',0,5,206,3,3
-	.word	6044
+	.word	6041
 	.byte	17,5,209,3,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	2972
+	.word	2969
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_GLOBALCON1',0,5,214,3,3
-	.word	6112
+	.word	6109
 	.byte	17,5,217,3,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	3338
+	.word	3335
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_ID',0,5,222,3,3
-	.word	6181
+	.word	6178
 	.byte	17,5,225,3,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	3447
+	.word	3444
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_KRST0',0,5,230,3,3
-	.word	6242
+	.word	6239
 	.byte	17,5,233,3,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	3560
+	.word	3557
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_KRST1',0,5,238,3,3
-	.word	6306
+	.word	6303
 	.byte	17,5,241,3,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	3654
+	.word	3651
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_KRSTCLR',0,5,246,3,3
-	.word	6370
+	.word	6367
 	.byte	17,5,249,3,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	3752
+	.word	3749
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_MC',0,5,254,3,3
-	.word	6436
+	.word	6433
 	.byte	17,5,129,4,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	3886
+	.word	3883
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_MCCON',0,5,134,4,3
-	.word	6497
+	.word	6494
 	.byte	17,5,137,4,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	4185
+	.word	4182
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_MIXENTRY',0,5,142,4,3
-	.word	6561
+	.word	6558
 	.byte	17,5,145,4,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	4261
+	.word	4258
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_OCS',0,5,150,4,3
-	.word	6628
+	.word	6625
 	.byte	17,5,153,4,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	4431
+	.word	4428
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_PISEL',0,5,158,4,3
-	.word	6690
+	.word	6687
 	.byte	17,5,161,4,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	4643
+	.word	4640
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_RXEXIT',0,5,166,4,3
-	.word	6754
+	.word	6751
 	.byte	17,5,169,4,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	4715
+	.word	4712
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_RXEXITD',0,5,174,4,3
-	.word	6819
+	.word	6816
 	.byte	17,5,177,4,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	4789
+	.word	4786
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_SSOC',0,5,182,4,3
-	.word	6885
+	.word	6882
 	.byte	17,5,185,4,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	4874
+	.word	4871
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_STATUS',0,5,190,4,3
-	.word	6948
+	.word	6945
 	.byte	17,5,193,4,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	5192
+	.word	5189
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_STATUS1',0,5,198,4,3
-	.word	7013
+	.word	7010
 	.byte	17,5,201,4,9,4,14
 	.byte	'U',0
-	.word	209
+	.word	206
 	.byte	4,2,35,0,14
 	.byte	'I',0
-	.word	160
+	.word	157
 	.byte	4,2,35,0,14
 	.byte	'B',0
-	.word	5359
+	.word	5356
 	.byte	4,2,35,0,0,10
 	.byte	'Ifx_QSPI_XXLCON',0,5,206,4,3
-	.word	7079
+	.word	7076
 	.byte	18,40
-	.word	643
+	.word	640
 	.byte	19,4,0
 .L8:
 	.byte	3
-	.word	7144
+	.word	7141
 	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
@@ -1113,8 +1113,8 @@ IfxQspi_cfg_indexMap:	.type	object
 	.word	.L12-.L11
 .L11:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
-	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\Cpu\\Std',0
-	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\0_Src\\4_McHal\\Tricore\\_Reg',0,0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Cpu\\Std',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Reg',0,0
 	.byte	'..\\0_Src\\4_McHal\\Tricore\\_Impl\\IfxQspi_cfg.c',0,0,0,0
 	.byte	'Platform_Types.h',0,1,0,0
 	.byte	'Ifx_Types.h',0,1,0,0
@@ -1125,13 +1125,13 @@ IfxQspi_cfg_indexMap:	.type	object
 	.sdecl	'.debug_info',debug,cluster('IfxQspi_cfg_indexMap')
 	.sect	'.debug_info'
 .L6:
-	.word	194
+	.word	191
 	.half	3
 	.word	.L7
 	.byte	4,1
 	.byte	'..\\0_Src\\4_McHal\\Tricore\\_Impl\\IfxQspi_cfg.c',0
 	.byte	'TASKING VX-toolset for TriCore: C compiler',0
-	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_MulitiCANFD\\Debug\\',0,12,1,2
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\Debug\\',0,12,1,2
 	.word	.L2
 	.byte	3
 	.byte	'IfxQspi_cfg_indexMap',0,1,54,30

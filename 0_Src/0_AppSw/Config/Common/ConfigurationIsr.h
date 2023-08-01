@@ -140,6 +140,9 @@
 
 /** \} */
 
+#define ISR_PRIORITY_OS_TICK        99                          /* Define the timer interrupt priority              */
+#define ISR_PRIORITY_GETH_TX        100                         /* Define the Ethernet transmit interrupt priority  */
+#define ISR_PRIORITY_GETH_RX        101                         /* Define the Ethernet receive interrupt priority   */
 //------------------------------------------------------------------------------
 
 #endif

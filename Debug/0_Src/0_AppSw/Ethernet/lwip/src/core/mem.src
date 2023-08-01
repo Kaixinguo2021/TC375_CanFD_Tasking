@@ -1,0 +1,2480 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for TriCore: C compiler v6.3r1 Build 19041558 SN 09003382"
+	.compiler_invocation	"ctc --dep-file=0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\.mem.o.d --fp-model=c,l,f,z,n,r,S,T -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --iso=99 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Config\\Common -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\lwip\\prot -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Asclin -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Asclin\\Asc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Asclin\\Lin -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Asclin\\Spi -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Asclin\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\UART -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Geth -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Geth\\Eth -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Geth\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\port -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\port\\include -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\port\\include\\arch -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\port\\src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\api -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\ipv4 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\ipv6 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\compat -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\compat\\posix -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\compat\\posix\\arpa -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\compat\\posix\\net -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\compat\\posix\\sys -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\compat\\stdc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\lwip -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\lwip\\apps -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\lwip\\priv -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\lwip\\prot -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\netif -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\netif\\ppp -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\netif\\ppp\\polarssl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\netif -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\netif\\ppp -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\netif\\ppp\\polarssl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\Phy_Dp83825i -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Scu\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Build -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Impl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Lib -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_PinMap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Reg -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Asclin -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Can\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Can\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Config -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Config\\Common -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Tricore\\Main -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\_Utilities -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\If -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\If\\Ccu6If -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\StdIf -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\SysSe -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\SysSe\\Bsp -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\SysSe\\Comm -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\SysSe\\General -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\SysSe\\Math -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\SysSe\\Time -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\Tricore\\Compilers -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\2_CDrv -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Build -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Impl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Lib -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Lib\\DataHandling -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Lib\\InternalMux -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_PinMap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Reg -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Asclin -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Can\\Can -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Can\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Ccu6 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Convctrl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Cpu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Cpu\\CStart -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Cpu\\Irq -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Cpu\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Cpu\\Trap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Dma -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Dts -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Edsadc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Eray -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Evadc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Fce -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Flash -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Geth -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Gpt12 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Gtm -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Hssl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\I2c -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Iom -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Msc -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Mtu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Pms -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Port -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Port\\Io -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Port\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Psi5 -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Psi5s -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Qspi -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Scu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Sent -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Smu -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Src -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Src\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Stm -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Stm\\Std -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Stm\\Timer -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Tricore\\Main -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\If -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\StdIf -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\SysSe -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\1_SrvSw\\Tricore\\Compilers -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Impl -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Lib -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_PinMap -ID:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\_Reg -g2 --make-target=0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\mem.o -t4 --language=-gcc,-volatile,+strings,-kanji --default-near-size=8 -O2 --default-a1-size=0 --default-a0-size=0 --source --align=0 --compact-max-size=200 --switch=auto --error-limit=42 -o 0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\mem.src ..\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\mem.c"
+	.compiler_name		"ctc"
+	;source	'..\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\mem.c'
+
+	
+$TC162
+	
+	.sdecl	'.text.mem.mem_init',code,cluster('mem_init')
+	.sect	'.text.mem.mem_init'
+	.align	2
+	
+	.global	mem_init
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	     1  /**
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	     2   * @file
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	     3   * Dynamic memory manager
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	     4   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	     5   * This is a lightweight replacement for the standard C library malloc().
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	     6   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	     7   * If you want to use the standard C library malloc() instead, define
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	     8   * MEM_LIBC_MALLOC to 1 in your lwipopts.h
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	     9   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    10   * To let mem_malloc() use pools (prevents fragmentation and is much faster than
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    11   * a heap but might waste some memory), define MEM_USE_POOLS to 1, define
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    12   * MEMP_USE_CUSTOM_POOLS to 1 and create a file "lwippools.h" that includes a list
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    13   * of pools like this (more pools can be added between _START and _END):
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    14   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    15   * Define three pools with sizes 256, 512, and 1512 bytes
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    16   * LWIP_MALLOC_MEMPOOL_START
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    17   * LWIP_MALLOC_MEMPOOL(20, 256)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    18   * LWIP_MALLOC_MEMPOOL(10, 512)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    19   * LWIP_MALLOC_MEMPOOL(5, 1512)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    20   * LWIP_MALLOC_MEMPOOL_END
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    21   */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    22  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    23  /*
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    24   * Copyright (c) 2001-2004 Swedish Institute of Computer Science.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    25   * All rights reserved.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    26   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    27   * Redistribution and use in source and binary forms, with or without modification,
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    28   * are permitted provided that the following conditions are met:
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    29   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    30   * 1. Redistributions of source code must retain the above copyright notice,
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    31   *    this list of conditions and the following disclaimer.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    32   * 2. Redistributions in binary form must reproduce the above copyright notice,
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    33   *    this list of conditions and the following disclaimer in the documentation
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    34   *    and/or other materials provided with the distribution.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    35   * 3. The name of the author may not be used to endorse or promote products
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    36   *    derived from this software without specific prior written permission.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    37   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    38   * THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    39   * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    40   * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    41   * SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    42   * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    43   * OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    44   * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    45   * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    46   * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    47   * OF SUCH DAMAGE.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    48   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    49   * This file is part of the lwIP TCP/IP stack.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    50   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    51   * Author: Adam Dunkels <adam@sics.se>
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    52   *         Simon Goldschmidt
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    53   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    54   */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    55  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    56  #include "lwip/opt.h"
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    57  #include "lwip/mem.h"
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    58  #include "lwip/def.h"
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    59  #include "lwip/sys.h"
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    60  #include "lwip/stats.h"
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    61  #include "lwip/err.h"
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    62  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    63  #include <string.h>
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    64  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    65  #if MEM_LIBC_MALLOC
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    66  #include <stdlib.h> /* for malloc()/free() */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    67  #endif
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    68  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    69  /* This is overridable for tests only... */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    70  #ifndef LWIP_MEM_ILLEGAL_FREE
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    71  #define LWIP_MEM_ILLEGAL_FREE(msg)         LWIP_ASSERT(msg, 0)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    72  #endif
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    73  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    74  #define MEM_STATS_INC_LOCKED(x)         SYS_ARCH_LOCKED(MEM_STATS_INC(x))
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    75  #define MEM_STATS_INC_USED_LOCKED(x, y) SYS_ARCH_LOCKED(MEM_STATS_INC_USED(x, y))
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    76  #define MEM_STATS_DEC_USED_LOCKED(x, y) SYS_ARCH_LOCKED(MEM_STATS_DEC_USED(x, y))
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    77  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    78  #if MEM_OVERFLOW_CHECK
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    79  #define MEM_SANITY_OFFSET   MEM_SANITY_REGION_BEFORE_ALIGNED
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    80  #define MEM_SANITY_OVERHEAD (MEM_SANITY_REGION_BEFORE_ALIGNED + MEM_SANITY_REGION_AFTER_ALIGNED)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    81  #else
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    82  #define MEM_SANITY_OFFSET   0
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    83  #define MEM_SANITY_OVERHEAD 0
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    84  #endif
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    85  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    86  #if MEM_OVERFLOW_CHECK || MEMP_OVERFLOW_CHECK
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    87  /**
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    88   * Check if a mep element was victim of an overflow or underflow
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    89   * (e.g. the restricted area after/before it has been altered)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    90   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    91   * @param p the mem element to check
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    92   * @param size allocated size of the element
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    93   * @param descr1 description of the element source shown on error
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    94   * @param descr2 description of the element source shown on error
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    95   */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    96  void
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    97  mem_overflow_check_raw(void *p, size_t size, const char *descr1, const char *descr2)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    98  {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	    99  #if MEM_SANITY_REGION_AFTER_ALIGNED || MEM_SANITY_REGION_BEFORE_ALIGNED
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   100    u16_t k;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   101    u8_t *m;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   102  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   103  #if MEM_SANITY_REGION_AFTER_ALIGNED > 0
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   104    m = (u8_t *)p + size;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   105    for (k = 0; k < MEM_SANITY_REGION_AFTER_ALIGNED; k++) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   106      if (m[k] != 0xcd) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   107        char errstr[128];
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   108        snprintf(errstr, sizeof(errstr), "detected mem overflow in %s%s", descr1, descr2);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   109        LWIP_ASSERT(errstr, 0);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   110      }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   111    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   112  #endif /* MEM_SANITY_REGION_AFTER_ALIGNED > 0 */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   113  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   114  #if MEM_SANITY_REGION_BEFORE_ALIGNED > 0
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   115    m = (u8_t *)p - MEM_SANITY_REGION_BEFORE_ALIGNED;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   116    for (k = 0; k < MEM_SANITY_REGION_BEFORE_ALIGNED; k++) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   117      if (m[k] != 0xcd) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   118        char errstr[128];
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   119        snprintf(errstr, sizeof(errstr), "detected mem underflow in %s%s", descr1, descr2);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   120        LWIP_ASSERT(errstr, 0);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   121      }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   122    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   123  #endif /* MEM_SANITY_REGION_BEFORE_ALIGNED > 0 */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   124  #else
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   125    LWIP_UNUSED_ARG(p);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   126    LWIP_UNUSED_ARG(desc);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   127    LWIP_UNUSED_ARG(descr);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   128  #endif
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   129  }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   130  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   131  /**
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   132   * Initialize the restricted area of a mem element.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   133   */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   134  void
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   135  mem_overflow_init_raw(void *p, size_t size)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   136  {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   137  #if MEM_SANITY_REGION_BEFORE_ALIGNED > 0 || MEM_SANITY_REGION_AFTER_ALIGNED > 0
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   138    u8_t *m;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   139  #if MEM_SANITY_REGION_BEFORE_ALIGNED > 0
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   140    m = (u8_t *)p - MEM_SANITY_REGION_BEFORE_ALIGNED;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   141    memset(m, 0xcd, MEM_SANITY_REGION_BEFORE_ALIGNED);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   142  #endif
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   143  #if MEM_SANITY_REGION_AFTER_ALIGNED > 0
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   144    m = (u8_t *)p + size;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   145    memset(m, 0xcd, MEM_SANITY_REGION_AFTER_ALIGNED);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   146  #endif
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   147  #else /* MEM_SANITY_REGION_BEFORE_ALIGNED > 0 || MEM_SANITY_REGION_AFTER_ALIGNED > 0 */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   148    LWIP_UNUSED_ARG(p);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   149    LWIP_UNUSED_ARG(desc);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   150  #endif /* MEM_SANITY_REGION_BEFORE_ALIGNED > 0 || MEM_SANITY_REGION_AFTER_ALIGNED > 0 */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   151  }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   152  #endif /* MEM_OVERFLOW_CHECK || MEMP_OVERFLOW_CHECK */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   153  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   154  #if MEM_LIBC_MALLOC || MEM_USE_POOLS
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   155  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   156  /** mem_init is not used when using pools instead of a heap or using
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   157   * C library malloc().
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   158   */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   159  void
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   160  mem_init(void)
+; Function mem_init
+.L20:
+mem_init:	.type	func
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   161  {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   162  }
+	ret
+.L72:
+	
+__mem_init_function_end:
+	.size	mem_init,__mem_init_function_end-mem_init
+.L41:
+	; End of function
+	
+	.sdecl	'.text.mem.mem_trim',code,cluster('mem_trim')
+	.sect	'.text.mem.mem_trim'
+	.align	2
+	
+	.global	mem_trim
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   163  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   164  /** mem_trim is not used when using pools instead of a heap or using
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   165   * C library malloc(): we can't free part of a pool element and the stack
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   166   * support mem_trim() to return a different pointer
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   167   */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   168  void *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   169  mem_trim(void *mem, mem_size_t size)
+; Function mem_trim
+.L22:
+mem_trim:	.type	func
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   170  {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   171    LWIP_UNUSED_ARG(size);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   172    return mem;
+	mov.aa	a2,a4
+.L95:
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   173  }
+	ret
+.L74:
+	
+__mem_trim_function_end:
+	.size	mem_trim,__mem_trim_function_end-mem_trim
+.L46:
+	; End of function
+	
+	.sdecl	'.text.mem.mem_malloc',code,cluster('mem_malloc')
+	.sect	'.text.mem.mem_malloc'
+	.align	2
+	
+	.global	mem_malloc
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   174  #endif /* MEM_LIBC_MALLOC || MEM_USE_POOLS */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   175  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   176  #if MEM_LIBC_MALLOC
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   177  /* lwIP heap implemented using C library malloc() */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   178  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   179  /* in case C library malloc() needs extra protection,
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   180   * allow these defines to be overridden.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   181   */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   182  #ifndef mem_clib_free
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   183  #define mem_clib_free free
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   184  #endif
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   185  #ifndef mem_clib_malloc
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   186  #define mem_clib_malloc malloc
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   187  #endif
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   188  #ifndef mem_clib_calloc
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   189  #define mem_clib_calloc calloc
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   190  #endif
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   191  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   192  #if LWIP_STATS && MEM_STATS
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   193  #define MEM_LIBC_STATSHELPER_SIZE LWIP_MEM_ALIGN_SIZE(sizeof(mem_size_t))
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   194  #else
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   195  #define MEM_LIBC_STATSHELPER_SIZE 0
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   196  #endif
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   197  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   198  /**
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   199   * Allocate a block of memory with a minimum of 'size' bytes.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   200   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   201   * @param size is the minimum size of the requested block in bytes.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   202   * @return pointer to allocated memory or NULL if no free memory was found.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   203   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   204   * Note that the returned value must always be aligned (as defined by MEM_ALIGNMENT).
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   205   */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   206  void *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   207  mem_malloc(mem_size_t size)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   208  {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   209    void *ret = mem_clib_malloc(size + MEM_LIBC_STATSHELPER_SIZE);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   210    if (ret == NULL) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   211      MEM_STATS_INC_LOCKED(err);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   212    } else {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   213      LWIP_ASSERT("malloc() must return aligned memory", LWIP_MEM_ALIGN(ret) == ret);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   214  #if LWIP_STATS && MEM_STATS
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   215      *(mem_size_t *)ret = size;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   216      ret = (u8_t *)ret + MEM_LIBC_STATSHELPER_SIZE;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   217      MEM_STATS_INC_USED_LOCKED(used, size);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   218  #endif
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   219    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   220    return ret;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   221  }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   222  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   223  /** Put memory back on the heap
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   224   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   225   * @param rmem is the pointer as returned by a previous call to mem_malloc()
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   226   */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   227  void
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   228  mem_free(void *rmem)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   229  {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   230    LWIP_ASSERT("rmem != NULL", (rmem != NULL));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   231    LWIP_ASSERT("rmem == MEM_ALIGN(rmem)", (rmem == LWIP_MEM_ALIGN(rmem)));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   232  #if LWIP_STATS && MEM_STATS
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   233    rmem = (u8_t *)rmem - MEM_LIBC_STATSHELPER_SIZE;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   234    MEM_STATS_DEC_USED_LOCKED(used, *(mem_size_t *)rmem);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   235  #endif
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   236    mem_clib_free(rmem);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   237  }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   238  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   239  #elif MEM_USE_POOLS
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   240  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   241  /* lwIP heap implemented with different sized pools */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   242  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   243  /**
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   244   * Allocate memory: determine the smallest pool that is big enough
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   245   * to contain an element of 'size' and get an element from that pool.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   246   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   247   * @param size the size in bytes of the memory needed
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   248   * @return a pointer to the allocated memory or NULL if the pool is empty
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   249   */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   250  void *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   251  mem_malloc(mem_size_t size)
+; Function mem_malloc
+.L24:
+mem_malloc:	.type	func
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   252  {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   253    void *ret;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   254    struct memp_malloc_helper *element = NULL;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   255    memp_t poolnr;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   256    mem_size_t required_size = size + LWIP_MEM_ALIGN_SIZE(sizeof(struct memp_malloc_helper));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   257  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   258    for (poolnr = MEMP_POOL_FIRST; poolnr <= MEMP_POOL_LAST; poolnr = (memp_t)(poolnr + 1)) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   259      /* is this pool big enough to hold an element of the required size
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   260         plus a struct memp_malloc_helper that saves the pool this element came from? */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   261      if (required_size <= memp_pools[poolnr]->size) {
+	add	d4,#4
+	movh.a	a15,#@his(memp_pools+36)
+.L97:
+	extr.u	d0,d4,#0,#16
+	lea	a15,[a15]@los(memp_pools+36)
+.L98:
+	mov	d15,#9
+	sub.a	a10,#16
+.L96:
+	mov.a	a2,#0
+.L101:
+	mov.a	a4,#2
+.L3:
+	ld.a	a5,[a15]
+.L144:
+	ld.hu	d1,[a5]8
+.L145:
+	jlt.u	d1,d0,.L4
+.L146:
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   262        element = (struct memp_malloc_helper *)memp_malloc(poolnr);
+	mov	d4,d15
+	call	memp_malloc
+.L99:
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   263        if (element == NULL) {
+	jnz.a	a2,.L5
+.L147:
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   264          /* No need to DEBUGF or ASSERT: This error is already taken care of in memp.c */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   265  #if MEM_USE_POOLS_TRY_BIGGER_POOL
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   266          /** Try a bigger pool if this one is empty! */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   267          if (poolnr < MEMP_POOL_LAST) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   268            continue;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   269          }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   270  #endif /* MEM_USE_POOLS_TRY_BIGGER_POOL */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   271          MEM_STATS_INC_LOCKED(err);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   272          return NULL;
+	j	.L6
+.L4:
+	add	d15,#1
+	add.a	a15,#4
+	loop	a4,.L3
+.L5:
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   273        }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   274        break;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   275      }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   276    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   277    if (poolnr > MEMP_POOL_LAST) {
+	jlt.u	d15,#12,.L7
+.L148:
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   278      LWIP_ASSERT("mem_malloc(): no pool is that big!", 0);
+	movh.a	a15,#@his(.2.str)
+	lea	a15,[a15]@los(.2.str)
+	st.a	[a10],a15
+	mov	d15,#278
+	st.w	[a10]4,d15
+.L100:
+	fcall	.cocofun_10
+.L102:
+	st.a	[a10]8,a15
+	fcall	.cocofun_11
+	call	Ifx_Lwip_printf
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   279      MEM_STATS_INC_LOCKED(err);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   280      return NULL;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   281    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   282  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   283    /* save the pool number this element came from */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   284    element->poolnr = poolnr;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   285    /* and return a pointer to the memory directly after the struct memp_malloc_helper */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   286    ret = (u8_t *)element + LWIP_MEM_ALIGN_SIZE(sizeof(struct memp_malloc_helper));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   287  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   288  #if MEMP_OVERFLOW_CHECK || (LWIP_STATS && MEM_STATS)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   289    /* truncating to u16_t is safe because struct memp_desc::size is u16_t */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   290    element->size = (u16_t)size;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   291    MEM_STATS_INC_USED_LOCKED(used, element->size);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   292  #endif /* MEMP_OVERFLOW_CHECK || (LWIP_STATS && MEM_STATS) */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   293  #if MEMP_OVERFLOW_CHECK
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   294    /* initialize unused memory (diff between requested size and selected pool's size) */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   295    memset((u8_t *)ret + size, 0xcd, memp_pools[poolnr]->size - size);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   296  #endif /* MEMP_OVERFLOW_CHECK */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   297    return ret;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   298  }
+.L6:
+	mov.a	a2,#0
+.L149:
+	ret
+.L7:
+	st.b	[a2+]4,d15
+.L150:
+	ret
+.L78:
+	
+__mem_malloc_function_end:
+	.size	mem_malloc,__mem_malloc_function_end-mem_malloc
+.L51:
+	; End of function
+	
+	.sdecl	'.text.mem..cocofun_11',code,cluster('.cocofun_11')
+	.sect	'.text.mem..cocofun_11'
+	.align	2
+; Function .cocofun_11
+.L26:
+.cocofun_11:	.type	func
+; Function body .cocofun_11, coco_iter:0
+	movh.a	a4,#@his(.1.str)
+.L108:
+	lea	a4,[a4]@los(.1.str)
+.L176:
+	fret
+.L71:
+	; End of function
+	.sdecl	'.text.mem..cocofun_10',code,cluster('.cocofun_10')
+	.sect	'.text.mem..cocofun_10'
+	.align	2
+; Function .cocofun_10
+.L28:
+.cocofun_10:	.type	func
+; Function body .cocofun_10, coco_iter:0
+	movh.a	a15,#@his(.3.str)
+	lea	a15,[a15]@los(.3.str)
+.L171:
+	fret
+.L66:
+	; End of function
+	.sdecl	'.text.mem.mem_free',code,cluster('mem_free')
+	.sect	'.text.mem.mem_free'
+	.align	2
+	
+	.global	mem_free
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   299  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   300  /**
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   301   * Free memory previously allocated by mem_malloc. Loads the pool number
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   302   * and calls memp_free with that pool number to put the element back into
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   303   * its pool
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   304   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   305   * @param rmem the memory element to free
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   306   */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   307  void
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   308  mem_free(void *rmem)
+; Function mem_free
+.L30:
+mem_free:	.type	func
+	sub.a	a10,#16
+.L103:
+	mov.aa	a12,a4
+.L105:
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   309  {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   310    struct memp_malloc_helper *hmem;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   311  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   312    LWIP_ASSERT("rmem != NULL", (rmem != NULL));
+	jnz.a	a12,.L10
+.L163:
+	movh.a	a15,#@his(.4.str)
+	lea	a15,[a15]@los(.4.str)
+	st.a	[a10],a15
+	mov	d15,#312
+	st.w	[a10]4,d15
+.L104:
+	fcall	.cocofun_10
+.L106:
+	st.a	[a10]8,a15
+	fcall	.cocofun_11
+.L107:
+	call	Ifx_Lwip_printf
+.L10:
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   313    LWIP_ASSERT("rmem == MEM_ALIGN(rmem)", (rmem == LWIP_MEM_ALIGN(rmem)));
+	mov.d	d15,a12
+.L110:
+	add	d15,#3
+.L111:
+	insert	d15,d15,#0,#0,#2
+	mov.a	a15,d15
+	jeq.a	a12,a15,.L11
+	movh.a	a15,#@his(.5.str)
+	lea	a15,[a15]@los(.5.str)
+	st.a	[a10],a15
+	mov	d15,#313
+	st.w	[a10]4,d15
+.L109:
+	fcall	.cocofun_10
+.L112:
+	st.a	[a10]8,a15
+	fcall	.cocofun_11
+	call	Ifx_Lwip_printf
+.L11:
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   314  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   315    /* get the original struct memp_malloc_helper */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   316    /* cast through void* to get rid of alignment warnings */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   317    hmem = (struct memp_malloc_helper *)(void *)((u8_t *)rmem - LWIP_MEM_ALIGN_SIZE(sizeof(struct memp_malloc_helper)));
+	add.a	a12,#-4
+.L164:
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   318  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   319    LWIP_ASSERT("hmem != NULL", (hmem != NULL));
+	jnz.a	a12,.L12
+.L165:
+	movh.a	a15,#@his(.6.str)
+	lea	a15,[a15]@los(.6.str)
+	st.a	[a10],a15
+	mov	d15,#319
+	st.w	[a10]4,d15
+.L113:
+	fcall	.cocofun_10
+.L114:
+	st.a	[a10]8,a15
+	fcall	.cocofun_11
+	call	Ifx_Lwip_printf
+.L12:
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   320    LWIP_ASSERT("hmem == MEM_ALIGN(hmem)", (hmem == LWIP_MEM_ALIGN(hmem)));
+	mov.d	d15,a12
+.L116:
+	add	d15,#3
+.L117:
+	insert	d15,d15,#0,#0,#2
+	mov.a	a15,d15
+	jeq.a	a12,a15,.L13
+	movh.a	a15,#@his(.7.str)
+	lea	a15,[a15]@los(.7.str)
+	st.a	[a10],a15
+	mov	d15,#320
+	st.w	[a10]4,d15
+.L115:
+	fcall	.cocofun_10
+.L118:
+	st.a	[a10]8,a15
+	fcall	.cocofun_11
+	call	Ifx_Lwip_printf
+.L13:
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   321    LWIP_ASSERT("hmem->poolnr < MEMP_MAX", (hmem->poolnr < MEMP_MAX));
+	ld.bu	d15,[a12]
+	jlt.u	d15,#12,.L14
+	movh.a	a15,#@his(.8.str)
+	lea	a15,[a15]@los(.8.str)
+	st.a	[a10],a15
+	mov	d15,#321
+	st.w	[a10]4,d15
+.L119:
+	fcall	.cocofun_10
+.L120:
+	st.a	[a10]8,a15
+	fcall	.cocofun_11
+	call	Ifx_Lwip_printf
+.L14:
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   322  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   323    MEM_STATS_DEC_USED_LOCKED(used, hmem->size);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   324  #if MEMP_OVERFLOW_CHECK
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   325    {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   326      u16_t i;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   327      LWIP_ASSERT("MEM_USE_POOLS: invalid chunk size",
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   328                  hmem->size <= memp_pools[hmem->poolnr]->size);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   329      /* check that unused memory remained untouched (diff between requested size and selected pool's size) */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   330      for (i = hmem->size; i < memp_pools[hmem->poolnr]->size; i++) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   331        u8_t data = *((u8_t *)rmem + i);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   332        LWIP_ASSERT("MEM_USE_POOLS: mem overflow detected", data == 0xcd);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   333      }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   334    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   335  #endif /* MEMP_OVERFLOW_CHECK */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   336  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   337    /* and put it in the pool we saved earlier */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   338    memp_free(hmem->poolnr, hmem);
+	ld.bu	d4,[a12]
+.L166:
+	mov.aa	a4,a12
+.L121:
+	j	memp_free
+.L92:
+	
+__mem_free_function_end:
+	.size	mem_free,__mem_free_function_end-mem_free
+.L61:
+	; End of function
+	
+	.sdecl	'.text.mem.mem_calloc',code,cluster('mem_calloc')
+	.sect	'.text.mem.mem_calloc'
+	.align	2
+	
+	.global	mem_calloc
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   339  }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   340  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   341  #else /* MEM_USE_POOLS */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   342  /* lwIP replacement for your libc malloc() */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   343  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   344  /**
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   345   * The heap is made up as a list of structs of this type.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   346   * This does not have to be aligned since for getting its size,
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   347   * we only use the macro SIZEOF_STRUCT_MEM, which automatically aligns.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   348   */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   349  struct mem {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   350    /** index (-> ram[next]) of the next struct */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   351    mem_size_t next;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   352    /** index (-> ram[prev]) of the previous struct */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   353    mem_size_t prev;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   354    /** 1: this area is used; 0: this area is unused */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   355    u8_t used;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   356  #if MEM_OVERFLOW_CHECK
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   357    /** this keeps track of the user allocation size for guard checks */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   358    mem_size_t user_size;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   359  #endif
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   360  };
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   361  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   362  /** All allocated blocks will be MIN_SIZE bytes big, at least!
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   363   * MIN_SIZE can be overridden to suit your needs. Smaller values save space,
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   364   * larger values could prevent too small blocks to fragment the RAM too much. */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   365  #ifndef MIN_SIZE
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   366  #define MIN_SIZE             12
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   367  #endif /* MIN_SIZE */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   368  /* some alignment macros: we define them here for better source code layout */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   369  #define MIN_SIZE_ALIGNED     LWIP_MEM_ALIGN_SIZE(MIN_SIZE)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   370  #define SIZEOF_STRUCT_MEM    LWIP_MEM_ALIGN_SIZE(sizeof(struct mem))
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   371  #define MEM_SIZE_ALIGNED     LWIP_MEM_ALIGN_SIZE(MEM_SIZE)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   372  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   373  /** If you want to relocate the heap to external memory, simply define
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   374   * LWIP_RAM_HEAP_POINTER as a void-pointer to that location.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   375   * If so, make sure the memory at that location is big enough (see below on
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   376   * how that space is calculated). */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   377  #ifndef LWIP_RAM_HEAP_POINTER
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   378  /** the heap. we need one struct mem at the end and some room for alignment */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   379  LWIP_DECLARE_MEMORY_ALIGNED(ram_heap, MEM_SIZE_ALIGNED + (2U * SIZEOF_STRUCT_MEM));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   380  #define LWIP_RAM_HEAP_POINTER ram_heap
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   381  #endif /* LWIP_RAM_HEAP_POINTER */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   382  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   383  /** pointer to the heap (ram_heap): for alignment, ram is now a pointer instead of an array */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   384  static u8_t *ram;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   385  /** the last entry, always unused! */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   386  static struct mem *ram_end;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   387  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   388  /** concurrent access protection */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   389  #if !NO_SYS
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   390  static sys_mutex_t mem_mutex;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   391  #endif
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   392  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   393  #if LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   394  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   395  static volatile u8_t mem_free_count;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   396  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   397  /* Allow mem_free from other (e.g. interrupt) context */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   398  #define LWIP_MEM_FREE_DECL_PROTECT()  SYS_ARCH_DECL_PROTECT(lev_free)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   399  #define LWIP_MEM_FREE_PROTECT()       SYS_ARCH_PROTECT(lev_free)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   400  #define LWIP_MEM_FREE_UNPROTECT()     SYS_ARCH_UNPROTECT(lev_free)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   401  #define LWIP_MEM_ALLOC_DECL_PROTECT() SYS_ARCH_DECL_PROTECT(lev_alloc)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   402  #define LWIP_MEM_ALLOC_PROTECT()      SYS_ARCH_PROTECT(lev_alloc)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   403  #define LWIP_MEM_ALLOC_UNPROTECT()    SYS_ARCH_UNPROTECT(lev_alloc)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   404  #define LWIP_MEM_LFREE_VOLATILE       volatile
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   405  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   406  #else /* LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   407  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   408  /* Protect the heap only by using a mutex */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   409  #define LWIP_MEM_FREE_DECL_PROTECT()
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   410  #define LWIP_MEM_FREE_PROTECT()    sys_mutex_lock(&mem_mutex)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   411  #define LWIP_MEM_FREE_UNPROTECT()  sys_mutex_unlock(&mem_mutex)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   412  /* mem_malloc is protected using mutex AND LWIP_MEM_ALLOC_PROTECT */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   413  #define LWIP_MEM_ALLOC_DECL_PROTECT()
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   414  #define LWIP_MEM_ALLOC_PROTECT()
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   415  #define LWIP_MEM_ALLOC_UNPROTECT()
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   416  #define LWIP_MEM_LFREE_VOLATILE
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   417  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   418  #endif /* LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   419  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   420  /** pointer to the lowest free block, this is used for faster search */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   421  static struct mem * LWIP_MEM_LFREE_VOLATILE lfree;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   422  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   423  #if MEM_SANITY_CHECK
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   424  static void mem_sanity(void);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   425  #define MEM_SANITY() mem_sanity()
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   426  #else
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   427  #define MEM_SANITY()
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   428  #endif
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   429  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   430  #if MEM_OVERFLOW_CHECK
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   431  static void
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   432  mem_overflow_init_element(struct mem *mem, mem_size_t user_size)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   433  {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   434    void *p = (u8_t *)mem + SIZEOF_STRUCT_MEM + MEM_SANITY_OFFSET;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   435    mem->user_size = user_size;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   436    mem_overflow_init_raw(p, user_size);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   437  }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   438  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   439  static void
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   440  mem_overflow_check_element(struct mem *mem)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   441  {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   442    void *p = (u8_t *)mem + SIZEOF_STRUCT_MEM + MEM_SANITY_OFFSET;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   443    mem_overflow_check_raw(p, mem->user_size, "heap", "");
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   444  }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   445  #else /* MEM_OVERFLOW_CHECK */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   446  #define mem_overflow_init_element(mem, size)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   447  #define mem_overflow_check_element(mem)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   448  #endif /* MEM_OVERFLOW_CHECK */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   449  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   450  static struct mem *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   451  ptr_to_mem(mem_size_t ptr)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   452  {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   453    return (struct mem *)(void *)&ram[ptr];
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   454  }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   455  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   456  static mem_size_t
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   457  mem_to_ptr(void *mem)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   458  {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   459    return (mem_size_t)((u8_t *)mem - ram);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   460  }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   461  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   462  /**
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   463   * "Plug holes" by combining adjacent empty struct mems.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   464   * After this function is through, there should not exist
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   465   * one empty struct mem pointing to another empty struct mem.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   466   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   467   * @param mem this points to a struct mem which just has been freed
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   468   * @internal this function is only called by mem_free() and mem_trim()
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   469   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   470   * This assumes access to the heap is protected by the calling function
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   471   * already.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   472   */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   473  static void
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   474  plug_holes(struct mem *mem)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   475  {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   476    struct mem *nmem;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   477    struct mem *pmem;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   478  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   479    LWIP_ASSERT("plug_holes: mem >= ram", (u8_t *)mem >= ram);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   480    LWIP_ASSERT("plug_holes: mem < ram_end", (u8_t *)mem < (u8_t *)ram_end);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   481    LWIP_ASSERT("plug_holes: mem->used == 0", mem->used == 0);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   482  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   483    /* plug hole forward */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   484    LWIP_ASSERT("plug_holes: mem->next <= MEM_SIZE_ALIGNED", mem->next <= MEM_SIZE_ALIGNED);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   485  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   486    nmem = ptr_to_mem(mem->next);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   487    if (mem != nmem && nmem->used == 0 && (u8_t *)nmem != (u8_t *)ram_end) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   488      /* if mem->next is unused and not end of ram, combine mem and mem->next */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   489      if (lfree == nmem) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   490        lfree = mem;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   491      }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   492      mem->next = nmem->next;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   493      if (nmem->next != MEM_SIZE_ALIGNED) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   494        ptr_to_mem(nmem->next)->prev = mem_to_ptr(mem);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   495      }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   496    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   497  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   498    /* plug hole backward */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   499    pmem = ptr_to_mem(mem->prev);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   500    if (pmem != mem && pmem->used == 0) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   501      /* if mem->prev is unused, combine mem and mem->prev */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   502      if (lfree == mem) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   503        lfree = pmem;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   504      }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   505      pmem->next = mem->next;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   506      if (mem->next != MEM_SIZE_ALIGNED) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   507        ptr_to_mem(mem->next)->prev = mem_to_ptr(pmem);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   508      }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   509    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   510  }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   511  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   512  /**
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   513   * Zero the heap and initialize start, end and lowest-free
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   514   */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   515  void
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   516  mem_init(void)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   517  {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   518    struct mem *mem;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   519  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   520    LWIP_ASSERT("Sanity check alignment",
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   521                (SIZEOF_STRUCT_MEM & (MEM_ALIGNMENT - 1)) == 0);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   522  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   523    /* align the heap */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   524    ram = (u8_t *)LWIP_MEM_ALIGN(LWIP_RAM_HEAP_POINTER);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   525    /* initialize the start of the heap */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   526    mem = (struct mem *)(void *)ram;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   527    mem->next = MEM_SIZE_ALIGNED;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   528    mem->prev = 0;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   529    mem->used = 0;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   530    /* initialize the end of the heap */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   531    ram_end = ptr_to_mem(MEM_SIZE_ALIGNED);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   532    ram_end->used = 1;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   533    ram_end->next = MEM_SIZE_ALIGNED;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   534    ram_end->prev = MEM_SIZE_ALIGNED;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   535    MEM_SANITY();
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   536  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   537    /* initialize the lowest-free pointer to the start of the heap */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   538    lfree = (struct mem *)(void *)ram;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   539  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   540    MEM_STATS_AVAIL(avail, MEM_SIZE_ALIGNED);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   541  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   542    if (sys_mutex_new(&mem_mutex) != ERR_OK) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   543      LWIP_ASSERT("failed to create mem_mutex", 0);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   544    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   545  }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   546  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   547  /* Check if a struct mem is correctly linked.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   548   * If not, double-free is a possible reason.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   549   */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   550  static int
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   551  mem_link_valid(struct mem *mem)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   552  {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   553    struct mem *nmem, *pmem;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   554    mem_size_t rmem_idx;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   555    rmem_idx = mem_to_ptr(mem);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   556    nmem = ptr_to_mem(mem->next);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   557    pmem = ptr_to_mem(mem->prev);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   558    if ((mem->next > MEM_SIZE_ALIGNED) || (mem->prev > MEM_SIZE_ALIGNED) ||
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   559        ((mem->prev != rmem_idx) && (pmem->next != rmem_idx)) ||
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   560        ((nmem != ram_end) && (nmem->prev != rmem_idx))) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   561      return 0;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   562    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   563    return 1;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   564  }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   565  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   566  #if MEM_SANITY_CHECK
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   567  static void
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   568  mem_sanity(void)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   569  {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   570    struct mem *mem;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   571    u8_t last_used;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   572  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   573    /* begin with first element here */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   574    mem = (struct mem *)ram;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   575    LWIP_ASSERT("heap element used valid", (mem->used == 0) || (mem->used == 1));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   576    last_used = mem->used;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   577    LWIP_ASSERT("heap element prev ptr valid", mem->prev == 0);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   578    LWIP_ASSERT("heap element next ptr valid", mem->next <= MEM_SIZE_ALIGNED);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   579    LWIP_ASSERT("heap element next ptr aligned", LWIP_MEM_ALIGN(ptr_to_mem(mem->next) == ptr_to_mem(mem->next)));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   580  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   581    /* check all elements before the end of the heap */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   582    for (mem = ptr_to_mem(mem->next);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   583         ((u8_t *)mem > ram) && (mem < ram_end);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   584         mem = ptr_to_mem(mem->next)) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   585      LWIP_ASSERT("heap element aligned", LWIP_MEM_ALIGN(mem) == mem);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   586      LWIP_ASSERT("heap element prev ptr valid", mem->prev <= MEM_SIZE_ALIGNED);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   587      LWIP_ASSERT("heap element next ptr valid", mem->next <= MEM_SIZE_ALIGNED);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   588      LWIP_ASSERT("heap element prev ptr aligned", LWIP_MEM_ALIGN(ptr_to_mem(mem->prev) == ptr_to_mem(mem->prev)));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   589      LWIP_ASSERT("heap element next ptr aligned", LWIP_MEM_ALIGN(ptr_to_mem(mem->next) == ptr_to_mem(mem->next)));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   590  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   591      if (last_used == 0) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   592        /* 2 unused elements in a row? */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   593        LWIP_ASSERT("heap element unused?", mem->used == 1);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   594      } else {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   595        LWIP_ASSERT("heap element unused member", (mem->used == 0) || (mem->used == 1));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   596      }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   597  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   598      LWIP_ASSERT("heap element link valid", mem_link_valid(mem));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   599  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   600      /* used/unused altering */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   601      last_used = mem->used;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   602    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   603    LWIP_ASSERT("heap end ptr sanity", mem == ptr_to_mem(MEM_SIZE_ALIGNED));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   604    LWIP_ASSERT("heap element used valid", mem->used == 1);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   605    LWIP_ASSERT("heap element prev ptr valid", mem->prev == MEM_SIZE_ALIGNED);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   606    LWIP_ASSERT("heap element next ptr valid", mem->next == MEM_SIZE_ALIGNED);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   607  }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   608  #endif /* MEM_SANITY_CHECK */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   609  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   610  /**
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   611   * Put a struct mem back on the heap
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   612   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   613   * @param rmem is the data portion of a struct mem as returned by a previous
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   614   *             call to mem_malloc()
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   615   */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   616  void
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   617  mem_free(void *rmem)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   618  {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   619    struct mem *mem;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   620    LWIP_MEM_FREE_DECL_PROTECT();
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   621  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   622    if (rmem == NULL) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   623      LWIP_DEBUGF(MEM_DEBUG | LWIP_DBG_TRACE | LWIP_DBG_LEVEL_SERIOUS, ("mem_free(p == NULL) was called.\n"));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   624      return;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   625    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   626    if ((((mem_ptr_t)rmem) & (MEM_ALIGNMENT - 1)) != 0) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   627      LWIP_MEM_ILLEGAL_FREE("mem_free: sanity check alignment");
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   628      LWIP_DEBUGF(MEM_DEBUG | LWIP_DBG_LEVEL_SEVERE, ("mem_free: sanity check alignment\n"));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   629      /* protect mem stats from concurrent access */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   630      MEM_STATS_INC_LOCKED(illegal);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   631      return;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   632    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   633  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   634    /* Get the corresponding struct mem: */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   635    /* cast through void* to get rid of alignment warnings */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   636    mem = (struct mem *)(void *)((u8_t *)rmem - (SIZEOF_STRUCT_MEM + MEM_SANITY_OFFSET));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   637  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   638    if ((u8_t *)mem < ram || (u8_t *)rmem + MIN_SIZE_ALIGNED > (u8_t *)ram_end) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   639      LWIP_MEM_ILLEGAL_FREE("mem_free: illegal memory");
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   640      LWIP_DEBUGF(MEM_DEBUG | LWIP_DBG_LEVEL_SEVERE, ("mem_free: illegal memory\n"));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   641      /* protect mem stats from concurrent access */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   642      MEM_STATS_INC_LOCKED(illegal);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   643      return;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   644    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   645  #if MEM_OVERFLOW_CHECK
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   646    mem_overflow_check_element(mem);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   647  #endif
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   648    /* protect the heap from concurrent access */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   649    LWIP_MEM_FREE_PROTECT();
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   650    /* mem has to be in a used state */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   651    if (!mem->used) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   652      LWIP_MEM_ILLEGAL_FREE("mem_free: illegal memory: double free");
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   653      LWIP_MEM_FREE_UNPROTECT();
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   654      LWIP_DEBUGF(MEM_DEBUG | LWIP_DBG_LEVEL_SEVERE, ("mem_free: illegal memory: double free?\n"));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   655      /* protect mem stats from concurrent access */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   656      MEM_STATS_INC_LOCKED(illegal);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   657      return;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   658    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   659  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   660    if (!mem_link_valid(mem)) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   661      LWIP_MEM_ILLEGAL_FREE("mem_free: illegal memory: non-linked: double free");
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   662      LWIP_MEM_FREE_UNPROTECT();
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   663      LWIP_DEBUGF(MEM_DEBUG | LWIP_DBG_LEVEL_SEVERE, ("mem_free: illegal memory: non-linked: double free?\n"));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   664      /* protect mem stats from concurrent access */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   665      MEM_STATS_INC_LOCKED(illegal);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   666      return;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   667    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   668  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   669    /* mem is now unused. */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   670    mem->used = 0;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   671  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   672    if (mem < lfree) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   673      /* the newly freed struct is now the lowest */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   674      lfree = mem;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   675    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   676  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   677    MEM_STATS_DEC_USED(used, mem->next - (mem_size_t)(((u8_t *)mem - ram)));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   678  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   679    /* finally, see if prev or next are free also */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   680    plug_holes(mem);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   681    MEM_SANITY();
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   682  #if LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   683    mem_free_count = 1;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   684  #endif /* LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   685    LWIP_MEM_FREE_UNPROTECT();
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   686  }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   687  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   688  /**
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   689   * Shrink memory returned by mem_malloc().
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   690   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   691   * @param rmem pointer to memory allocated by mem_malloc the is to be shrinked
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   692   * @param new_size required size after shrinking (needs to be smaller than or
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   693   *                equal to the previous size)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   694   * @return for compatibility reasons: is always == rmem, at the moment
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   695   *         or NULL if newsize is > old size, in which case rmem is NOT touched
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   696   *         or freed!
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   697   */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   698  void *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   699  mem_trim(void *rmem, mem_size_t new_size)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   700  {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   701    mem_size_t size, newsize;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   702    mem_size_t ptr, ptr2;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   703    struct mem *mem, *mem2;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   704    /* use the FREE_PROTECT here: it protects with sem OR SYS_ARCH_PROTECT */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   705    LWIP_MEM_FREE_DECL_PROTECT();
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   706  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   707    /* Expand the size of the allocated memory region so that we can
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   708       adjust for alignment. */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   709    newsize = (mem_size_t)LWIP_MEM_ALIGN_SIZE(new_size);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   710    if (newsize < MIN_SIZE_ALIGNED) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   711      /* every data block must be at least MIN_SIZE_ALIGNED long */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   712      newsize = MIN_SIZE_ALIGNED;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   713    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   714  #if MEM_OVERFLOW_CHECK
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   715    newsize += MEM_SANITY_REGION_BEFORE_ALIGNED + MEM_SANITY_REGION_AFTER_ALIGNED;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   716  #endif
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   717    if ((newsize > MEM_SIZE_ALIGNED) || (newsize < new_size)) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   718      return NULL;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   719    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   720  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   721    LWIP_ASSERT("mem_trim: legal memory", (u8_t *)rmem >= (u8_t *)ram &&
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   722                (u8_t *)rmem < (u8_t *)ram_end);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   723  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   724    if ((u8_t *)rmem < (u8_t *)ram || (u8_t *)rmem >= (u8_t *)ram_end) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   725      LWIP_DEBUGF(MEM_DEBUG | LWIP_DBG_LEVEL_SEVERE, ("mem_trim: illegal memory\n"));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   726      /* protect mem stats from concurrent access */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   727      MEM_STATS_INC_LOCKED(illegal);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   728      return rmem;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   729    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   730    /* Get the corresponding struct mem ... */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   731    /* cast through void* to get rid of alignment warnings */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   732    mem = (struct mem *)(void *)((u8_t *)rmem - (SIZEOF_STRUCT_MEM + MEM_SANITY_OFFSET));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   733  #if MEM_OVERFLOW_CHECK
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   734    mem_overflow_check_element(mem);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   735  #endif
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   736    /* ... and its offset pointer */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   737    ptr = mem_to_ptr(mem);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   738  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   739    size = (mem_size_t)((mem_size_t)(mem->next - ptr) - (SIZEOF_STRUCT_MEM + MEM_SANITY_OVERHEAD));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   740    LWIP_ASSERT("mem_trim can only shrink memory", newsize <= size);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   741    if (newsize > size) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   742      /* not supported */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   743      return NULL;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   744    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   745    if (newsize == size) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   746      /* No change in size, simply return */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   747      return rmem;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   748    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   749  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   750    /* protect the heap from concurrent access */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   751    LWIP_MEM_FREE_PROTECT();
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   752  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   753    mem2 = ptr_to_mem(mem->next);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   754    if (mem2->used == 0) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   755      /* The next struct is unused, we can simply move it at little */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   756      mem_size_t next;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   757      LWIP_ASSERT("invalid next ptr", mem->next != MEM_SIZE_ALIGNED);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   758      /* remember the old next pointer */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   759      next = mem2->next;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   760      /* create new struct mem which is moved directly after the shrinked mem */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   761      ptr2 = (mem_size_t)(ptr + SIZEOF_STRUCT_MEM + newsize);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   762      if (lfree == mem2) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   763        lfree = ptr_to_mem(ptr2);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   764      }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   765      mem2 = ptr_to_mem(ptr2);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   766      mem2->used = 0;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   767      /* restore the next pointer */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   768      mem2->next = next;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   769      /* link it back to mem */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   770      mem2->prev = ptr;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   771      /* link mem to it */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   772      mem->next = ptr2;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   773      /* last thing to restore linked list: as we have moved mem2,
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   774       * let 'mem2->next->prev' point to mem2 again. but only if mem2->next is not
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   775       * the end of the heap */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   776      if (mem2->next != MEM_SIZE_ALIGNED) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   777        ptr_to_mem(mem2->next)->prev = ptr2;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   778      }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   779      MEM_STATS_DEC_USED(used, (size - newsize));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   780      /* no need to plug holes, we've already done that */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   781    } else if (newsize + SIZEOF_STRUCT_MEM + MIN_SIZE_ALIGNED <= size) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   782      /* Next struct is used but there's room for another struct mem with
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   783       * at least MIN_SIZE_ALIGNED of data.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   784       * Old size ('size') must be big enough to contain at least 'newsize' plus a struct mem
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   785       * ('SIZEOF_STRUCT_MEM') with some data ('MIN_SIZE_ALIGNED').
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   786       * @todo we could leave out MIN_SIZE_ALIGNED. We would create an empty
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   787       *       region that couldn't hold data, but when mem->next gets freed,
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   788       *       the 2 regions would be combined, resulting in more free memory */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   789      ptr2 = (mem_size_t)(ptr + SIZEOF_STRUCT_MEM + newsize);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   790      LWIP_ASSERT("invalid next ptr", mem->next != MEM_SIZE_ALIGNED);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   791      mem2 = ptr_to_mem(ptr2);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   792      if (mem2 < lfree) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   793        lfree = mem2;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   794      }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   795      mem2->used = 0;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   796      mem2->next = mem->next;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   797      mem2->prev = ptr;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   798      mem->next = ptr2;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   799      if (mem2->next != MEM_SIZE_ALIGNED) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   800        ptr_to_mem(mem2->next)->prev = ptr2;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   801      }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   802      MEM_STATS_DEC_USED(used, (size - newsize));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   803      /* the original mem->next is used, so no need to plug holes! */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   804    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   805    /* else {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   806      next struct mem is used but size between mem and mem2 is not big enough
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   807      to create another struct mem
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   808      -> don't do anyhting.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   809      -> the remaining space stays unused since it is too small
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   810    } */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   811  #if MEM_OVERFLOW_CHECK
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   812    mem_overflow_init_element(mem, new_size);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   813  #endif
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   814    MEM_SANITY();
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   815  #if LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   816    mem_free_count = 1;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   817  #endif /* LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   818    LWIP_MEM_FREE_UNPROTECT();
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   819    return rmem;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   820  }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   821  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   822  /**
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   823   * Allocate a block of memory with a minimum of 'size' bytes.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   824   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   825   * @param size_in is the minimum size of the requested block in bytes.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   826   * @return pointer to allocated memory or NULL if no free memory was found.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   827   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   828   * Note that the returned value will always be aligned (as defined by MEM_ALIGNMENT).
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   829   */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   830  void *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   831  mem_malloc(mem_size_t size_in)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   832  {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   833    mem_size_t ptr, ptr2, size;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   834    struct mem *mem, *mem2;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   835  #if LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   836    u8_t local_mem_free_count = 0;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   837  #endif /* LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   838    LWIP_MEM_ALLOC_DECL_PROTECT();
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   839  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   840    if (size_in == 0) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   841      return NULL;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   842    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   843  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   844    /* Expand the size of the allocated memory region so that we can
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   845       adjust for alignment. */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   846    size = (mem_size_t)LWIP_MEM_ALIGN_SIZE(size_in);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   847    if (size < MIN_SIZE_ALIGNED) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   848      /* every data block must be at least MIN_SIZE_ALIGNED long */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   849      size = MIN_SIZE_ALIGNED;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   850    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   851  #if MEM_OVERFLOW_CHECK
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   852    size += MEM_SANITY_REGION_BEFORE_ALIGNED + MEM_SANITY_REGION_AFTER_ALIGNED;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   853  #endif
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   854    if ((size > MEM_SIZE_ALIGNED) || (size < size_in)) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   855      return NULL;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   856    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   857  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   858    /* protect the heap from concurrent access */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   859    sys_mutex_lock(&mem_mutex);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   860    LWIP_MEM_ALLOC_PROTECT();
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   861  #if LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   862    /* run as long as a mem_free disturbed mem_malloc or mem_trim */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   863    do {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   864      local_mem_free_count = 0;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   865  #endif /* LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   866  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   867      /* Scan through the heap searching for a free block that is big enough,
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   868       * beginning with the lowest free block.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   869       */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   870      for (ptr = mem_to_ptr(lfree); ptr < MEM_SIZE_ALIGNED - size;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   871           ptr = ptr_to_mem(ptr)->next) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   872        mem = ptr_to_mem(ptr);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   873  #if LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   874        mem_free_count = 0;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   875        LWIP_MEM_ALLOC_UNPROTECT();
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   876        /* allow mem_free or mem_trim to run */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   877        LWIP_MEM_ALLOC_PROTECT();
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   878        if (mem_free_count != 0) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   879          /* If mem_free or mem_trim have run, we have to restart since they
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   880             could have altered our current struct mem. */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   881          local_mem_free_count = 1;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   882          break;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   883        }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   884  #endif /* LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   885  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   886        if ((!mem->used) &&
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   887            (mem->next - (ptr + SIZEOF_STRUCT_MEM)) >= size) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   888          /* mem is not used and at least perfect fit is possible:
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   889           * mem->next - (ptr + SIZEOF_STRUCT_MEM) gives us the 'user data size' of mem */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   890  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   891          if (mem->next - (ptr + SIZEOF_STRUCT_MEM) >= (size + SIZEOF_STRUCT_MEM + MIN_SIZE_ALIGNED)) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   892            /* (in addition to the above, we test if another struct mem (SIZEOF_STRUCT_MEM) containing
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   893             * at least MIN_SIZE_ALIGNED of data also fits in the 'user data space' of 'mem')
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   894             * -> split large block, create empty remainder,
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   895             * remainder must be large enough to contain MIN_SIZE_ALIGNED data: if
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   896             * mem->next - (ptr + (2*SIZEOF_STRUCT_MEM)) == size,
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   897             * struct mem would fit in but no data between mem2 and mem2->next
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   898             * @todo we could leave out MIN_SIZE_ALIGNED. We would create an empty
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   899             *       region that couldn't hold data, but when mem->next gets freed,
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   900             *       the 2 regions would be combined, resulting in more free memory
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   901             */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   902            ptr2 = (mem_size_t)(ptr + SIZEOF_STRUCT_MEM + size);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   903            LWIP_ASSERT("invalid next ptr",ptr2 != MEM_SIZE_ALIGNED);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   904            /* create mem2 struct */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   905            mem2 = ptr_to_mem(ptr2);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   906            mem2->used = 0;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   907            mem2->next = mem->next;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   908            mem2->prev = ptr;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   909            /* and insert it between mem and mem->next */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   910            mem->next = ptr2;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   911            mem->used = 1;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   912  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   913            if (mem2->next != MEM_SIZE_ALIGNED) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   914              ptr_to_mem(mem2->next)->prev = ptr2;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   915            }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   916            MEM_STATS_INC_USED(used, (size + SIZEOF_STRUCT_MEM));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   917          } else {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   918            /* (a mem2 struct does no fit into the user data space of mem and mem->next will always
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   919             * be used at this point: if not we have 2 unused structs in a row, plug_holes should have
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   920             * take care of this).
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   921             * -> near fit or exact fit: do not split, no mem2 creation
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   922             * also can't move mem->next directly behind mem, since mem->next
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   923             * will always be used at this point!
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   924             */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   925            mem->used = 1;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   926            MEM_STATS_INC_USED(used, mem->next - mem_to_ptr(mem));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   927          }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   928  #if LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   929  mem_malloc_adjust_lfree:
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   930  #endif /* LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   931          if (mem == lfree) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   932            struct mem *cur = lfree;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   933            /* Find next free block after mem and update lowest free pointer */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   934            while (cur->used && cur != ram_end) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   935  #if LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   936              mem_free_count = 0;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   937              LWIP_MEM_ALLOC_UNPROTECT();
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   938              /* prevent high interrupt latency... */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   939              LWIP_MEM_ALLOC_PROTECT();
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   940              if (mem_free_count != 0) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   941                /* If mem_free or mem_trim have run, we have to restart since they
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   942                   could have altered our current struct mem or lfree. */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   943                goto mem_malloc_adjust_lfree;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   944              }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   945  #endif /* LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   946              cur = ptr_to_mem(cur->next);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   947            }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   948            lfree = cur;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   949            LWIP_ASSERT("mem_malloc: !lfree->used", ((lfree == ram_end) || (!lfree->used)));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   950          }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   951          LWIP_MEM_ALLOC_UNPROTECT();
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   952          sys_mutex_unlock(&mem_mutex);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   953          LWIP_ASSERT("mem_malloc: allocated memory not above ram_end.",
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   954                      (mem_ptr_t)mem + SIZEOF_STRUCT_MEM + size <= (mem_ptr_t)ram_end);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   955          LWIP_ASSERT("mem_malloc: allocated memory properly aligned.",
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   956                      ((mem_ptr_t)mem + SIZEOF_STRUCT_MEM) % MEM_ALIGNMENT == 0);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   957          LWIP_ASSERT("mem_malloc: sanity check alignment",
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   958                      (((mem_ptr_t)mem) & (MEM_ALIGNMENT - 1)) == 0);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   959  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   960  #if MEM_OVERFLOW_CHECK
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   961          mem_overflow_init_element(mem, size_in);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   962  #endif
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   963          MEM_SANITY();
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   964          return (u8_t *)mem + SIZEOF_STRUCT_MEM + MEM_SANITY_OFFSET;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   965        }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   966      }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   967  #if LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   968      /* if we got interrupted by a mem_free, try again */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   969    } while (local_mem_free_count != 0);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   970  #endif /* LWIP_ALLOW_MEM_FREE_FROM_OTHER_CONTEXT */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   971    MEM_STATS_INC(err);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   972    LWIP_MEM_ALLOC_UNPROTECT();
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   973    sys_mutex_unlock(&mem_mutex);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   974    LWIP_DEBUGF(MEM_DEBUG | LWIP_DBG_LEVEL_SERIOUS, ("mem_malloc: could not allocate %"S16_F" bytes\n", (s16_t)size));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   975    return NULL;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   976  }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   977  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   978  #endif /* MEM_USE_POOLS */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   979  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   980  #if MEM_LIBC_MALLOC && (!LWIP_STATS || !MEM_STATS)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   981  void *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   982  mem_calloc(mem_size_t count, mem_size_t size)
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   983  {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   984    return mem_clib_calloc(count, size);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   985  }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   986  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   987  #else /* MEM_LIBC_MALLOC && (!LWIP_STATS || !MEM_STATS) */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   988  /**
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   989   * Contiguously allocates enough space for count objects that are size bytes
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   990   * of memory each and returns a pointer to the allocated memory.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   991   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   992   * The allocated memory is filled with bytes of value zero.
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   993   *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   994   * @param count number of objects to allocate
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   995   * @param size size of the objects to allocate
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   996   * @return pointer to allocated memory / NULL pointer if there is an error
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   997   */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   998  void *
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	   999  mem_calloc(mem_size_t count, mem_size_t size)
+; Function mem_calloc
+.L32:
+mem_calloc:	.type	func
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	  1000  {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	  1001    void *p;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	  1002    size_t alloc_size = (size_t)count * (size_t)size;
+	mul	d8,d4,d5
+.L123:
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	  1003  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	  1004    if ((size_t)(mem_size_t)alloc_size != alloc_size) {
+	extr.u	d15,d8,#0,#16
+.L155:
+	jeq	d15,d8,.L15
+.L156:
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	  1005      LWIP_DEBUGF(MEM_DEBUG | LWIP_DBG_LEVEL_SERIOUS, ("mem_calloc: could not allocate %"SZT_F" bytes\n", alloc_size));
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	  1006      return NULL;
+	mov.a	a2,#0
+.L157:
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	  1007    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	  1008  
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	  1009    /* allocate 'count' objects of size 'size' */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	  1010    p = mem_malloc((mem_size_t)alloc_size);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	  1011    if (p) {
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	  1012      /* zero the memory */
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	  1013      memset(p, 0, alloc_size);
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	  1014    }
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	  1015    return p;
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	  1016  }
+	ret
+.L15:
+	mov	d4,d15
+	call	mem_malloc
+.L122:
+	mov.aa	a15,a2
+.L125:
+	jz.a	a15,.L17
+.L158:
+	mov	d4,#0
+	mov.aa	a4,a15
+.L124:
+	mov	d5,d8
+	call	memset
+.L17:
+	mov.aa	a2,a15
+.L126:
+	ret
+.L86:
+	
+__mem_calloc_function_end:
+	.size	mem_calloc,__mem_calloc_function_end-mem_calloc
+.L56:
+	; End of function
+	
+	.sdecl	'.rodata.mem..1.str',data,rom
+	.sect	'.rodata.mem..1.str'
+.1.str:	.type	object
+	.size	.1.str,40
+	.byte	65,115,115,101
+	.byte	114,116,105,111
+	.byte	110,32,34,37
+	.byte	115,34,32,102
+	.byte	97,105,108,101
+	.byte	100,32,97,116
+	.byte	32,108,105,110
+	.byte	101,32,37,100
+	.byte	32,105,110,32
+	.byte	37,115,10
+	.space	1
+	.sdecl	'.rodata.mem..2.str',data,rom
+	.sect	'.rodata.mem..2.str'
+.2.str:	.type	object
+	.size	.2.str,35
+	.byte	109,101,109,95
+	.byte	109,97,108,108
+	.byte	111,99,40,41
+	.byte	58,32,110,111
+	.byte	32,112,111,111
+	.byte	108,32,105,115
+	.byte	32,116,104,97
+	.byte	116,32,98,105
+	.byte	103,33
+	.space	1
+	.sdecl	'.rodata.mem..3.str',data,rom
+	.sect	'.rodata.mem..3.str'
+.3.str:	.type	object
+	.size	.3.str,46
+	.byte	46,46,92,48
+	.byte	95,83,114,99
+	.byte	92,48,95,65
+	.byte	112,112,83,119
+	.byte	92,69,116,104
+	.byte	101,114,110,101
+	.byte	116,92,108,119
+	.byte	105,112,92,115
+	.byte	114,99,92,99
+	.byte	111,114,101,92
+	.byte	109,101,109,46
+	.byte	99
+	.space	1
+	.sdecl	'.rodata.mem..4.str',data,rom
+	.sect	'.rodata.mem..4.str'
+.4.str:	.type	object
+	.size	.4.str,13
+	.byte	114,109,101,109
+	.byte	32,33,61,32
+	.byte	78,85,76,76
+	.space	1
+	.sdecl	'.rodata.mem..5.str',data,rom
+	.sect	'.rodata.mem..5.str'
+.5.str:	.type	object
+	.size	.5.str,24
+	.byte	114,109,101,109
+	.byte	32,61,61,32
+	.byte	77,69,77,95
+	.byte	65,76,73,71
+	.byte	78,40,114,109
+	.byte	101,109,41
+	.space	1
+	.sdecl	'.rodata.mem..6.str',data,rom
+	.sect	'.rodata.mem..6.str'
+.6.str:	.type	object
+	.size	.6.str,13
+	.byte	104,109,101,109
+	.byte	32,33,61,32
+	.byte	78,85,76,76
+	.space	1
+	.sdecl	'.rodata.mem..7.str',data,rom
+	.sect	'.rodata.mem..7.str'
+.7.str:	.type	object
+	.size	.7.str,24
+	.byte	104,109,101,109
+	.byte	32,61,61,32
+	.byte	77,69,77,95
+	.byte	65,76,73,71
+	.byte	78,40,104,109
+	.byte	101,109,41
+	.space	1
+	.sdecl	'.rodata.mem..8.str',data,rom
+	.sect	'.rodata.mem..8.str'
+.8.str:	.type	object
+	.size	.8.str,24
+	.byte	104,109,101,109
+	.byte	45,62,112,111
+	.byte	111,108,110,114
+	.byte	32,60,32,77
+	.byte	69,77,80,95
+	.byte	77,65,88
+	.space	1
+	.calls	'mem_malloc','memp_malloc'
+	.calls	'mem_malloc','Ifx_Lwip_printf'
+	.calls	'mem_free','Ifx_Lwip_printf'
+	.calls	'mem_free','memp_free'
+	.calls	'mem_calloc','mem_malloc'
+	.calls	'mem_calloc','memset'
+	.calls	'mem_malloc','.cocofun_10'
+	.calls	'mem_malloc','.cocofun_11'
+	.calls	'mem_free','.cocofun_10'
+	.calls	'mem_free','.cocofun_11'
+	.calls	'mem_init','',0
+	.calls	'mem_trim','',0
+	.calls	'mem_malloc','',16
+	.calls	'.cocofun_11','',0
+	.calls	'.cocofun_10','',0
+	.calls	'mem_free','',16
+	.extern	Ifx_Lwip_printf
+	.extern	memp_pools
+	.extern	memp_malloc
+	.extern	memp_free
+	.extern	memset
+	.calls	'mem_calloc','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L34:
+	.word	1555
+	.half	3
+	.word	.L35
+	.byte	4
+.L33:
+	.byte	1
+	.byte	'..\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\Debug\\',0,12,1
+	.word	.L36
+	.byte	2
+	.byte	'int',0,4,5,3
+	.word	158
+	.byte	4
+	.byte	'__c11_atomic_thread_fence',0,1,1,1,1,5
+	.word	165
+	.byte	0
+.L90:
+	.byte	2
+	.byte	'unsigned int',0,4,7,6
+	.word	207
+	.byte	7
+	.word	207
+	.byte	8
+	.byte	'__cmpswapw',0
+	.word	223
+	.byte	1,1,1,1,9
+	.byte	'p',0
+	.word	228
+	.byte	9
+	.byte	'value',0
+	.word	207
+	.byte	9
+	.byte	'compare',0
+	.word	207
+	.byte	0,2
+	.byte	'char',0,1,6,2
+	.byte	'char',0,1,6,3
+	.word	293
+	.byte	7
+	.word	301
+	.byte	10
+	.byte	'Ifx_Lwip_printf',0,1,123,6
+	.word	285
+	.byte	1,1,1,1,11
+	.byte	's',0,1,123,34
+	.word	306
+	.byte	12,1,123,37,0,13
+	.byte	'void',0
+.L73:
+	.byte	7
+	.word	354
+.L76:
+	.byte	2
+	.byte	'unsigned short int',0,2,7
+.L83:
+	.byte	14,2,52,9,1,15
+	.byte	'MEMP_UDP_PCB',0,0,15
+	.byte	'MEMP_TCP_PCB',0,1,15
+	.byte	'MEMP_TCP_PCB_LISTEN',0,2,15
+	.byte	'MEMP_TCP_SEG',0,3,15
+	.byte	'MEMP_REASSDATA',0,4,15
+	.byte	'MEMP_FRAG_PBUF',0,5,15
+	.byte	'MEMP_SYS_TIMEOUT',0,6,15
+	.byte	'MEMP_PBUF',0,7,15
+	.byte	'MEMP_PBUF_POOL',0,8,15
+	.byte	'MEMP_POOL_256',0,9,15
+	.byte	'MEMP_POOL_512',0,10,15
+	.byte	'MEMP_POOL_1512',0,11,15
+	.byte	'MEMP_MAX',0,12,0,16
+	.byte	'memp_malloc_helper',0,2,132,1,8,1,17
+	.byte	'poolnr',0
+	.word	387
+	.byte	1,2,35,0,0
+.L81:
+	.byte	7
+	.word	602
+	.byte	10
+	.byte	'memp_malloc',0,2,147,1,7
+	.word	360
+	.byte	1,1,1,1,11
+	.byte	'type',0,2,147,1,26
+	.word	387
+	.byte	0,18
+	.byte	'memp_free',0,2,149,1,7,1,1,1,1,11
+	.byte	'type',0,2,149,1,24
+	.word	387
+	.byte	11
+	.byte	'mem',0,2,149,1,36
+	.word	360
+	.byte	0,10
+	.byte	'memset',0,3,56,17
+	.word	360
+	.byte	1,1,1,1,19,3,56,33
+	.word	360
+	.byte	19,3,56,36
+	.word	158
+	.byte	19,3,56,41
+	.word	207
+	.byte	0,2
+	.byte	'short int',0,2,5,20
+	.byte	'__wchar_t',0,4,1,1
+	.word	780
+	.byte	20
+	.byte	'__size_t',0,4,1,1
+	.word	207
+	.byte	20
+	.byte	'__ptrdiff_t',0,4,1,1
+	.word	158
+	.byte	21,1,7
+	.word	848
+	.byte	20
+	.byte	'__codeptr',0,4,1,1
+	.word	850
+	.byte	20
+	.byte	'__intptr_t',0,4,1,1
+	.word	158
+	.byte	20
+	.byte	'__uintptr_t',0,4,1,1
+	.word	207
+	.byte	20
+	.byte	'size_t',0,5,24,25
+	.word	207
+	.byte	2
+	.byte	'unsigned char',0,1,8,20
+	.byte	'uint8',0,6,108,29
+	.word	927
+	.byte	20
+	.byte	'uint16',0,6,112,29
+	.word	365
+	.byte	2
+	.byte	'unsigned long int',0,4,7,20
+	.byte	'uint32',0,6,116,29
+	.word	973
+	.byte	20
+	.byte	'sint8',0,6,125,29
+	.word	285
+	.byte	20
+	.byte	'sint16',0,6,129,1,29
+	.word	780
+	.byte	2
+	.byte	'long int',0,4,5,20
+	.byte	'sint32',0,6,134,1,29
+	.word	1039
+	.byte	2
+	.byte	'long long int',0,8,5,20
+	.byte	'sint64',0,6,141,1,29
+	.word	1067
+	.byte	2
+	.byte	'float',0,4,4,20
+	.byte	'float32',0,6,170,1,29
+	.word	1100
+	.byte	20
+	.byte	'pvoid',0,7,54,28
+	.word	360
+	.byte	20
+	.byte	'Ifx_TickTime',0,7,76,28
+	.word	1067
+	.byte	20
+	.byte	'u8_t',0,1,85,16
+	.word	927
+	.byte	20
+	.byte	'u16_t',0,1,86,16
+	.word	365
+	.byte	20
+	.byte	'u32_t',0,1,87,16
+	.word	973
+	.byte	20
+	.byte	's8_t',0,1,88,16
+	.word	285
+	.byte	20
+	.byte	'intmax_t',0,8,198,2,41
+	.word	1067
+	.byte	20
+	.byte	'mem_size_t',0,9,55,15
+	.word	365
+	.byte	20
+	.byte	'memp_t',0,2,56,3
+	.word	387
+	.byte	16
+	.byte	'stats_mem',0,11,98,8,16,17
+	.byte	'name',0
+	.word	306
+	.byte	4,2,35,0,17
+	.byte	'err',0
+	.word	365
+	.byte	2,2,35,4,17
+	.byte	'avail',0
+	.word	365
+	.byte	2,2,35,6,17
+	.byte	'used',0
+	.word	365
+	.byte	2,2,35,8,17
+	.byte	'max',0
+	.word	365
+	.byte	2,2,35,10,17
+	.byte	'illegal',0
+	.word	365
+	.byte	2,2,35,12,0,7
+	.word	1267
+	.byte	7
+	.word	927
+	.byte	16
+	.byte	'memp',0,10,69,8,4,17
+	.byte	'next',0
+	.word	.L127-.L34
+	.byte	4,2,35,0,0
+.L127:
+	.byte	7
+	.word	1379
+	.byte	7
+	.word	1404
+	.byte	16
+	.byte	'memp_desc',0,10,108,8,20,17
+	.byte	'desc',0
+	.word	306
+	.byte	4,2,35,0,17
+	.byte	'stats',0
+	.word	1369
+	.byte	4,2,35,4,17
+	.byte	'size',0
+	.word	365
+	.byte	2,2,35,8,17
+	.byte	'num',0
+	.word	365
+	.byte	2,2,35,10,17
+	.byte	'base',0
+	.word	1374
+	.byte	4,2,35,12,17
+	.byte	'tab',0
+	.word	1409
+	.byte	4,2,35,16,0,3
+	.word	1414
+	.byte	7
+	.word	1513
+	.byte	22,48
+	.word	1518
+	.byte	23,11,0,3
+	.word	1523
+	.byte	24
+	.byte	'memp_pools',0,2,61,38
+	.word	1532
+	.byte	1,1,0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L35:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,46,1,3,8,54
+	.byte	15,39,12,63,12,60,12,0,0,5,5,0,73,19,0,0,6,53,0,73,19,0,0,7,15,0,73,19,0,0,8,46,1,3,8,73,19,54,15,39,12
+	.byte	63,12,60,12,0,0,9,5,0,3,8,73,19,0,0,10,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,11
+	.byte	5,0,3,8,58,15,59,15,57,15,73,19,0,0,12,24,0,58,15,59,15,57,15,0,0,13,59,0,3,8,0,0,14,4,1,58,15,59,15,57
+	.byte	15,11,15,0,0,15,40,0,3,8,28,13,0,0,16,19,1,3,8,58,15,59,15,57,15,11,15,0,0,17,13,0,3,8,73,19,11,15,56
+	.byte	9,0,0,18,46,1,3,8,58,15,59,15,57,15,54,15,39,12,63,12,60,12,0,0,19,5,0,58,15,59,15,57,15,73,19,0,0,20
+	.byte	22,0,3,8,58,15,59,15,57,15,73,19,0,0,21,21,0,54,15,0,0,22,1,1,11,15,73,19,0,0,23,33,0,47,15,0,0,24,52
+	.byte	0,3,8,58,15,59,15,57,15,73,19,63,12,60,12,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L36:
+	.word	.L129-.L128
+.L128:
+	.half	3
+	.word	.L131-.L130
+.L130:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\port\\include\\arch',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\lwip',0
+	.byte	'D:\\App\\Tasking6_3_Install\\ctc\\include\\',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\4_McHal\\Tricore\\Cpu\\Std',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\include\\lwip\\priv',0
+	.byte	0
+	.byte	'cc.h',0,1,0,0
+	.byte	'memp.h',0,2,0,0
+	.byte	'string.h',0,3,0,0
+	.byte	'..\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\mem.c',0,0,0,0
+	.byte	'stddef.h',0,3,0,0
+	.byte	'Platform_Types.h',0,4,0,0
+	.byte	'Ifx_Types.h',0,4,0,0
+	.byte	'stdint.h',0,3,0,0
+	.byte	'mem.h',0,2,0,0
+	.byte	'memp_priv.h',0,5,0,0
+	.byte	'stats.h',0,2,0,0,0
+.L131:
+.L129:
+	.sdecl	'.debug_info',debug,cluster('mem_init')
+	.sect	'.debug_info'
+.L37:
+	.word	203
+	.half	3
+	.word	.L38
+	.byte	4,1
+	.byte	'..\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\Debug\\',0,12,1
+	.word	.L40,.L39
+	.byte	2
+	.word	.L33
+	.byte	3
+	.byte	'mem_init',0,1,160,1,1,1,1,1
+	.word	.L20,.L72,.L19
+	.byte	4
+	.word	.L20,.L72
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('mem_init')
+	.sect	'.debug_abbrev'
+.L38:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('mem_init')
+	.sect	'.debug_line'
+.L39:
+	.word	.L133-.L132
+.L132:
+	.half	3
+	.word	.L135-.L134
+.L134:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\mem.c',0,0,0,0,0
+.L135:
+	.byte	5,1,7,0,5,2
+	.word	.L20
+	.byte	3,161,1,1,7,9
+	.half	.L41-.L20
+	.byte	0,1,1
+.L133:
+	.sdecl	'.debug_ranges',debug,cluster('mem_init')
+	.sect	'.debug_ranges'
+.L40:
+	.word	-1,.L20,0,.L41-.L20,0,0
+	.sdecl	'.debug_info',debug,cluster('mem_trim')
+	.sect	'.debug_info'
+.L42:
+	.word	242
+	.half	3
+	.word	.L43
+	.byte	4,1
+	.byte	'..\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\Debug\\',0,12,1
+	.word	.L45,.L44
+	.byte	2
+	.word	.L33
+	.byte	3
+	.byte	'mem_trim',0,1,169,1,1
+	.word	.L73
+	.byte	1,1,1
+	.word	.L22,.L74,.L21
+	.byte	4
+	.byte	'mem',0,1,169,1,16
+	.word	.L73,.L75
+	.byte	4
+	.byte	'size',0,1,169,1,32
+	.word	.L76,.L77
+	.byte	5
+	.word	.L22,.L74
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('mem_trim')
+	.sect	'.debug_abbrev'
+.L43:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('mem_trim')
+	.sect	'.debug_line'
+.L44:
+	.word	.L137-.L136
+.L136:
+	.half	3
+	.word	.L139-.L138
+.L138:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\mem.c',0,0,0,0,0
+.L139:
+	.byte	5,3,7,0,5,2
+	.word	.L22
+	.byte	3,171,1,1,5,1,9
+	.half	.L95-.L22
+	.byte	3,1,1,7,9
+	.half	.L46-.L95
+	.byte	0,1,1
+.L137:
+	.sdecl	'.debug_ranges',debug,cluster('mem_trim')
+	.sect	'.debug_ranges'
+.L45:
+	.word	-1,.L22,0,.L46-.L22,0,0
+	.sdecl	'.debug_info',debug,cluster('mem_malloc')
+	.sect	'.debug_info'
+.L47:
+	.word	292
+	.half	3
+	.word	.L48
+	.byte	4,1
+	.byte	'..\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\Debug\\',0,12,1
+	.word	.L50,.L49
+	.byte	2
+	.word	.L33
+	.byte	3
+	.byte	'mem_malloc',0,1,251,1,1
+	.word	.L73
+	.byte	1,1,1
+	.word	.L24,.L78,.L23
+	.byte	4
+	.byte	'size',0,1,251,1,23
+	.word	.L76,.L79
+	.byte	5
+	.word	.L80
+	.byte	6
+	.byte	'element',0,1,254,1,30
+	.word	.L81,.L82
+	.byte	6
+	.byte	'poolnr',0,1,255,1,10
+	.word	.L83,.L84
+	.byte	6
+	.byte	'required_size',0,1,128,2,14
+	.word	.L76,.L85
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('mem_malloc')
+	.sect	'.debug_abbrev'
+.L48:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,85,6,0,0,6,52,0
+	.byte	3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('mem_malloc')
+	.sect	'.debug_line'
+.L49:
+	.word	.L141-.L140
+.L140:
+	.half	3
+	.word	.L143-.L142
+.L142:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\mem.c',0,0,0,0,0
+.L143:
+	.byte	5,35,7,0,5,2
+	.word	.L24
+	.byte	3,255,1,1,5,26,3,5,1,5,35,9
+	.half	.L97-.L24
+	.byte	3,123,1,5,36,3,5,1,5,15,9
+	.half	.L98-.L97
+	.byte	3,125,1,5,1,3,121,1,5,38,9
+	.half	.L96-.L98
+	.byte	3,3,1,5,58,9
+	.half	.L101-.L96
+	.byte	3,4,1,5,36,9
+	.half	.L3-.L101
+	.byte	3,3,1,5,44,9
+	.half	.L144-.L3
+	.byte	1,5,5,9
+	.half	.L145-.L144
+	.byte	1,5,58,7,9
+	.half	.L146-.L145
+	.byte	3,1,1,5,7,9
+	.half	.L99-.L146
+	.byte	3,1,1,5,9,7,9
+	.half	.L147-.L99
+	.byte	3,9,1,5,85,9
+	.half	.L4-.L147
+	.byte	3,114,1,5,67,1,5,58,1,5,3,7,9
+	.half	.L5-.L4
+	.byte	3,19,1,5,5,7,9
+	.half	.L148-.L5
+	.byte	3,1,1,5,12,9
+	.half	.L6-.L148
+	.byte	3,2,1,5,1,9
+	.half	.L149-.L6
+	.byte	3,18,1,5,19,7,9
+	.half	.L7-.L149
+	.byte	3,114,1,5,1,9
+	.half	.L150-.L7
+	.byte	3,14,1,7,9
+	.half	.L51-.L150
+	.byte	0,1,1
+.L141:
+	.sdecl	'.debug_ranges',debug,cluster('mem_malloc')
+	.sect	'.debug_ranges'
+.L50:
+	.word	-1,.L24,0,.L51-.L24,0,0
+.L80:
+	.word	-1,.L24,0,.L78-.L24,-1,.L26,0,.L71-.L26,-1,.L28,0,.L66-.L28,0,0
+	.sdecl	'.debug_info',debug,cluster('mem_calloc')
+	.sect	'.debug_info'
+.L52:
+	.word	286
+	.half	3
+	.word	.L53
+	.byte	4,1
+	.byte	'..\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\Debug\\',0,12,1
+	.word	.L55,.L54
+	.byte	2
+	.word	.L33
+	.byte	3
+	.byte	'mem_calloc',0,1,231,7,1
+	.word	.L73
+	.byte	1,1,1
+	.word	.L32,.L86,.L31
+	.byte	4
+	.byte	'count',0,1,231,7,23
+	.word	.L76,.L87
+	.byte	4
+	.byte	'size',0,1,231,7,41
+	.word	.L76,.L88
+	.byte	5
+	.word	.L32,.L86
+	.byte	6
+	.byte	'p',0,1,233,7,9
+	.word	.L73,.L89
+	.byte	6
+	.byte	'alloc_size',0,1,234,7,10
+	.word	.L90,.L91
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('mem_calloc')
+	.sect	'.debug_abbrev'
+.L53:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('mem_calloc')
+	.sect	'.debug_line'
+.L54:
+	.word	.L152-.L151
+.L151:
+	.half	3
+	.word	.L154-.L153
+.L153:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\mem.c',0,0,0,0,0
+.L154:
+	.byte	5,37,7,0,5,2
+	.word	.L32
+	.byte	3,233,7,1,5,15,9
+	.half	.L123-.L32
+	.byte	3,2,1,5,3,9
+	.half	.L155-.L123
+	.byte	1,5,12,7,9
+	.half	.L156-.L155
+	.byte	3,2,1,5,1,9
+	.half	.L157-.L156
+	.byte	3,10,1,5,18,7,9
+	.half	.L15-.L157
+	.byte	3,122,1,5,5,9
+	.half	.L122-.L15
+	.byte	1,5,3,9
+	.half	.L125-.L122
+	.byte	3,1,1,5,15,7,9
+	.half	.L158-.L125
+	.byte	3,2,1,5,18,1,5,3,9
+	.half	.L17-.L158
+	.byte	3,2,1,5,1,9
+	.half	.L126-.L17
+	.byte	3,1,1,7,9
+	.half	.L56-.L126
+	.byte	0,1,1
+.L152:
+	.sdecl	'.debug_ranges',debug,cluster('mem_calloc')
+	.sect	'.debug_ranges'
+.L55:
+	.word	-1,.L32,0,.L56-.L32,0,0
+	.sdecl	'.debug_info',debug,cluster('mem_free')
+	.sect	'.debug_info'
+.L57:
+	.word	240
+	.half	3
+	.word	.L58
+	.byte	4,1
+	.byte	'..\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\Debug\\',0,12,1
+	.word	.L60,.L59
+	.byte	2
+	.word	.L33
+	.byte	3
+	.byte	'mem_free',0,1,180,2,1,1,1,1
+	.word	.L30,.L92,.L29
+	.byte	4
+	.byte	'rmem',0,1,180,2,16
+	.word	.L73,.L93
+	.byte	5
+	.word	.L30,.L92
+	.byte	6
+	.byte	'hmem',0,1,182,2,30
+	.word	.L81,.L94
+	.byte	0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('mem_free')
+	.sect	'.debug_abbrev'
+.L58:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6,52,0,3
+	.byte	8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('mem_free')
+	.sect	'.debug_line'
+.L59:
+	.word	.L160-.L159
+.L159:
+	.half	3
+	.word	.L162-.L161
+.L161:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\mem.c',0,0,0,0,0
+.L162:
+	.byte	5,1,7,0,5,2
+	.word	.L30
+	.byte	3,179,2,1,5,3,9
+	.half	.L105-.L30
+	.byte	3,4,1,7,9
+	.half	.L163-.L105
+	.byte	1,9
+	.half	.L10-.L163
+	.byte	3,1,1,5,61,9
+	.half	.L11-.L10
+	.byte	3,4,1,5,3,9
+	.half	.L164-.L11
+	.byte	3,2,1,7,9
+	.half	.L165-.L164
+	.byte	1,9
+	.half	.L12-.L165
+	.byte	3,1,1,9
+	.half	.L13-.L12
+	.byte	3,1,1,5,17,9
+	.half	.L14-.L13
+	.byte	3,17,1,5,27,9
+	.half	.L166-.L14
+	.byte	1,5,1,9
+	.half	.L61-.L166
+	.byte	3,1,0,1,1
+.L160:
+	.sdecl	'.debug_ranges',debug,cluster('mem_free')
+	.sect	'.debug_ranges'
+.L60:
+	.word	-1,.L30,0,.L61-.L30,0,0
+	.sdecl	'.debug_info',debug,cluster('.cocofun_10')
+	.sect	'.debug_info'
+.L62:
+	.word	194
+	.half	3
+	.word	.L63
+	.byte	4,1
+	.byte	'..\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\Debug\\',0,12,1
+	.word	.L65,.L64
+	.byte	2
+	.word	.L33
+	.byte	3
+	.byte	'.cocofun_10',0,1,251,1,1,1
+	.word	.L28,.L66,.L27
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_10')
+	.sect	'.debug_abbrev'
+.L63:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,0,3,8,58,15,59,15,57,15,54,15
+	.byte	17,1,18,1,64,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('.cocofun_10')
+	.sect	'.debug_line'
+.L64:
+	.word	.L168-.L167
+.L167:
+	.half	3
+	.word	.L170-.L169
+.L169:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\mem.c',0,0,0,0,0
+.L170:
+	.byte	5,5,7,0,5,2
+	.word	.L28
+	.byte	3,149,2,1,9
+	.half	.L66-.L28
+	.byte	0,1,1,5,3,0,5,2
+	.word	.L28
+	.byte	3,183,2,1,5,5,9
+	.half	.L171-.L28
+	.byte	3,94,1,7,9
+	.half	.L66-.L171
+	.byte	0,1,1,5,3,0,5,2
+	.word	.L28
+	.byte	3,184,2,1,5,5,9
+	.half	.L171-.L28
+	.byte	3,93,1,7,9
+	.half	.L66-.L171
+	.byte	0,1,1,5,3,0,5,2
+	.word	.L28
+	.byte	3,190,2,1,5,5,9
+	.half	.L171-.L28
+	.byte	3,87,1,7,9
+	.half	.L66-.L171
+	.byte	0,1,1,5,3,0,5,2
+	.word	.L28
+	.byte	3,191,2,1,5,5,9
+	.half	.L171-.L28
+	.byte	3,86,1,7,9
+	.half	.L66-.L171
+	.byte	0,1,1,5,3,0,5,2
+	.word	.L28
+	.byte	3,192,2,1,5,5,9
+	.half	.L171-.L28
+	.byte	3,85,1,7,9
+	.half	.L66-.L171
+	.byte	0,1,1
+.L168:
+	.sdecl	'.debug_ranges',debug,cluster('.cocofun_10')
+	.sect	'.debug_ranges'
+.L65:
+	.word	-1,.L28,0,.L66-.L28,0,0
+	.sdecl	'.debug_info',debug,cluster('.cocofun_11')
+	.sect	'.debug_info'
+.L67:
+	.word	194
+	.half	3
+	.word	.L68
+	.byte	4,1
+	.byte	'..\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\mem.c',0
+	.byte	'TASKING VX-toolset for TriCore: C compiler',0
+	.byte	'D:\\WorkSpace\\Tasking\\Tasking_TC375_Ethernet\\Debug\\',0,12,1
+	.word	.L70,.L69
+	.byte	2
+	.word	.L33
+	.byte	3
+	.byte	'.cocofun_11',0,1,251,1,1,1
+	.word	.L26,.L71,.L25
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('.cocofun_11')
+	.sect	'.debug_abbrev'
+.L68:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,0,3,8,58,15,59,15,57,15,54,15
+	.byte	17,1,18,1,64,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('.cocofun_11')
+	.sect	'.debug_line'
+.L69:
+	.word	.L173-.L172
+.L172:
+	.half	3
+	.word	.L175-.L174
+.L174:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'..\\0_Src\\0_AppSw\\Ethernet\\lwip\\src\\core\\mem.c',0,0,0,0,0
+.L175:
+	.byte	5,5,7,0,5,2
+	.word	.L26
+	.byte	3,149,2,1,9
+	.half	.L71-.L26
+	.byte	0,1,1,5,3,0,5,2
+	.word	.L26
+	.byte	3,183,2,1,5,5,9
+	.half	.L176-.L26
+	.byte	3,94,1,7,9
+	.half	.L71-.L176
+	.byte	0,1,1,5,3,0,5,2
+	.word	.L26
+	.byte	3,184,2,1,5,5,9
+	.half	.L176-.L26
+	.byte	3,93,1,7,9
+	.half	.L71-.L176
+	.byte	0,1,1,5,3,0,5,2
+	.word	.L26
+	.byte	3,190,2,1,5,5,9
+	.half	.L176-.L26
+	.byte	3,87,1,7,9
+	.half	.L71-.L176
+	.byte	0,1,1,5,3,0,5,2
+	.word	.L26
+	.byte	3,191,2,1,5,5,9
+	.half	.L176-.L26
+	.byte	3,86,1,7,9
+	.half	.L71-.L176
+	.byte	0,1,1,5,3,0,5,2
+	.word	.L26
+	.byte	3,192,2,1,5,5,9
+	.half	.L176-.L26
+	.byte	3,85,1,7,9
+	.half	.L71-.L176
+	.byte	0,1,1
+.L173:
+	.sdecl	'.debug_ranges',debug,cluster('.cocofun_11')
+	.sect	'.debug_ranges'
+.L70:
+	.word	-1,.L26,0,.L71-.L26,0,0
+	.sdecl	'.debug_loc',debug,cluster('.cocofun_10')
+	.sect	'.debug_loc'
+.L27:
+	.word	-1,.L28,0,.L66-.L28
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('.cocofun_11')
+	.sect	'.debug_loc'
+.L25:
+	.word	-1,.L26,0,.L71-.L26
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('mem_calloc')
+	.sect	'.debug_loc'
+.L91:
+	.word	-1,.L32,.L123-.L32,.L86-.L32
+	.half	1
+	.byte	88
+	.word	0,0
+.L87:
+	.word	-1,.L32,0,.L122-.L32
+	.half	1
+	.byte	84
+	.word	0,0
+.L31:
+	.word	-1,.L32,0,.L86-.L32
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L89:
+	.word	-1,.L32,.L122-.L32,.L124-.L32
+	.half	1
+	.byte	98
+	.word	.L125-.L32,.L86-.L32
+	.half	1
+	.byte	111
+	.word	.L124-.L32,.L17-.L32
+	.half	1
+	.byte	100
+	.word	.L126-.L32,.L86-.L32
+	.half	1
+	.byte	98
+	.word	0,0
+.L88:
+	.word	-1,.L32,0,.L122-.L32
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('mem_free')
+	.sect	'.debug_loc'
+.L94:
+	.word	0,0
+.L29:
+	.word	-1,.L30,0,.L103-.L30
+	.half	2
+	.byte	138,0
+	.word	.L103-.L30,.L92-.L30
+	.half	2
+	.byte	138,16
+	.word	.L92-.L30,.L92-.L30
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L93:
+	.word	-1,.L30,0,.L104-.L30
+	.half	1
+	.byte	100
+	.word	.L105-.L30,.L104-.L30
+	.half	1
+	.byte	108
+	.word	.L28-.L30,.L66-.L30
+	.half	1
+	.byte	108
+	.word	.L28-.L30,.L66-.L30
+	.half	1
+	.byte	100
+	.word	.L106-.L30,.L107-.L30
+	.half	1
+	.byte	100
+	.word	.L26-.L30,.L71-.L30
+	.half	1
+	.byte	108
+	.word	.L26-.L30,.L108-.L30
+	.half	1
+	.byte	100
+	.word	.L106-.L30,.L109-.L30
+	.half	1
+	.byte	108
+	.word	.L110-.L30,.L111-.L30
+	.half	1
+	.byte	95
+	.word	.L112-.L30,.L113-.L30
+	.half	1
+	.byte	108
+	.word	.L114-.L30,.L115-.L30
+	.half	1
+	.byte	108
+	.word	.L116-.L30,.L117-.L30
+	.half	1
+	.byte	95
+	.word	.L118-.L30,.L119-.L30
+	.half	1
+	.byte	108
+	.word	.L120-.L30,.L92-.L30
+	.half	1
+	.byte	108
+	.word	.L121-.L30,.L92-.L30
+	.half	1
+	.byte	100
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('mem_init')
+	.sect	'.debug_loc'
+.L19:
+	.word	-1,.L20,0,.L72-.L20
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('mem_malloc')
+	.sect	'.debug_loc'
+.L82:
+	.word	-1,.L24,.L101-.L24,.L100-.L24
+	.half	1
+	.byte	98
+	.word	.L28-.L24,.L66-.L24
+	.half	1
+	.byte	98
+	.word	.L26-.L24,.L71-.L24
+	.half	1
+	.byte	98
+	.word	.L102-.L24,.L6-.L24
+	.half	1
+	.byte	98
+	.word	.L7-.L24,.L78-.L24
+	.half	1
+	.byte	98
+	.word	0,0
+.L23:
+	.word	-1,.L24,0,.L96-.L24
+	.half	2
+	.byte	138,0
+	.word	.L96-.L24,.L7-.L24
+	.half	2
+	.byte	138,16
+	.word	.L7-.L24,.L7-.L24
+	.half	2
+	.byte	138,0
+	.word	.L7-.L24,.L78-.L24
+	.half	2
+	.byte	138,16
+	.word	.L78-.L24,.L78-.L24
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L84:
+	.word	-1,.L24,.L96-.L24,.L100-.L24
+	.half	1
+	.byte	95
+	.word	.L7-.L24,.L78-.L24
+	.half	1
+	.byte	95
+	.word	0,0
+.L85:
+	.word	-1,.L24,.L98-.L24,.L99-.L24
+	.half	5
+	.byte	144,32,157,32,0
+	.word	.L4-.L24,.L5-.L24
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L79:
+	.word	-1,.L24,0,.L97-.L24
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('mem_trim')
+	.sect	'.debug_loc'
+.L75:
+	.word	-1,.L22,0,.L74-.L22
+	.half	1
+	.byte	100
+	.word	.L95-.L22,.L74-.L22
+	.half	1
+	.byte	98
+	.word	0,0
+.L21:
+	.word	-1,.L22,0,.L74-.L22
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L77:
+	.word	-1,.L22,0,.L74-.L22
+	.half	1
+	.byte	84
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L177:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,27,8,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('mem_init')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L177,.L20,.L72-.L20
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('mem_trim')
+	.sect	'.debug_frame'
+	.word	20
+	.word	.L177,.L22,.L74-.L22
+	.byte	8,19,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('mem_malloc')
+	.sect	'.debug_frame'
+	.word	52
+	.word	.L177,.L24,.L78-.L24
+	.byte	4
+	.word	(.L96-.L24)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L7-.L96)/2
+	.byte	19,0,8,26,19,16,22,26,3,19,138,16,4
+	.word	(.L78-.L7)/2
+	.byte	19,0,8,26,0
+	.sdecl	'.debug_frame',debug,cluster('mem_free')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L177,.L30,.L92-.L30
+	.byte	4
+	.word	(.L103-.L30)/2
+	.byte	19,16,22,26,3,19,138,16,4
+	.word	(.L92-.L103)/2
+	.byte	19,0,8,26,0,0
+	.sdecl	'.debug_frame',debug,cluster('mem_calloc')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L177,.L32,.L86-.L32
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L178:
+	.word	52
+	.word	-1
+	.byte	3,0,2,1,40,12,26,0,9,40,27,155,0,7,26,8,28,8,29,8,30,8,31,8,34,8,35,8,32,8,33,8,16,8,17,8,24,8,25,8,36
+	.byte	8,37,8,38,8,39,0
+	.sdecl	'.debug_frame',debug,cluster('.cocofun_11')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L178,.L26,.L71-.L26
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('.cocofun_10')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L178,.L28,.L66-.L28
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+
+; ..\0_Src\0_AppSw\Ethernet\lwip\src\core\mem.c	  1017  #endif /* MEM_LIBC_MALLOC && (!LWIP_STATS || !MEM_STATS) */
+
+	; Module end

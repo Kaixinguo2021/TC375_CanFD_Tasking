@@ -21,13 +21,10 @@
  * OR CONSEQUENTIAL DAMAGES, FOR ANY REASON WHATSOEVER.
  *
  *
- * \defgroup IfxLld_Demo_QspiDmaDemo_SrcDoc_IlldConfig iLLD configuration
- * \ingroup IfxLld_Demo_QspiDmaDemo_SrcDoc
  */
 
 #ifndef IFX_CFG_H
-#define IFX_CFG_H
-
+#define IFX_CFG_H 1
 /******************************************************************************/
 /*-----------------------------------Macros-----------------------------------*/
 /******************************************************************************/
@@ -38,18 +35,22 @@
 /*______________________________________________________________________________
 ** Configuration for IfxScu_cfg.h
 **____________________________________________________________________________*/
-/**
- * \name Frequency configuration
- * \{
- */
-#define IFX_CFG_SCU_XTAL_FREQUENCY (20000000)                       /**< \copydoc IFX_CFG_SCU_XTAL_FREQUENCY */
-/** \} */
+#define IFX_CFG_SCU_XTAL_FREQUENCY		(20000000)	/**< default supported: 40000000, 25000000, 20000000, 16000000 */
+#define IFX_CFG_SCU_PLL_FREQUENCY		(300000000) /**< default supported: 300000000, 200000000, 160000000, 133000000, 80000000 */
+#define IFX_CFG_SCU_PLL1_FREQUENCY		(320000000) /**< default supported: 320000000, 160000000 */
+#define IFX_CFG_SCU_PLL2_FREQUENCY		(200000000) /**< default supported: 200000000 */
 
-#define IFX_CFG_CPUCSTART_BMI01_NOT_NEEDED
-/** \} */
+/*______________________________________________________________________________
+** Configuration for Software managed interrupt
+**____________________________________________________________________________*/
 
-/*************************** ISPRN ********************************************/
+//#define IFX_USE_SW_MANAGED_INT
 
+/*______________________________________________________________________________
+** Configuration for Trap Hook Functions' Extensions
+**____________________________________________________________________________*/
+
+//#define IFX_CFG_EXTEND_TRAP_HOOKS
 
 
 #endif /* IFX_CFG_H */

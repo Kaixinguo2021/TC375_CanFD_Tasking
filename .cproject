@@ -11,7 +11,7 @@
 				</extensions>
 			</storageModule>
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
-				<configuration artifactExtension="elf" artifactName="Tasking_TC375_MulitiCANFD" buildArtefactType="com.tasking.ctc.buildArtefactType.elf" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.tasking.ctc.buildArtefactType.elf" cleanCommand="&quot;${PRODDIR}/bin/rm&quot; -rf" description="" errorParsers="com.tasking.managedbuilder.TskRegexErrorParser" id="com.tasking.config.ctc.abs.debug.1638800747" name="Debug" parent="com.tasking.config.ctc.abs.debug" postannouncebuildStep="" postbuildStep="" preannouncebuildStep="" prebuildStep="">
+				<configuration artifactExtension="elf" artifactName="Tasking_TC375_Ethernet" buildArtefactType="com.tasking.ctc.buildArtefactType.elf" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.tasking.ctc.buildArtefactType.elf" cleanCommand="&quot;${PRODDIR}/bin/rm&quot; -rf" description="" errorParsers="com.tasking.managedbuilder.TskRegexErrorParser" id="com.tasking.config.ctc.abs.debug.1638800747" name="Debug" parent="com.tasking.config.ctc.abs.debug" postannouncebuildStep="" postbuildStep="" preannouncebuildStep="" prebuildStep="">
 					<folderInfo id="com.tasking.config.ctc.abs.debug.1638800747." name="/" resourcePath="">
 						<toolChain errorParsers="" id="com.tasking.ctc.abs.debug.12276949" name="TASKING VX-toolset for TriCore" superClass="com.tasking.ctc.abs.debug">
 							<option id="com.tasking.ctc.pluginVersion.633830714" name="Plugin version" superClass="com.tasking.ctc.pluginVersion" value="1.238.0.0" valueType="string"/>
@@ -19,11 +19,51 @@
 							<option id="com.tasking.ctc.cpu.144684889" name="Processor:" superClass="com.tasking.ctc.cpu" value="tc37x" valueType="string"/>
 							<option id="com.tasking.ctc.coreSelection.216192747" name="Use core:" superClass="com.tasking.ctc.coreSelection" value="vtc" valueType="string"/>
 							<targetPlatform archList="all" binaryParser="com.tasking.managedbuilder.TASKING_ELF;com.tasking.managedbuilder.TASKING_SRECORD" id="com.tasking.ctc.platform.abs.debug.1920058233" name="Debug" osList="" superClass="com.tasking.ctc.platform.abs.debug"/>
-							<builder buildPath="${workspace_loc:/Tasking_YuanLi_TC27xD_MulitiCAN}/Debug" errorParsers="" id="com.tasking.ctc.builder.abs.debug.618134104" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="TASKING TriCore Makefile generator" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.tasking.ctc.builder.abs.debug"/>
+							<builder buildPath="${workspace_loc:/Tasking_TC375_Ethernet}/Debug" errorParsers="" id="com.tasking.ctc.builder.abs.debug.618134104" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="TASKING TriCore Makefile generator" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.tasking.ctc.builder.abs.debug"/>
 							<tool command="cctc" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="com.tasking.managedbuilder.TskRegexErrorParser" id="com.tasking.ctc.cc.abs.debug.309362231" name="C/C++ Compiler" superClass="com.tasking.ctc.cc.abs.debug">
 								<option id="com.tasking.ctc.cc.pr36858.1024835379" name="workaround for PR36858" superClass="com.tasking.ctc.cc.pr36858" value="true" valueType="string"/>
 								<option id="com.tasking.ctc.cc.includePaths.1967758694" name="Include paths" superClass="com.tasking.ctc.cc.includePaths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Config/Common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src/include/lwip/prot}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/4_McHal/Tricore/Asclin}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/4_McHal/Tricore/Asclin/Asc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/4_McHal/Tricore/Asclin/Lin}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/4_McHal/Tricore/Asclin/Spi}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/4_McHal/Tricore/Asclin/Std}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/UART}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/4_McHal/Tricore/Geth}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/4_McHal/Tricore/Geth/Eth}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/4_McHal/Tricore/Geth/Std}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/port}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/port/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/port/include/arch}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/port/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src/core/ipv4}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src/core/ipv6}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src/include/compat}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src/include/compat/posix}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src/include/compat/posix/arpa}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src/include/compat/posix/net}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src/include/compat/posix/sys}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src/include/compat/stdc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src/include/lwip}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src/include/lwip/apps}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src/include/lwip/priv}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src/include/lwip/prot}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src/include/netif}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src/include/netif/ppp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src/include/netif/ppp/polarssl}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src/netif}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src/netif/ppp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/lwip/src/netif/ppp/polarssl}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/0_AppSw/Ethernet/Phy_Dp83825i}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/4_McHal/Tricore/Scu/Std}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/4_McHal}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/0_Src/4_McHal/Tricore}&quot;"/>
@@ -149,7 +189,7 @@
 								<inputType id="com.tasking.ctc.asmInputType.1373200709" name="ASM" superClass="com.tasking.ctc.asmInputType"/>
 							</tool>
 							<tool command="cctc" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" errorParsers="com.tasking.managedbuilder.TskRegexErrorParser" id="com.tasking.ctc.lk.abs.debug.1335734337" name="Linker" superClass="com.tasking.ctc.lk.abs.debug">
-								<option id="com.tasking.ctc.lk.lslFile.781593741" name="Linker script file:" superClass="com.tasking.ctc.lk.lslFile" value="D:\WorkSpace\Tasking\Tasking_TC375_MulitiCANFD\Tasking_TC375_MulitiCANFD.lsl" valueType="string"/>
+								<option id="com.tasking.ctc.lk.lslFile.781593741" name="Linker script file:" superClass="com.tasking.ctc.lk.lslFile" value="D:\WorkSpace\Tasking\Tasking_TC375_Ethernet\Tasking_TC375_Ethernet.lsl" valueType="string"/>
 								<option id="com.tasking.ctc.lk.outputFormat.ihex.250699468" name="Generate Intel Hex format file" superClass="com.tasking.ctc.lk.outputFormat.ihex" value="true" valueType="boolean"/>
 								<option id="com.tasking.ctc.lk.outputFormat.sizeIntelHexRecords.1863717935" name="Size of addresses (in bytes) for Intel Hex records" superClass="com.tasking.ctc.lk.outputFormat.sizeIntelHexRecords" value="com.tasking.ctc.lk.outputFormat.sizeIntelHexRecords.4" valueType="enumerated"/>
 								<option id="com.tasking.ctc.lk.mapFile.mapFile.392506030" name="Generate map file (.map)" superClass="com.tasking.ctc.lk.mapFile.mapFile" value="true" valueType="boolean"/>
@@ -188,7 +228,7 @@
 							<option id="com.tasking.ctc.cpu.1501209412" name="Processor:" superClass="com.tasking.ctc.cpu" value="tc27xc" valueType="string"/>
 							<option id="com.tasking.ctc.coreSelection.724055533" name="Use core:" superClass="com.tasking.ctc.coreSelection" value="vtc" valueType="string"/>
 							<targetPlatform archList="all" binaryParser="com.tasking.managedbuilder.TASKING_ELF;com.tasking.managedbuilder.TASKING_SRECORD" id="com.tasking.ctc.platform.abs.release.271582624" name="Release" osList="" superClass="com.tasking.ctc.platform.abs.release"/>
-							<builder buildPath="${workspace_loc:/Tasking_YuanLi_TC27xD_MulitiCAN}/Release" id="com.tasking.ctc.builder.abs.debug.1146701024" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="TASKING TriCore Makefile generator" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.tasking.ctc.builder.abs.debug"/>
+							<builder buildPath="${workspace_loc:/Tasking_TC375_Ethernet}/Release" id="com.tasking.ctc.builder.abs.debug.1146701024" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="TASKING TriCore Makefile generator" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.tasking.ctc.builder.abs.debug"/>
 							<tool id="com.tasking.ctc.cc.abs.release.2080401204" name="C/C++ Compiler" superClass="com.tasking.ctc.cc.abs.release">
 								<option id="com.tasking.ctc.cc.pr36858.801221749" name="workaround for PR36858" superClass="com.tasking.ctc.cc.pr36858" value="true" valueType="string"/>
 								<option id="com.tasking.ctc.cc.fpmodel.1519910170" name="Floating-point model:" superClass="com.tasking.ctc.cc.fpmodel" value="com.tasking.ctc.cc.fpmodel.custom" valueType="enumerated"/>
